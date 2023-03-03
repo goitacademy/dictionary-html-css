@@ -1,930 +1,930 @@
-# Словарь терминов по фронтенду
+# Diccionario de términos de frontend
 
-Оглавление: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) J [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) X Y Z
+Índice: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) J [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) X Y Z
 
 ## 0-9
 
 ### 9-slice scaling
 
-**9-дольное масштабирование** (неискажающее масштабирование), техника, позволяющая изменять размер объекта без геометрических искажений. Объект делится на 9 долей (3 строки и 3 колонки), каждая из которых масштабируется по собственным правилам: углы не масштабируются совсем, центральная доля масштабируется по высоте и по ширине, оставшиеся доли масштабируются либо только по ширине, либо только по высоте.
+**escalado en 9 partes** (escalado sin distorsión), una técnica que permite cambiar el tamaño de un objeto sin distorsión geométrica. El objeto se divide en 9 partes (3 filas y 3 columnas), cada una de las cuales se escala según sus propias reglas: las esquinas no se escalan en absoluto, la parte central se escala en altura y anchura, y el resto sólo en anchura o en altura.
 
 ## A
 
 ### accessibility, a11y
 
-**доступность,** возможность использования интерфейса всеми, независимо от физических или технических ограничений.
+**accesibilidad,** la posibilidad de que todos puedan utilizar la interfaz, independientemente de sus limitaciones físicas o técnicas.
 
 ### adaptive design
 
-**адаптивный дизайн,** подход к дизайну сайтов, учитывающий их адаптацию под различные устройства и условия, противопоставляется распространённому «фиксированному» дизайну только для компьютеров. Один из способов создания адаптивного дизайна — методики [отзывчивого дизайна](#responsive-design).
+**diseño adaptativo,** un enfoque del diseño de sitios web que tiene en cuenta la adaptabilidad a distintos dispositivos y entornos, en contraste con el habitual diseño "fijo" solo para computadoras. Una forma de crear un diseño adaptativo es mediante técnicas de [diseño responsivo](#responsive-design).
 
 ### almost standards mode
 
-**почти стандартный режим,** режим интерпретации и отображения страницы браузером, в котором браузер целенаправленно отходит от стандартов (как при [режиме совместимости](#quirks-mode)) лишь для отдельных особых случаев, используется для страниц с переходными [доктайпами](#doctype) HTML 4 и XHTML 1.
+**modo casi estándar,** es un modo de interpretación y visualización de páginas por parte del navegador, en el que éste se aparta deliberadamente de los estándares (como en el [modo de compatibilidad](#quirks-mode)) sólo para ciertos casos especiales, utilizado para páginas con [docktips](#doctype) de transición HTML 4 y XHTML 1.
 
 ### anchor
 
-1. **ссылка,** гиперссылка между двумя документами.
-2. **якорь,** ссылка на элемент в пределах документа, может быть частью гиперссылки.
+1. **vínculo,** hipervínculo entre dos documentos.
+2. **Ancla,** enlace a un elemento dentro del documento, puede ser parte de un hipervínculo.
 
 ### animation
 
-**анимация,** плавное изменение визуальных параметров объекта.
+**animación,** cambio suave de los parámetros visuales de un objeto.
 
 ### asset
 
-**ресурс,** составная часть сайта: текстовые файлы, графика, видео, базы данных и др. В узком смысле «статический ресурс»: стили, скрипты, оформительская графика, в противоположность динамическому [содержимому](https://github.com/web-standards-ru/dictionary/blob/master/dictionary.md#content).
+**recurso,** componente de un sitio web: archivos de texto, gráficos, vídeo, bases de datos, etc. En sentido estricto, un "recurso estático" sería: estilos, scripts, gráficos de diseño, en contraposición al [contenido](https://github.com/web-standards-ru/dictionary/blob/master/dictionary.md#content) dinámico.
 
 ### assert
 
-**проверка,** условие, которое проверяется, употр. в тестировании, напр. _field assert has failed — проверка поля не прошла._
+**verificación,** condición que se está verificando, utilizada en pruebas, p. ej. _field assert has failed — la comprobación del campo ha fallado._
 
 ### at-keyword
 
-**ключ директивы,** см. [директива](#at-rule)
+**clave de directiva,** véase. [directiva](#at-rule)
 
 ### at-rule
 
-**директива,** тип [объявления](#statement), начинающегося со знака `@`, напр. _@import_.
+**directiva,** tipo de [declaración](#statement) que empieza con el símbolo `@`, p. ej. _@import_.
 
 ### attribute
 
-**атрибут,** напр. `rel="stylesheet"`.
+**atributo,** p. ej. `rel="stylesheet"`.
 
-- attribute name — **название атрибута**
-- attribute value — **значение атрибута**
+- attribute name — **nombre del atributo**
+- attribute value — **valor del atributo**
 
 ## B
 
 ### back-end
 
-**бэке́нд**
+**backend**
 
-1. область веб-технологий, работающих на сервере.
-2. внутренняя часть серверной системы, занимается обработкой данных.
+1. el campo de las tecnologías web que operan en el servidor.
+2. es la parte interna del sistema de servidores que gestionan los datos.
 
 ### background
 
-**фон,** напр. _background image — фоновое изображение._
+**fondo,** p. ej. _background image — imagen de fondo._
 
-- background-color — **цвет фона**
-- background-position — **позиция фона**
-- background-size — **размер фона**
-- background-repeat — **повторение фона**
-- background-origin — **границы фона**
-- background-clip — **обрезка фона**
-- background-attachment — **закрепление фона**
-- background-image — **фоновое изображение**
+- background-color — **color de fondo**
+- background-position — **posición del fondo**
+- background-size — **tamaño del fondo**
+- background-repeat — **repetición del fondo**
+- background-origin — **límites del fondo**
+- background-clip — **recorte del fondo**
+- background-attachment — **archivo adjunto de fondo**
+- background-image — **imagen de fondo**
 
 ### baseline
 
-**базовая линия,** воображаемая линия в основании букв в строке.
+** línea de base,** línea imaginaria en la base de las letras de una cadena.
 
 ### bikeshed
 
-**уделять чрезмерное внимание мелочам,** (см. [закон тривиальности](https://ru.wikipedia.org/wiki/Закон_тривиальности)). Устоявшегося русского эквивалента нет, при переводе лучше передавать общий смысл, напр. _avoid bikeshedding — не спорить о мелочах_.
+**prestar demasiada atención a banalidades,** (véase. [ley de las trivialidades](https://ru.wikipedia.org/wiki/Закон_тривиальности)). No existe un equivalente definido en español, es mejor traducir el significado general, p. ej. _avoid bikeshedding — no discutir sobre pequeñeces_.
 
 ### blending mode
 
-**режим наложения,** алгоритм смешивания слоёв, применяемый в графических редакторах или прямо в CSS, напр. _overlay blending mode — режим наложения перекрытием._
+**modo de mezcla,** es un algoritmo de mezcla de capas utilizado en editores gráficos o directamente en CSS, p. ej. _overlay blending mode — modo de mezcla de superposiciones._
 
 ### block
 
-1. **блок деклараций,** структурная часть [объявления](#statement). Заключается в фигурные скобки и содержит декларации свойств (или, в случае медиавыражения, блоки стилей).
-2. **блочный вид,** см. [вид](#display)
+1. **bloque de declaración,** parte estructural de la [declaración](#statement). Son corchetes, y contienen declaraciones de propiedades (o, en el caso de una expresión de medios, bloques de estilo).
+2. **vista de bloque,** véase. [vista](#display)
 
 ### blockquote
 
-**блочная цитата,** HTML-элемент для выделения цитируемой _нестрочной_ области документа. Может содержать атрибут `cite` со ссылкой на первоисточник.
+**cita de bloque,** Elemento HTML para resaltar el área _que no es cadena_ del documento. Puede contener un atributo `cite` con un enlace a la fuente original.
 
 ### border
 
-**рамка,** внешняя видимая часть блока, напр. _border-left — рамка слева._
+**borde,** es la parte exterior visible del bloque, p. ej. _border-left — el borde de la izquierda._
 
-- border-collapse — слияние рамки
-- border-color — цвет рамки
-- border-image — графическая рамка
-- border-image-outset — выступ графической рамки
-- border-image-repeat — повторение графической рамки
-- border-image-slice — разбивка графической рамки
-- border-image-source — адрес изображения для графической рамки
-- border-image-width — толщина графической рамки
-- border-radius — скругление рамки
-- border-style — стиль рамки
-- border-width — ширина рамки
+- border-collapse — unión de bordes
+- border-color — color del borde
+- border-image — borde gráfico
+- border-image-outset — sangría del borde gráfico
+- border-image-repeat — repetición del borde gráfico
+- border-image-slice — partición del borde gráfico
+- border-image-source — ubicación de la imagen para el borde gráfico
+- border-image-width — grosor del borde gráfico
+- border-radius — redondeo del borde
+- border-style — estilo del borde
+- border-width — anchura del borde
 
 ### border-radius
 
-**скругление рамки,** напр., _border-radius: 3px — скругление рамки на 3 пикселя, border-top-left-radius — скругление верхнего левого угла,_ см. также [скруглённые углы](#rounded-corners).
+**redondeo del borde,** p. ej., _border-radius: 3px — redondear el borde en 3 píxeles, border-top-left-radius — redondeo de la esquina superior izquierda,_ Véase también [esquinas redondeadas](#rounded-corners).
 
 ### bounding box
 
-**окаймляющий блок**
+**cuadro delimitador**
 
 ### box model
 
-**блочная модель,** система размерностей блока, состоит из содержимого, отступа, рамки и внешнего отступа.
+**modelo de cuadros,** sistema de dimensiones del cuadro, que consta del contenido, la sangría, el borde y la sangría exterior.
 
 ### box-shadow
 
-**тень (блока),** напр. _box-shadow is red — тень блока красная._
+**sombra (del cuadro),** p. ej. _box-shadow is red — la sombra del cuadro es roja._
 
 ### breadcrumbs
 
-**хлебные кро́шки,** вспомогательная навигация на сайте, последовательно отражающая структуру или пройденные шаги.
+**migajas de pan,** navegación auxiliar en un sito web, que muestra la estructura o los pasos seguidos en orden secuencial.
 
 ### breakpoint
 
-1. **брейкпоинт,** — одно из широко употребимых многозначных переводов, точное значение понятно из контекста.
-2. **точка останова,** строка в коде, на которой выполнение скрипта приостанавливается для вызова отладчика.
-3. **контрольная точка,** условие, при котором раскладка сайта меняется с одной на другую. Характерно для медиавыражений.
+1. **punto de interrupción,** — es una de las traducciones polisémicas más utilizadas, el significado exacto se infiere claramente del contexto.
+2. **punto de parada,** es la línea del código en la que se detiene un script para que se llame al depurador.
+3. **punto de control,** las condiciones en las que la distribución del sitio cambia de una a otra. Característico para las expresiones de medios.
 
 ### browser
 
-**бра́узер**
+**navegador**
 
 ### button
 
-**кнопка**
+**botón**
 
-1. элемент интерфейса, при нажатии отправляющий форму или производящий иное действие
-2. элемент формы `<button>` или `<input type="button">` (также `submit` и `image`).
+1. un elemento de la interfaz que, al hacer clic en él, envía un formulario o realiza otra acción.
+2. elemento de formulario `<button>` o `<input type="button">` (también `submit` y `image`).
 
 ## C
 
 ### callback
 
-**колбэк,** исполнение кода по завершению работы функции, напр. _pass value in a callback — передай значение в колбэке._
+**Callback,** ejecución de código al finalizar una función, p. ej. _pass value in a callback — pasar el valor en un callback._
 
 ### candidate recommendation (CR)
 
-**кандидат в рекомендации,** статус спецификации [W3C](#world-wide-web-consortium-w3c), один из возможных вариантов для [предложенной рекомендации](#proposed-recommendation-pr).
+**candidato por recomendación,** estado de especificaciones [W3C](#world-wide-web-consortium-w3c), una posible opción para [la recomendación propuesta](#proposed-recommendation-pr).
 
 ### cascade
 
 ### cascade
 
-**каскад,** описанная в спецификации CSS схема, определяющая порядок применения к элементу блоков стилей.
+**cascada,** esquema descrito en la especificación CSS que define cómo se aplican los bloques de estilo a un elemento.
 
 ### cascade layer
 
-**каскадный слой,** способ группировки и управления порядком применения стилей в рамках одного [источника](#cascade-origin), объявляется с помощью [директивы](#at-rule) `@layer`. Напр. _rules within a cascade layer cascade together_ — _правила в каскадных слоях каскадируют вместе._
+**capa en cascada,** es la capacidad de agrupar y controlar el orden en que se aplican los estilos dentro de una [misma fuente](#cascade-origin), declarada con la [directiva](#at-rule) `@layer`. P. ej. _rules within a cascade layer cascade together_ — _reglas de una capa en cascada se combinan entre sí_
 
 ### cascade origin
 
-**каскадный источник,** встроенная в браузеры область описания стилей, порядок источников определяет применение стилей или [каскад](#cascade): от стилей браузера до transition-деклараций. Напр. _there are eight cascade origings, including user styles_ — _есть восемь каскадных источников, включая пользовательские стили._
+**fuente de cascada,** el área de descripción de estilos incorporada en los navegadores, el orden de las fuentes determina la aplicación de estilos o [cascadas](#cascade): de estilos del navegador a las transition-declaraciones. P. ej. _there are eight cascade origings, including user styles_ — _есть восемь каскадных источников, включая пользовательские стили._
 
 ### cell
 
-**ячейка**
+**ranura**
 
-1. структурная единица таблицы.
-2. элемент таблицы `<td>` или `<th>`.
+1. unidad estructural de la tabla.
+2. elemento de tabla `<td>` o `<th>`.
 
-### cellpadding
+### cellpadding (margen de celda)
 
-**отступ в ячейках** таблицы.
+**sangría en celdas de la** tabla.
 
 ### cellspacing
 
-**расстояние между ячейками** таблицы.
+**espaciado entre las celdas de la** tabla.
 
 ### character reference
 
-**символьная подстановка,** напр. `&nbsp;`. Допустим также не совсем точный, но более устоявшийся перевод **спецсимвол.**
+**sustitución de símbolos,** p. ej. `&nbsp;`. Demos paso también a una traducción no del todo exacta, pero más establecida,**símbolo especial.**
 
 ### checkbox
 
-**чекбо́кс**
+**casilla de verificación**
 
-1. элемент интерфейса для выбора одного или нескольких вариантов, напр. _checkbox is disabled — чекбокс неактивен._
-2. элемент формы `<input type="checkbox">`.
+1. Elemento de la interfaz que permite seleccionar una o varias opciones, p. ej. _checkbox is disabled — casilla de verificación está desactivada._
+2. elemento de formulario `<input type="checkbox">`.
 
 ### child
 
-1. сущ. **потомок,** (во мн. ч. children — **потомки**)
-2. прил. **дочерний,** напр. _child process_ — _дочерний процесс_
+1. Sust. **descendiente,** (en pl. s. children — **descendientes**)
+2. adj. **filial,** p. ej. _child process_ — _proceso de filiación_
 
 ### classitis
 
-**классянка,** выдуманное заболевание, для которого характерно чрезмерное использование множественных классов: как для оформления, так и для хранения информации.
+**classitis,** enfermedad ficticia caracterizada por el uso excesivo de múltiples clases: tanto para el diseño como para el almacenamiento de información.
 
 ### clear
 
-**отмена обтекания,** CSS-свойство, запрещающее блоку обтекать предшествующие плавающие блоки.
+**deshacer la agilización,** propiedad CSS que impide que un bloque se sitúe alrededor de los bloques flotantes precedentes.
 
-- clear: left — **отмена обтекания слева**
-- clear: right — **отмена обтекания справа**
-- clear: both — **отмена обтекания с обеих сторон**
+- clear: left — **deshacer la agilización de la izquierda**
+- clear: right — **deshacer la agilización de la derecha**
+- clear: both — **deshacer la agilización en ambos lados**
 
 ### clearfix
 
-**клиарфикс,** приём для предотвращения схлопывания контейнеров с плавающими блоками. Заключается в создании специальной распорки, которая располагается после плавающих блоков и отменяет их обтекание. Частный случай решения проблем с флоатами (см. [сводную таблицу всех проблем и решений](http://css-live.ru/articles-css/clearfix-block-formatting-context-methods-cheatsheet.html)).
+**clearfix,** es una técnica para evitar que los contenedores con bloques flotantes se hundan. Consiste en crear un espaciador especial que se coloca después de los bloques flotantes y anula su racionalización. Un caso especial de la solución a los problemas de desplazamiento (véase. [ la tabla resumen de todos los problemas y soluciones](http://css-live.ru/articles-css/clearfix-block-formatting-context-methods-cheatsheet.html)).
 
 ### click
 
-**клик,** нажатие на объект с помощью курсора мыши или подобного устройства, напр. _double click is firing event — двойной клик вызывает событие._
+**clic,** Pulsando sobre un objeto con el cursor del mouse o un dispositivo similar, p. ej. _double click is firing event — el doble clic activa un evento._
 
 ### client-side
 
-**клиентсайд,** область технологий, работающих в браузере, часто синоним [фронтенда](#front-end).
+**client-side,** área de tecnología que funciona en un navegador, suele ser sinónimo de [frontend](#front-end).
 
 ### clipping path
 
-**контур обрезки**
+**Trazado de recorte**
 
 ### closure
 
-**замыкание,** функция, содержащая в теле ссылки на переменные, объявленные в окружающем коде.
+**clausura,** es una función que contiene en su cuerpo referencias a variables declaradas en el código que la rodea.
 
 ### code
 
-1. сущ. **код,** неисчисл. (как сахар), напр. _error in code — ошибка в коде,_ но не _ошибка в кодах_ (неправильно).
-2. гл. **писать код, верстать, программировать,** напр. _to code a site — верстать сайт._
+1. Sust. **código,** no calculado. (como el azúcar), p. ej. _error in code — error en el código,_ pero no en _los _ códigos (incorrecto).
+2. v. **escribir el código, diseñar, programar,** por ejemplo. _to code a site — codificar un sitio web._
 
 ### colspan
 
-**объединение столбцов,** HTML-атрибут для объединения нескольких ячеек таблицы в одной строке.
+**combinar columnas,** atributo HTML para combinar varias celdas de la tabla en una sola línea.
 
 ### column
 
-**столбец, колонка,** вертикальная область в таблице, раскладке или тексте.
+**columna,** es el área vertical en una tabla, diseño o texto.
 
 ### color
 
-**цвет**
+**color**
 
 ### combinator
 
-**комбинатор,** специальный символ, использующийся в сложном селекторе для точного указания комбинации DOM-элементов, напр. `>`, `+` и др. Пробел между селекторами также считается комбинатором.
+**combinador,** carácter especial usado en un selector complejo para especificar con precisión una combinación de elementos DOM, por ejemplo. `>`, `+` etc. El espacio entre los selectores también es considerado como un combinador.
 
-- descendant combinator — **комбинатор потомка,** `` (пробел).
-- child combinator — **комбинатор непосредственного потомка,** `>`. Также называется **дочерним**.
-- adjacent sibling combinator — **комбинатор непосредственного соседства,** `+`.
-- general sibling combinator — **комбинатор соседства,** `~`.
+- descendant combinator — **combinador descendiente,** `` (espacio).
+- child combinator — **combinador del descendiente inmediato,** `>`. También se denomina **filial**.
+- adjacent sibling combinator — **combinador de hermanos adyacentes,** `+`.
+- general sibling combinator — **combinador de hermanos general,** `~`.
 
 ### comment
 
-**комментарий,** пояснение к коду
+**comentario,** nota de codificación
 
 ### component
 
-**компоне́нт,** (м. р.) составная часть чего-либо. Напр. _app components_ — _компоненты приложения_
+**componente,** (m.) parte integrante de algo. P. ej. _app components_ — _componentes de la aplicación_
 
 ### compositing
 
-**компо́зитинг**
+**composición**
 
 ### composite layer
 
-**композитный слой**
+**capa compuesta**
 
 ### compositor
 
-**композитор** (в знач. «движок композитинга»)
+**compositor** (significa. "motor de composición")
 
 ### container query
 
-**выражение от контейнера,** объявление директивы `@container` с условиями, позволяет применять стили в зависимости от свойств _родительского_ контейнера. Напр. _many container query cases can be solved with existing technology_ — _во многих случаях вместо выражений от контейнера можно использовать существующие технологии._
+**expresión del contenedor,** declaración de la directiva `@container` con condiciones, permiten aplicar estilos dependiendo de las propiedades del contenedor _principal_. P. ej. _many container query cases can be solved with existing technology_ — _muchos casos de consulta sobre contenedores pueden resolverse con la tecnología actual_
 
 ### containing block
 
-**содержащий блок** — блок, относительно которого рассчитываются размеры и положения данного блока. Упрощенно, содержащий блок — это родитель данного блока не по DOM, а по потоку документа. Напр. _containing block isn’t always the content area of the parent_ — _содержащий блок — это не всегда контентная область родителя._
+**contiene un bloque,** en relación con el cual se calculan las dimensiones y posiciones del bloque. En pocas palabras, el bloque contenedor es el principal de este bloque, no por DOM, sino por el flujo del documento. P. ej. _containing block isn’t always the content area of the parent_ — _no siempre es el área de contenido del bloque principal._
 
 ### content
 
-**содержимое**
+**contenido**
 
-- metadata content — **метасодержимое**
-- flow content — **потоковое содержимое**
-- sectioning content — **структурное содержимое**
-- heading content — **заголовочное содержимое**
-- phrasing content — **текстовое содержимое**
-- embedded content — **внедряемое содержимое**
-- interactive content — **интерактивное содержимое**
-- palpable content — **содержимое для вывода**
-- script-supporting content — **скриптовое содержимое**
-- grouping content — **группирующее содержимое**
+- metadata content — **contenido meta**
+- flow content — **contenido de flujo**
+- sectioning content — **contenido estructural**
+- heading content — **contenido del encabezado**
+- phrasing content — **redacción de contenido**
+- embedded content — **contenido integrado**
+- interactive content — **contenido interactivo**
+- palpable content — **contenido tangible**
+- script-supporting content — **contenido compatible con scripts **
+- grouping content — **agrupar contenidos**
 
 ### continuous integration
 
-**непрерывная интеграция,** практика частой, автоматизированной сборки, тестирования и развёртывания программного обеспечения
+**integración continua,** la práctica de ensamblar, probar y desplegar el software de forma frecuente y automatizada
 
 ### cookie
 
-**кукa,** небольшой фрагмент данных, который отправляется с сервера и сохраняется в браузере.
+**cookie,** pequeño fragmento de datos que se envía desde el servidor y se guarda en el navegador.
 
-- access to cookies — **доступ к кукам**
-- cookie banner — **сообщение о куках**
-- authorization cookie — **авторизационная кука**
-- first-party cookies — **собственные куки**
-- third-party cookies — **сторонние куки**
+- access to cookies — **acceso a las cookies**
+- cookie banner — **banner de cookies**
+- authorization cookie — **autorización de cookie **
+- first-party cookies — **cookies primarias**
+- third-party cookies — **cookies de terceros**
 
 ### cross-browser
 
-**кроссбра́узерный,** работающий во всех браузерах, слитно.
+**cross-browser,** funciona en todos los navegadores, fusionados.
 
 ### cross-platform
 
-**кроссплатфо́рменный,** работающий на всех платформах, слитно.
+**cross-platform,** funciona en todas las plataformas, fusionado.
 
 ### custom properties
 
-**кастомные свойства,** CSS-свойства вида `--my-property`, которые разработчики могут создавать самостоятельно и использовать дальше в коде как переменные с помощью функции `var()`. Также распространён перевод **CSS-переменные,** напр. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — CSS-переменные, также известные как кастомные CSS-свойства, появятся в Chrome 49._
+**propiedades personalizadas,** propiedades CSS de la forma `-my-property` que los propios desarrolladores pueden crear y usar más adelante en el código como variables con la función `var()`. También es normal traducir **variables CSS,** p. ej. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — Las variables CSS, conocidas también como propiedades personalizadas CSS, llegan a Chrome 49._
 
 ### CSS Working Group (CSSWG)
 
-**Рабочая группа CSS**
+**Grupo de trabajo CSS**
 
 ### custom
 
-**кастомный** (возм. **пользовательский**)
+**personalizado** (aprox. **personalizado**)
 
-- custom element — **кастомный элемент**.
-- custom attribute — **кастомный атрибут**.
+- custom element — **elemento personalizado **.
+- custom attribute — **atributo personalizado**.
 
 ## D
 
 ### data binding
 
-**связывание данных,** автоматическая синхронизация данных между двумя сущностями, обычно моделью и представлением.
+**vinculación de datos,** sincronización automática de datos entre dos entidades, por lo general un modelo y una representación.
 
 ### declaration
 
-**декларация,** объявление свойства и значения.
+**declaración,** declaración de propiedad y valor.
 
 ### deep comparison
 
-**глубокое сравнение,** сравнение двух объектов, при этом производится сравнение структуры объектов и проверяется равенство примитивов содержащихся внутри объектов.
+**comparación detallada,** es una comparación de dos objetos, en la que se compara la estructura de los objetos y se comprueba la igualdad de las primitivas contenidas en los objetos.
 
 ### deploy, deployment
 
-**деплой, развёртывание, выкладка, выкатка,** публикация изменений либо напрямую на публичный сервер (продакшен), либо через промежуточные системы и процессы автоматической сборки.
+**configuración, despliegue, disposición, extensión,** publicar los cambios directamente en un servidor público (producción) o a través de sistemas intermediarios y procesos de compilación automatizados.
 
 ### deprecated
 
-**устаре́вший,** статус возможности языка, которая не рекомендуется к использованию, поскольку либо _уже_ была заменена, удалена или _будет_ в следующих версиях, напр. _this API is a replacement of the deprecated `React.addons.cloneWithProps()` — этот API замена устаревшему `React.addons.cloneWithProps()`_ или _`<applet>` is deprecated in favor of `<object>` — `<applet>` помечен устаревшим в пользу `<object>`_.
+**obsoleto,** el estado de una característica lingüística que no se recomienda usar porque _ya_ ha sido sustituida, eliminada o _lo será_ en futuras versiones, p. ej. _this API is a replacement of the deprecated `React.addons.cloneWithProps()` — esta API sustituye a la obsoleta `React.addons.cloneWithProps()`_ o _`<applet>` is deprecated in favor of `<object>` — `<applet>` está obsoleto en favor de `<object>`_.
 
 ### design
 
-1. сущ. **дизайн,** визуальный облик сайта, может включать принципы взаимодействия и архитектурные решения, напр. _new design for a site — новый дизайн для сайта_.
-2. гл. **разрабатывать,** создавать или проектировать внешний вид и функциональность.
+1. sust. **diseño,** el aspecto visual del sitio web, puede incluir los principios de interacción y las soluciones arquitectónicas, p. ej. _new design for a site — nuevo diseño para un sitio web_.
+2. v. **desarrollar,** crear o diseñar la apariencia y funcionalidad.
 
 ### device pixel ratio
 
-см. [pixel ratio](#pixel-ratio)
+cm. [pixel ratio](#pixel-ratio)
 
 ### dirty checking
 
-**проверка на «грязные» свойства объекта,** то есть [глубокое сравнение](#deep-comparison) свойств модели, который приводит к [обратному вызову](#callback), если что-то изменилось.
+**comprobación de propiedades "sucias" del objeto,** es decir, [la comparación detallada](#deep-comparison) de las propiedades del modelo, que resulta en [callback](#callback) si algo ha cambiado.
 
 ### disable
 
-**деактивировать**
+**desactivar**
 
 ### disabled
 
-**неактивный,** состояние элемента формы, в котором его изменение запрещено, напр. _disabled button — неактивная кнопка._
+**inactivo,** estado del elemento de formulario en el que está prohibido cambiar, p. ej. _disabled button — botón desactivado._
 
 ### display
 
-1. **вид,** css-свойство, определяющее тип отображения блока.
+1. **vista,** propiedad css que determina cómo se muestra el bloque.
 
- - display: none — **скрытый вид**
- - display: block — **блочный вид**
- - display: inline — **строчный вид**
- - display: inline-block — **вид строчного блока**
+ - display: none - **vista oculta**
+ - display: block — **forma de bloque**
+ - display: inline — **vista en línea**
+ - display: inline-block — **tipo de bloque de línea**
 
-- display: flex — **вид флекс-контейнера** (см. [flexbox](#flexbox))
-- display: inline-flex — **вид строчного флекс-контейнера** (см. [flexbox](#flexbox))
+- display: flex — **vista flexbox** (véase. [flexbox](#flexbox))
+- display: inline-flex — **vista flexbox de cadena** (véase. [flexbox](#flexbox))
 
-2. **экран,** напр. _экран смартфона, разрешение экрана_.
+2. **pantalla,** p. ej. _pantalla del smartphone, resolución de la pantalla_.
 
 ### divitis
 
-**диватоз,** выдуманное заболевание, для которого характерно использование только элементов `<div>` вместо [семантически](#semantics) подходящих.
+**divatosis,** es una enfermedad ficticia caracterizada por el uso de solo de elementos `<div>` en lugar de otros [semánticamente](#semantics) apropiados.
 
 ### DOM
 
-**объектная модель документа, дом**
+**modelo de objetos del documento, inicio**
 
 ### doctype
 
-**докта́йп,** конструкция вида `<DOCTYPE html>` в начале документа, которая обозначает используемую версию HTML. Используется браузерами для выбора режима ([стандартного](#standards-mode-standards-compliance-mode), [почти стандартного](#almost-standards-mode) или [совместимости](#quirks-mode)).
+**doctype,** forma de contrucción `<DOCTYPE html>` al inicio del documento indica la versión de HTML usada. Usado por los navegadores para seleccionar un modo ([estándar](#standards-mode-standards-compliance-mode), [más normal](#almost-standards-mode) o [conforme](#quirks-mode)).
 
 ### dropdown
 
-**выпадающее меню,** элемент интерфейса, раскрывающий дополнительную информацию при активации.
+**menú desplegable,** es un elemento de interfaz que revela información adicional cuando se activa.
 
 ## E
 
 ### easing
 
-**плавность, функция плавности,** описывает изменение скорости анимации с помощью ключевых слов или кривых Безье, напр. _transition easing is linear — плавность перехода линейная._
+**la suavidad, una función de suavidad,** describe el cambio en la velocidad de animación mediante palabras clave o curvas de Bezier, p. ej. _transition easing is linear — la flexibilización transitoria es lineal._
 
 ### editor’s draft (ED)
 
-**редакторский черновик,** ранний статус спецификации [W3C](#world-wide-web-consortium-w3c), предложенный одним из редакторов. На основании редакторского черновика может быть составлен [рабочий черновик](#working-draft-wd).
+**borrador del editor,** es el estado inicial de la especificación [W3C](#world-wide-web-consortium-w3c) sugerido por uno de los editores. Un borrador de [trabajo](#working-draft-wd) está basado en el borrador editorial.
 
 ### element
 
-**элемент**
+**elemento**
 
-- void elements — **пустые элементы**
-- raw text elements — **элементы со свободным текстом**
-- escapable raw text elements — **элементы с экранируемым свободным текстом**
-- foreign elements — **сторонние элементы**
-- normal elements — **обычные элементы**
+- void elements — **elementos vacíos**
+- raw text elements — **elementos de texto libre**
+- escapable raw text elements — **elementos de texto sin formato escapables**
+- foreign elements — **elementos externos**
+- normal elements — **elementos normales**
 
 ### em
 
-**ем,** единица измерения в CSS, которая зависит от размера шрифта родителя, напр. _font-size: 3em — размер шрифта 3 ема._
+**em,** una unidad de medida en CSS que depende del tamaño de la fuente principal, p. ej. _font-size: 3em — tamaño de fuente 3em._
 
 ### enable
 
-**активировать**
+**activar**
 
 ### enabled
 
-**активный,** состояние элемента формы, в котором его изменение разрешено, напр. _enabled button — активная кнопка._
+**activo,** estado del elemento del formulario en el que está permitido cambiar, p. ej. _enabled button — botón activado._
 
 ### engine
 
-**движок,** напр. _Safari is based on WebKit engine — Сафари работает на движке Вебкит._
+**motor,** p ej. _Safari is based on WebKit engine — Safari se basa en el motor WebKit._
 
 ## F
 
 ### fallback
 
-**фолбэк,** запасной вариант, дополнительная реализация на случай отсутствия в браузере нужных возможностей, вроде включённых скриптов или нужных видеокодеков, напр. _fallback to a link — сфолбэчить на ссылку._
+**fallback,** es una implementación adicional en caso de que el navegador no disponga de las funciones necesarias, como la activación de scripts o el uso de códecs de vídeo, p. ej. _fallback to a link — volver a un enlace._
 
 ### favicon
 
-**фавико́нка,** значок сайта, обычно 16×16 пикселей в формате ICO.
+**favicon,** es un icono de sitio web, por lo general de 16×16 píxeles en formato ICO.
 
 ### feature query
 
-**директива `@suppórts`,** условная конструкция, которая позволяет выборочно применять стили в зависимости от поддержки браузером тех или иных свойств и значений. Прямого устоявшегося перевода по примеру [медиавыражений](#media-query) пока нет.
+**directiva`@suppórts`,** es una construcción condicional que permite aplicar estilos de forma selectiva en función de la compatibilidad del navegador con determinadas propiedades y valores. Todavía no se ha establecido una traducción directa siguiendo el ejemplo de las [expresiones multimedia](#media-query)
 
 ### fieldset
 
-**группа полей,** элемент, объединяющий несколько полей формы, напр. _green border on a fieldset — зелёная рамка на группе полей._
+**grupo de campos,** un elemento que combina varios campos de formulario, p. ej. _green border on a fieldset — borde verde en el grupo de campos._
 
 ### figure
 
-**фигура,** элемент из HTML5, содержащий изображение, видео, таблицу, график или фрагмент кода.
+**figura,** es un elemento HTML5 que contiene una imagen, vídeo, tabla, gráfico o fragmento de código.
 
 ### figcaption
 
-**заголовок фигуры,** заглавие или подпись к фигуре.
+**título de la figura,** título o pie de figura.
 
 ### filter
 
-**фильтр**
+**filtro**
 
-- filter: brightness — **яркость**
-- filter: contrast — **контрастность**
-- filter: grayscale — **бесцветность**
-- filter: sepia — **сепия**
-- filter: invert — **инверсия**
-- filter: saturate — **насыщенность**
-- filter: hue-rotate — **поворот цвета**
-- filter: blur — **размытость**
-- filter: opacity — **непрозрачность**
-- filter: drop-shadow — **тень**
+- filter: brightness — **brillo**
+- filter: contrast — **contraste**
+- filter: grayscale — **escala de grises**
+- filter: sepia — **sepia**
+- filter: invertir - **invertir**
+- filter: saturate — **saturación**
+- filter: hue-rotate — **rotación del color**
+- filter: blur — **desenfoque**
+- filter: opacity — **opacidad**
+- filter: drop-shadow — **sombra**
 
 ### flash of…
 
-- flash of unstyled text, FOUT — **мелькание текста без стилей,** отображение текста системным шрифтом до загрузки веб-шрифта
-- flash of invisible text, FOIT — **мелькание невидимого текста,** отсутствие текста на странице до загрузки веб-шрифта
-- flash of faux text, FOFT — **мелькание синтезированного текста,** отображение начертаний текста изменённым основным шрифтом до загрузки нужных шрифтов
+- flash of unstyled text, FOUT — **parpadeo de texto sin estilo,** mostrar texto en la fuente del sistema antes de cargar a la fuente web
+- flash of invisible text, FOIT — **flash de texto invisible,** no existe texto en la página antes de que se cargue la fuente web.
+- flash of faux text, FOFT — **flash de texto falso,** mostrar los contornos del texto en una fuente básica modificada antes de cargar las fuentes necesarias
 
 ### flexbox
 
-**флексбокс,** механизм [раскладки](#layout).
+**flexbox,** mecanismo [diseños](#layout).
 
-- flex container — **флекс-контейнер**
-- flex item — **флекс-элемент**
-- flex-direction — **направление главной оси**
-- flex-wrap — **перенос флекс-элементов,** определяет, является ли контейнер однострочным или многострочным
-- flex-basis — **базовый размер** флекс-элемента по главной оси
-- flex-grow — **коэффициент растягивания**
-- flex-shrink — **коэффициент сжатия**
-- main axis — **главная ось,** направление, в котором флекс-элементы следуют друг за другом в контейнере
-- cross axis — **поперечная ось,** направление, перпендикулярное главной оси
-- main size — **главный размер,** размер флекс-элемента по главной оси
-- cross size — **поперечный размер,** размер флекс-элемента по поперечной оси
-- justify-content — **распределение флекс-элементов** по главной оси
-- align-items — **выравнивание флекс-элементов** по поперечной оси
-- align-self — **выравнивание флекс-элемента** по поперечной оси
-- align-content — **выравнивание строк** контейнера по поперечной оси
-- order — **порядковый номер** флекс-элемента
+- flex container — **contenedor-flex**
+- flex item — **artículo-flex**
+- flex-direction — **dirección-flex**
+- flex-wrap — **transferencia de elementos flex,** determina si el contenedor es de una o varias líneas
+- flex-basis — **tamaño base** del elemento flexible en el eje principal
+- flex-grow — **factor de crecimiento**
+- flex-shrink — **encogimiento-flex**
+- main axis — **eje principal,** la dirección en la que se suceden los elementos flex en el contenedor
+- cross axis — **eje transversal,** dirección perpendicular al eje principal
+- main size — **tamaño principal,** es el tamaño del elemento flex a lo largo del eje principal
+- cross size — **dimensión transversal,** tamaño del elemento flex a lo largo del eje transversal
+- justify-content — **distribución de los elementos flex** por el eje principal
+- align-items — **alineación de elementos flex** por el eje transversal
+- align-self — **alineación del elemento flex** en el eje transversal
+- align-content — **alineación de las líneas** del contenedor con el eje transversal
+- order — **número de serie** del elemento flex
 
 ### float
 
-1. прил. **плавающий,** свойство блока, заставляющее последующие блоки обтекать его, напр. _float layout — раскладка на плавающих блоках._
-2. гл. **обтекать,** следовать вплотную к плавающему блоку, напр. _text is floating to the right — текст обтекает справа._
-3. гл. **прижимать,** упираться вправо или влево, обычно из-за плавающих свойств, напр. _float block to the left — прижмите блок влево._
+1. adj. **float,** es un bloque que hace que los siguientes bloques fluyan a su alrededor, p. ej. _float layout — disposición en bloques flotantes._
+2. v. **agilizar,** seguir de cerca el bloque flotante, p. ej. _text is floating to the right — el texto fluye hacia la derecha._
+3. v. **pulsar,** a la derecha o a la izquierda, debido a las propiedades flotantes, p. ej. _float block to the left — presiona el bloque a la izquierda._
 
 ### font
 
-**шрифт**
+**fuente**
 
-- font-weight — **насыщенность**
+- font-weight — **saturación**
 
-  - font-weight: normal — **нормальная**
-  - font-weight: bold — **жирная** или **полужирная** (в типографской традиции)
-  - font-weight: bolder — **жирнее**
-  - font-weight: lighter — **светлее**
+  - font-weight: normal — **normal**
+  - font-weight: bold — **negrita** o **media negrita** (en términos tipográficos)
+  - font-weight: bolder — **más negrita**
+  - font-weight: lighter — **más clara**
 
-- font-style — **стиль шрифта**
+- font-style — **estilo de fuente**
 
-  - font-style: normal — **прямой**
-  - font-style: italic — **курси́в**
-  - font-style: oblique — **наклонный**
+  - font-style: normal — **recta**
+  - font-style: italic — **cursiva**
+  - font-style: oblique — **inclinada**
 
-- font-size — **размер шрифта, кегль**
+- font-size — **tamaño de letra, tamaño del punto**
 
-- font-family — **семейство шрифта, гарнитура**
+- font-family — **familia tipográfica, fuente**
 
-  - font-family: serif — **с засечками**
-  - font-family: sans-serif — **без засечек**
-  - font-family: monospace — **моноширинный**
+  - font-family: serif — **serif**
+  - font-family: sans-serif — **sin serif**
+  - font-family: monospace — **monoespaciado**
 
 ### footer
 
-**подвал**
+**pie de página**
 
-1. характерная визуальная область в конце страницы.
-2. элемент `<footer>` — смысловая часть с метаинформацией.
+1. zona visible característica del final de la página.
+2. elemento `<footer>` — la parte semántica con metadatos.
 
 ### formatting context
 
-**контекст форматирования,** в CSS — область, в которой выстраиваются визуальные элементы страницы (фрагменты текста, блоки, ячейки и т.п.) по определенным правилам.
+**contexto de formateo,** en CSS, es la zona en la que los elementos visuales de una página (texto, bloques, celdas, etc.) se alinean según determinadas reglas.
 
-- block formatting context, BFC — **блочный контекст форматирования,** **БКФ** (напр. _element with `overflow` establishes the new BFC — элемент с `oveflow` создает новый БКФ_)
-- grid formatting context — **контекст форматирования гридов** (см. [grid layout](#grid-layout))
-- flexbox formatting context — **контекст форматирования флексбоксов** (см. [flexbox](#flexbox))
-- inline formatting context — **строчный контекст форматирования**
-- table formatting context — **табличный контекст форматирования**
+- block formatting context, BFC — **contexto de formato de bloque,** **CFB** (p. ej. _element with `overflow` establishes the new BFC — el elemento con `oveflow` crea un nuevo BFC_)
+- grid formatting context — **contexto de formateo de celdas** (véase. [grid layout](#grid-layout))
+- flexbox formatting context — **contexto de formateo flexbox** (véase. [flexbox](#flexbox))
+- inline formatting context — **contexto lineal del formato**
+- table formatting context — **contexto de formato de tablas**
 
 ### forced color mode
 
-**режим принудительных цветов,** в котором указанные разработчиком цвета принудительно заменяются на системные или пользовательские, чаще всего для повышения контрастности и большей доступности контента для слабовидящих.
+**modo de color obligado,** en el que los colores específicos del desarrollador se cambian a la fuerza por los colores del sistema o los especificados por el usuario, la mayoría de las veces para aumentar el contraste y hacer el contenido más accesible a los discapacitados visuales.
 
 ### fragment identifier
 
-**идентификатор фрагмента,** текст после `#` в URL, позволяющий сослаться на конкретную часть документа. Используется в основном в спецификациях и при работе с SVG, в HTML устоялся более привычный термин [якорь](#anchor).
+**identificador de fragmento,** texto después de `#` en la URL, lo que permite hacer referencia a una parte específica del documento. Se utiliza principalmente en las especificaciones y al trabajar con SVG, en HTML se emplea el término [ancla](#anchor) que es más familiar.
 
 ### framework
 
-**фреймво́рк,** набор библиотек и компонентов для упрощения разработки. Как правило, представляет собой базовый каркас продукта. _Напр., [Twitter Bootstrap](http://getbootstrap.com/)._
+**marco,** es un conjunto de bibliotecas y componentes para simplificar el desarrollo. Suele constituir la estructura básica del producto. _P. ej., [Twitter Bootstrap](http://getbootstrap.com/)._
 
 ### front-end
 
-**фронте́нд**
+**frontend**
 
-1. область технологий для разработки веб-интерфейсов, включает вспомогательные инструменты и технологии работающие в браузере или [клиентсайд](#client-side).
-2. внешняя часть серверной системы, отвечающая за приём данных, отправку ответов и генерацию кода для браузера, входит в [серверсайд](#server-side).
+1. Campo tecnológico para el desarrollo de interfaces web, incluye herramientas y tecnologías de apoyo que se ejecutan en el navegador o en el [lado del cliente](#client-side).
+2. parte externa del sistema del servidor, responsable de recibir datos, enviar respuestas y generar código para el navegador, forma parte del [lado del servidor](#server-side).
 
 ### full screen
 
-**полноэкранный режим,** поведение программы или её части, в котором она занимает весь экран целиком.
+**modo pantalla completa,** comportamiento de un programa o parte de este, en el que se utiliza toda la pantalla.
 
 ### fullstack
 
-**фулсте́к**
+**fullstack**
 
-1. область специализации, которая включает в себя [фронтенд](#front-end) и [бэкенд](#back-end).
-2. специалист, который может отвечать за все аспекты проекта: от клиентской до серверной части.
+1. Área de especialización que incluye [frontend](#front-end) y [backend](#back-end).
+2. especialista que pueda encargarse de todos los aspectos del proyecto, desde la parte del cliente hasta la del servidor.
 
-Напр., _Катерина разобралась с базами данных и исправила в резюме «фронтендер» на «фулстек»._
+P. ej., _Katerina solucionó las bases de datos y corrigió "frontender" por "fullstack" en su CV._
 
 ### function
 
-**функция**
+**función**
 
-1. в программировании — поименованный фрагмент программного кода (подпрограмма), к которому можно обратиться из другого места программы.
-2. в CSS — может присутствовать в [декларации](#declaration) на позиции значения. Напр., `url(img/gradient.png)`.
+1. En programación, es un fragmento de código de un programa (un subprograma) al que se puede acceder desde cualquier otra parte del programa.
+2. En CSS, puede estar presente en la [declaración](#declaration) en el lugar del valor. P. ej., `url(img/gradient.png)`.
 
 ## G
 
 ### generated content
 
-**сгенерированное содержимое,** часть документа, созданная с помощью CSS, [псевдоэлемента](#pseudo-element) и свойства `content`.
+**contenido generado,** parte de un documento creado mediante CSS, [un pseudoelemento](#pseudo-element) y la propiedad `content`.
 
 ### graceful degradation
 
-**постепенная деградация** — подход, при котором интерфейс сайта деградирует для старых браузеров, где не поддерживаются какие-то из используемых технологий. При этом ущерб для пользователя по возможности смягчается. Например: цвет подложки вместо градиента, растровая графика вместо векторной, проигрывание видео с помощью плагина. Встречается также более буквальный перевод _«изящная деградация»_.
+**degradación gradual** — es el enfoque en el que la interfaz del sitio web se degrada para los navegadores más antiguos en los que parte de la tecnología utilizada no es compatible. De este modo, se reduce en la medida de lo posible el perjuicio ocasionado al usuario. Por ejemplo: el color de fondo en lugar del degradado, los gráficos de mapa de bits en lugar de los vectoriales o la reproducción de vídeo mediante un plug-in. También existe una traducción más literal _"degradación elegante"_.
 
 ### gradient
 
-**градие́нт,** плавный переход от одного цвета к другому.
+**gradiente,** es la transición suave de un color a otro.
 
-- linear gradient — **линейный градиент**
-- radial gradient — **радиальный градиент**
-- conical gradient — **конический градиент**
+- linear gradient — **gradiente lineal**
+- radial gradient — **gradiente radial**
+- conical gradient — **gradiente cónica**
 
 ### grid
 
-1. **сетка,** способ упорядочить расположение элементов в дизайне с помощью вертикального или горизонтального ритма, напр. _module grid — модульная сетка._
-2. **грид,** двумерная сетка из рядов и колонок в [грид-раскладке](#grid-layout).
+1. **rejilla,** es una forma de ordenar la disposición de los elementos en un diseño mediante un ritmo vertical u horizontal, p. ej. _module grid — rejilla modular._
+2. **grid,** una cuadrícula bidimensional de filas y columnas en formato de [grid](#grid-layout).
 
 ### **grid layout**
 
-**грид-раскладка,** механизм [раскладки](#layout), позволяющий располагать элементы по двумерной сетке — [гриду](#grid) (2).
+**grid layout,**es un mecanismo[ de disposición](#layout) que permite disponer elementos en una cuadrícula bidimensional — [grid](#grid) (2).
 
-- **grid container** — _грид-контейнер_
-- **grid item** — _грид-элемент_
-- **grid track** — _грид-полоса_, собирательный термин для рядов и колонок _грида_
-- **grid cell** — _грид-ячейка_
-- **grid line** — _грид-линия_, виртуальная граница между соседними _грид-полосами_, к которой можно привязывать _грид-элементы_
-- **grid area** — _грид-область_, пространство для размещения _грид-элементов_, ограниченное четырьмя _грид-линиями_
-- **grid gutter** — _грид-интервал_, промежуток между соседними _грид-полосами_
+- **grid container** — _contenedor de rejilla_
+- **grid item** — _elemento de rejilla_
+- **grid track** — _franja de rejilla_, es un término genérico para las filas y columnas de la _rejilla_
+- **grid cell** — _unidad de rejilla_
+- **grid line** — _línea de rejilla_, límite virtual entre _franjas de rejilla_ adyacentes, a las que se pueden vincular _elementos de rejilla_.
+- **grid area** — _área de rejilla_, un espacio para colocar _elementos de rejilla_, limitado a cuatro _líneas de rejilla_
+- **grid gutter** — _intervalo de rejilla_, espacio entre _franjas de rejilla_ adyacentes
 
 ## H
 
 ### header
 
-**шапка**
+**encabezado**
 
-1. характерная визуальная область в начале страницы.
-2. элемент `<header>` — смысловая озаглавливающая часть.
+1. zona visible, característica del inicio de la página.
+2. elemento `<header>` — parte semántica del encabezado.
 
 ### height
 
-**высота**
+**altura**
 
 ## I
 
 ### icon font
 
-**иконочный шрифт,** синтетический шрифт, содержащий иконки и другие плоские векторные изображения для оформления сайта, напр. _build an icon font — собери иконочный шрифт._
+**fuente de iconos,** es una fuente sintética que contiene iconos y otras imágenes vectoriales planas para el diseño de sitios web, p. ej. _build an icon font — elabore una fuente de iconos._
 
 ### immutable
 
-**неизменяемый,** термин чаще всего применяется к данным (типам данных) в функциональном программировании.
+**inmutable,** es el término más comúnmente aplicado a los datos (tipos de datos) en la programación funcional.
 
 ### implement
 
-**внедрять, реализовывать** напр. _Firefox has implemented support of everything — Файрфокс внедрил поддержку всего._
+**implementar, aplicar** p. ej. _Firefox has implemented support of everything — Firefox ha implementado soporte para todo._
 
 ### inline
 
-1. **строчный,** имеющий строчные свойства.
+1. **de línea,** que tiene propiedades de una línea.
 
- - inline block — **строчный блок**.
- - inline box — **элемент строки** в строчном форматировании: часть наполнения контейнера строки, к которой непосредственно применяются CSS-правила, напр. _anonymous inline box — анонимный элемент строки_.
- - inline element — **строчный элемент**.
+ - inline block — **bloque de líneas**.
+ - inline box — **elemento de línea** en el formato de línea: la parte del contenido del contenedor de línea a la que se aplican directamente las reglas CSS, p. ej. _anonymous inline box — elemento de línea anónimo._.
+ - inline element — **elemento de línea**.
 
-2. **встроенный,** находящийся внутри строки кода.
+2. **integrado,** líneas de código ubicadas adentro.
 
- - inline styles — **встроенные стили**.
- - inline SVG — **встроенный SVG**.
- - inline script — **встроенный скрипт**.
+ - inline styles — **estilos integrados**.
+ - inline SVG — **SVG integrado**.
+ - inline script — **script integrado**.
 
 ### input
 
-**элемент формы,** обеспечивающий взаимодействие пользователя с интерфейсом, например: текстовое поле, кнопка, переключатель.
+**elemento de formulario,** permite al usuario interactuar con la interfaz, por ejemplo: un cuadro de texto, un botón, un interruptor.
 
 ### intrinsic dimensions
 
-**собственные размеры,** ширина и высота, определяемые самим элементом, а не окружением. CSS не может указывать, как вычисляются собственные размеры. Только замещаемые элементы могут иметь собственные размеры, например: картинки, видео, аудио и другие блоки, представление которых не зависит от разработчика.
+**dimensiones inherentes,** la anchura y altura determinadas por el propio elemento, no por el entorno. CSS no puede indicar cómo se calculan las dimensiones propias. Únicamente los elementos sustituibles pueden tener dimensiones propias, por ejemplo: imágenes, vídeo, audio y otros bloques con presentación independiente del desarrollador.
 
 ### internationalization, i18n
 
-**интернационализация,** процесс проектирования и разработки интерфейса, позволяющий производить [локализацию](#localization-l10n) для различных регионов (различающихся по культуре или языку) без каких-либо технических изменений, напр., _`Intl.DateTimeFormat` - конструктор класса, позволяющий форматировать дату и время с учетом локали._
+**internacionalización,** es un proceso de diseño y desarrollo de interfaces que permite la [localización](#localization-l10n) para diferentes regiones (diferente cultura o idioma) sin modificaciones técnicas, p. ej., _`Intl.DateTimeFormat` - es un constructor de clase que permite formatear la fecha y la hora en función de la configuración regional._
 
 ### interoperability
 
-**интероперабельность**
+**interoperatividad**
 
 ## K
 
 ### kerning
 
-**кернинг,** расстояние между парами букв, учитывающее их форму для более равномерного набора.
+**kerning,** es la distancia entre pares de letras, teniendo en cuenta su forma, para una escritura más uniforme.
 
 ### keyframe
 
-**ключевой кадр,** одна из заданных точек анимации, изменения между которыми происходят автоматически.
+**fotograma clave,** uno de los puntos de animación fijados, cuyos cambios son automáticos.
 
 ### keyframe animation
 
-**покадровая анимация,** способ задания анимации в CSS с помощью ключевых кадров.
+**animación por fotogramas,** una forma de crear animaciones en CSS mediante fotogramas clave.
 
 ### keyword
 
-**ключевое слово**
+**palabra clave**
 
 ## L
 
 ### label
 
-**метка,** устанавливает связь между определённым элементом и элементом формы.
+**etiqueta,** establece la conexión entre un determinado elemento y un elemento de un formulario.
 
 ### last call (LC)
 
-**последний черновик,** статус спецификации [W3C](#world-wide-web-consortium-w3c) для последних правок перед статусом [кандидата в рекомендации](#candidate-recommendation-cr) _(отменен в 2014 г., встречается только у старых спецификаций)_.
+**borrador final,** estado de la especificación [W3C](#world-wide-web-consortium-w3c) para las últimas correcciones antes del estado de [candidato a recomendación](#candidate-recommendation-cr) _(se canceló en 2014, ahora solo se encuentra en especificaciones más antiguas)_.
 
 ### layout
 
-**раскладка,** расположение основных блоков на странице, напр. _3 columns layout — раскладка в 3 столбца._
+**disposición,** es la organización de los bloques principales de la página, p. ej. _3 columns layout — disposición de 3 columnas._
 
 ### legend
 
-**легенда,** заголовок группы элементов формы, определяется с помощью [группы полей](#fieldset)
+**leyenda,** encabezado de un grupo de elementos de formulario, se define mediante un [grupo de campos](#fieldset)
 
 ### length
 
-**длина**
+**largo**
 
 ### letter-spacing
 
-**межбуквенное расстояние, тре́кинг,** общее расстояние между буквами в тексте, отличается от [кернинга](#kerning).
+**espaciado entre letras, tracking,** la distancia total entre letras en un texto, es diferente de [kerning](#kerning).
 
 ### library
 
-**библиотека,** набор готовых решений для упрощения разработки. Как правило, библиотека реализует какую-то конкретную функцию или набор связанных функций, напр., анимацию.
+**biblioteca,** un conjunto de soluciones listas para simplificar el proceso de desarrollo. Por lo general, una biblioteca implementa una función específica o un conjunto de funciones relacionadas, p. ej., la animación.
 
 ### line-box
 
-**контейнер строки** в строчном форматировании: виртуальный контейнер, содержащий в себе все элементы одной строки.
+**contenedor de línea** en el formato de línea: es un contenedor virtual que contiene todos los elementos de una misma línea.
 
 ### line-height
 
-**высота строки, интерлинья́ж,** расстояние между базовыми линиями текста.
+**altura de línea, interlineado,** distancia entre las líneas base del texto.
 
 ### list
 
-**список,** последовательное перечисление группы элементов.
+**lista,** listado secuencial de un grupo de elementos.
 
-- ordered list — **упорядоченный список,** отсортированный по какому-либо принципу.
-- unordered list — **неупорядоченный список,** в котором порядок следования не имеет значения.
+- ordered list — **lista ordenada,** ordenada según un determinado principio.
+- unordered list — **lista desordenada,** una en la que el orden no tiene importancia.
 
 ### list-style
 
-**стиль списка**
+**estilo de lista**
 
 ### localization, l10n
 
-**локализация,** процесс адаптации интерфейса под языковые и культурные соответствия определённого региона (страны, локали), напр., _`new Date().toLocaleDateString('en-US')` - преобразует дату в ее строковое представление, согласно локали США._
+**localización,** el proceso de adaptación de la interfaz a la correspondencia lingüística y cultural de una determinada región (país, localización), p. ej., _`new Date().toLocaleDateString('en-US')` - convierte una fecha a su representación de cadena, según la localización de EE.UU. _
 
 ## M
 
 ### margin
 
-**внешний отступ,** напр. _margin-bottom: -10px — нижний отрицательный отступ 10 пикселей._
+**sangría externa,** p. ej. _margin-bottom: -10px — sangría negativa inferior 10 píxeles._
 
 ### margin box
 
-**внешние отступы чего-л.**
+**sangría exterior de algo**
 
 ### matrix
 
-**ма́трица (трансформации),** описание трансформации объекта с помощью матрицы.
+**matriz (transformación),** descripción de la transformación de un objeto mediante una matriz.
 
 ### media query
 
-**медиавыраже́ние,** объявление директивы `@media` с некими [условиями](#media-query-list), позволяет применять стили в зависимости от возможностей устройства. Вариант перевода «медиазапросы» менее точно отражает суть работы.
+**declaración de medios,** la declaración de una directiva `@media` con determinadas [condiciones](#media-query-list), permite aplicar estilos en función de las capacidades del dispositivo. La traducción literal de "media query" es menos precisa expresando su función real.
 
 ### media query list
 
-**условия медиавыражения,** список условий, определяющих, в каких случаях будут применяться объявления внутри директивы `@media`. Напр., `only screen and (min-width: 35em)`.
+**condiciones de declaración de medios,** una lista de condiciones que definen cuándo se aplicarán las declaraciones dentro de la directiva `@media`. P. ej., `only screen and (min-width: 35em)`.
 
 ### media type
 
-**медиати́п (тип устройства),** может быть условием медиавыражения. Указывает, для какого способа вывода предназначены стили (напр. `screen` — на экран, `print` — на печать, `speech` — для синтезатора речи).
+**tipo de medio,** puede ser una condición de declaración de medio. Indica a qué método de salida están destinados los estilos (p. ej. `screen` — en pantalla, `print` — para imprimir, `speech` — para un sintetizador de voz).
 
 ### media feature
 
-**медиафи́ча (характеристика устройства),** может быть условием медиавыражения. Определяет характеристику устройства. Напр., `min-width`.
+**media feature (función de medio),** puede ser una condición para la declaración medios. Define la característica del medio. P. ej., `min-width`.
 
 ### mixin
 
-**при́месь,** набор свойств, расширяющий поведение другой сущности, встречается в CSS-препроцессорах и паттернах JavaScript, напр. _mixin is clearing — примесь очищает поток._
+**mezcla,** es un conjunto de propiedades que amplía el comportamiento de otra entidad, que se encuentra en los preprocesadores de CSS y en los patrones de JavaScript, p. ej. _mixin is clearing — la mezcla limpia el flujo._
 
 ### mobile first
 
-**Сначала мобильные,** подход разработки, при котором проектирование сервиса начинается с мобильной версии, а не с версии для больших экранов. Термин введён Люком Вроблевски в [одноимённой книге](https://abookapart.com/products/mobile-first).
+**El móvil primero,** Un enfoque de desarrollo en el que el diseño de un servicio parte de una versión para móviles en lugar de una versión para pantallas más grandes. El término fue introducido por Luke Wroblewski en [el libro con el mismo nombre](https://abookapart.com/products/mobile-first).
 
 ### mock object
 
-**фиктивный объект**
+**objeto ficticio**
 
 ### mock-up
 
-**макет,** внешний вид или дизайн сайта различной степени детализации, напр. _designer has sent a page mock-up — дизайнер прислал макет страницы._
+**maqueta,** es el aspecto o diseño de un sitio web con distintos grados de detalle, p. ej. _designer has sent a page mock-up — el diseñador ha enviado la maqueta de la página._
 
 ### modal
 
-1. прил. **мода́льный,** блокирующий интерфейс для выполнения какого-либо действия, напр. _modal dialog — модальный диалог._
-2. сущ. **модальное окно (диалог),** элемент интерфейса, см. _модальный._
+1. adj. **modal,** bloquea la interfaz para realizar una acción, p. ej. _modal dialog — dialogo modal._
+2. sust. **ventana modal (diálogo),** elemento de la interfaz, véase _modal._
 
 ### multiple
 
-**множественный,** повторённый два и более раз, напр. _multiple backgrounds — множественные фоны._
+**múltiple,** se repite dos o más veces, p. ej. _multiple backgrounds — múltiples fondos._
 
 ### multiple columns
 
-1. **мультиколо́нки,** механизм из CSS, позволяющий выстроить текст в несколько колонок, напр. _multiple columns support in IE — поддержка мультиколонок в IE._ Предпочтительнее, чем громоздкие «множественные колонки».
-2. **многоколо́ночный,** состоящий из нескольких колонок, напр. _multiple columns layout — многоколоночная раскладка._
+1. **multicolumnas,** es un mecanismo CSS que permite alinear texto en varias columnas, p. ej. _multiple columns support in IE — Soporte multicolumna en IE. _ Preferible a las incómodas 'columnas múltiples'.
+2. **multicolumna,** compuesta por varias columnas, p. ej. _multiple columns layout — disposición de múltiples columnas._
 
 ## N
 
 ### nested
 
-**вложенный,** находящийся внутри чего-либо, напр. _double nesting — двойная вложенность._
+**anidado,** que se encuentra dentro de algo, p. ej. _double nesting — anidación doble._
 
 ### node
 
-**узел,** элемент структуры, напр. _child node — дочерний узел._
+**nodo,** elemento de estructura, p. ej. _child node — nodo hijo (secundario)._
 
 ### number
 
-**число, числовой тип**
+**número, tipo numérico**
 
 ## O
 
 ### opacity
 
-**непрозрачность,** степень непрозрачности, напр. _opacity: 0.1 — непрозрачность 10%._ Часто ошибочно называется прозрачностью.
+**opacidad,** es el grado de opacidad, p. ej. _opacity: 0.1 — opacidad 10%._ A menudo se denomina erróneamente transparencia.
 
 ### opaque
 
-**непрозрачный,** степень непрозрачности, напр. _opaque by 75% — непрозрачен на 75%,_ значит прозрачность 25%.
+**opaco,** es el grado de opacidad, p. ej. _opaque by 75% — opaco al 75%,_ significa transparencia del 25%.
 
 ### outline
 
-**обводка,** внешний равномерный контур элемента, не участвующий в блочной модели.
+**contorno,** contorno uniforme exterior del elemento, no participa en el modelo de bloques.
 
 ## P
 
 ### package manager
 
-**менеджер пакетов,** реже **диспетчер пакетов,** вспомогательное ПО для управления установкой, настройкой, обновлением и удалением компонентов ПО.
+**gestor de paquetes,** más raramente **administrador de paquetes,** es un software auxiliar para gestionar la instalación, configuración, actualizaciones y eliminación de componentes de software.
 
 ### padding
 
-**внутренний отступ,** напр. _padding-top: 10px — верхний внутренний отступ 10 пикселей._
+**sangría interna,** p. ej. _padding-top: 10px — sangría interior superior de 10 píxeles._
 
 ### pagination
 
-1. **постраничная навигация,** обычно список ссылок с номерами страниц, на которые разбит документ.
-2. **разделение на страницы,** разделение документа на отдельные страницы для удобства чтения, загрузки или других целей.
+1. **navegación por páginas,** normalmente una lista de enlaces con los números de las páginas en las que se divide el documento.
+2. **paginación,** la división de un documento en páginas separadas para facilitar su lectura, descarga u otros fines.
 
 ### pattern
 
-**па́ттерн,** формализованный подход к написанию кода, напр. _JavaScript patterns — паттерны JavaScript._
+**patrón,** es un enfoque formalizado para escribir código, p. ej. _JavaScript patterns — patrones JavaScript._
 
 ### parent
 
-**родитель**
+**elemento principal**
 
 ### percentage
 
-**процентное значение, проценты**
+**valor porcentual, porcentaje**
 
 ### performance
 
-**быстродействие,** характеристика скорости загрузки, отрисовки и т.п., напр. _CSS performance — быстродействие CSS._
+**rendimiento,** característico de la velocidad de carga, la velocidad de renderizado, etc., p. ej. _CSS performance — rendimiento de CSS._
 
 ### performance budget
 
-**бюджет на быстродействие,** максимально допустимые показатели быстродействия веб-приложения. Выход за рамки такого бюджета означает спад быстродействия. Напр. _Performance Budget Metrics — показатели бюджета на быстродействие._
+**presupuesto para el rendimiento,** los indicadores de rendimiento máximo admisibles de la aplicación web. Salirse de este presupuesto supone una caída del rendimiento. P. ej. _Performance Budget Metrics — indicadores del presupuesto de rendimiento._
 
 ### persistent data structures
 
-**постоянные структуры данных**
+**estructuras de datos permanentes**
 
 ### pinch
 
-**сведение (разведение) пальцев,** жест для управления сенсорным интерфейсом: сведение (в зависимости от направления — разведение) пальцев на сенсорном экране.
+**pellizcar (estirar) con los dedos,** es un gesto para controlar la interfaz táctil: pellizcar (o estirar, dependiendo de la dirección) con los dedos en la pantalla táctil.
 
 ### pixel
 
-**пи́ксель,** единица измерения для экранного дизайна, в мн.ч. **пиксели,** сокр. **пк.**
+**píxel,** unidad de medida para el diseño en pantallas, en pl. **pixeles,** abreviado. **px.**
 
-- physical pixel — **физический пиксель,** ячейка на матрице, единица разрешения дисплея устройства.
-- device independent pixel (dip) — **виртуальный пиксель,** независимый от устройства пиксель, может быть больше, меньше или равен физическому.
-- bitmap pixel — **растровый пиксель**.
+- physical pixel — **píxel físico,** en una celda en la matriz, la unidad de resolución de la pantalla del dispositivo.
+- device independent pixel (dip) — **píxel virtual,** píxel independiente del dispositivo, puede ser mayor, menor o igual que un píxel físico.
+- bitmap pixel — **píxel rasterizado**.
 
 ### pixel density
 
-**плотность пикселей,** количество пикселей, которое помещается в единицу линейного размера экрана, напр. _pixel density of the screen is 326 ppi — плотность пикселей экрана 326 пикселей на дюйм._
+**densidad de píxeles,** es el número de píxeles que se ajustan a una unidad de tamaño lineal de pantalla, p. ej. _pixel density of the screen is 326 ppi — la pantalla tiene una densidad de píxeles de 326 ppi._
 
 ### pixel ratio
 
-**пиксельное соотношение,** отношение физического пикселя к виртуальному, напр. _screen has pixel ratio of 2 — пиксельное соотношение экрана равно 2._
+**relación de píxeles,** es la relación entre el píxel físico y el píxel virtual, p. ej. _screen has pixel ratio of 2 — la relación de píxeles de la pantalla es de 2._
 
 ### placeholder
 
-1. **заглушка,** временный заменитель картинки, текста и т.п. Напр.: _Вместо портрета президента вставь пока заглушку с котиками_.
-2. **подсказка поля,** атрибут текстового поля, предназначен для подсказки о том, как это поле заполнять. Чаще всего представляет собой пример заполнения. Напр.: `placeholder="+7 (999) 123-12-13"`.
+1. **marcador de posición,** es un sustituto temporal de una imagen, texto, etc. P. ej.: _En lugar del retrato del presidente, se inserta de forma temporal un marcador de posición con gatitos_.
+2. **sugerencia de campo,** atributo de un campo de texto, diseñado para sugerir cómo se debe completar el campo. La mayoría de las veces es un ejemplo de cómo rellenarlo. P. ej.: `placeholder="+7 (999) 123-12-13"`.
 
 ### ppi (pixel per inch)
 
-**пикселей на дюйм,** единица измерения плотности пикселей (см. [pixel density](#pixel-density)).
+**píxeles por pulgada,** unidad de medida de la densidad de píxeles (véase. [pixel density](#pixel-density)).
 
 ### plugin
 
@@ -932,526 +932,525 @@
 
 ### polyfill
 
-**полифи́л,** скрипт, воссоздающий недостающую функциональность, напр. _new polyfill for IE6 — новый полифил для IE6._
+**polyfill,** es un script que recrea una funcionalidad faltante, p. ej. _new polyfill for IE6 — nuevo polyfill para IE6._
 
 ### progressive web metrics
 
-**прогрессивные веб-метрики,** набор метрик страницы, связанных с [быстродействием](#performance).
+**métricas web progresivas,** un conjunto de métricas de la página, relacionadas con [el rendimiento](#performance).
 
-- first paint — **первая отрисовка**
-- first contentful paint (FCP) — **первая существенная отрисовка**
-- first meaningful paint — **первая значимая отрисовка**
-- visually ready — **визуальная готовность**
-- visually complete — **визуальная завершённость**
-- first interactive — **первая интерактивность**
-- estimated input latency — **ожидаемая задержка ввода**
-- time to interactive (TTI) — **время до первой интерактивности**
-- time to first consistently interactive — **время до стабильной интерактивности**
-- largest contentful paint (LCP) — **наибольшая существенная отрисовка**
-- cumulative layout shift (CLS) — **совокупное изменение раскладки**
-- total blocking time (TBT) — **суммарное время блокировки**
-- first input delay (FID) — **время отклика на первое взаимодействие**
+- first paint — **primer renderizado**
+- first contentful paint (FCP) — **el primer renderizado significativo**
+- first meaningful paint — **el primer renderizado importante**
+- visually ready — **preparado visualmente**
+- visually complete — **completado visualmente**
+- first interactive — **primera interactividad**
+- estimated input latency — **latencia estimada de entrada**
+- time to interactive (TTI) — **tiempo hasta la primera interactividad**
+- time to first consistently interactive — **tiempo hasta la primera interactividad consistente**
+- largest contentful paint (LCP) — **el renderizado significativo más grande**
+- cumulative layout shift (CLS) — **un cambio acumulativo en el diseño**
+- total blocking time (TBT) — **tiempo total de bloqueo**
+- first input delay (FID) — **el tiempo de respuesta para la primera interacción**
 
 ### prolyfill
 
-**пролифи́л,** один из вариантов [полифила](#polyfill), отличающийся тем, что воспроизводит _вероятную_ функциональность, описанную в спецификации, но пока не реализованную в браузерах.
+**prolyfill,** es una de las variantes de [polyfill](#polyfill), que se diferencia en que reproduce una funcionalidad _probable_, descrita en la especificación pero aún no implementada en los navegadores.
 
 ### popup
 
-**всплывающее окно, попа́п,** отдельное окно или элемент интерфейса, появляющийся поверх текущего, напр. _annoying popup — назойливый попап._
+**ventana emergente, popup,** es una ventana o elemento de interfaz independiente que aparece encima de la actual, p. ej. _annoying popup — las molestas ventanas emergentes._
 
 ### position
 
-**позиционирование**
+**posicionamiento**
 
-- position: static — **статичное**
-- position: absolute — **абсолютное**
-- position: relative — **относительное**
-- position: fixed — **фиксированное**
-- position: sticky — **закреплённое**
+- position: static — **estático**
+- position: absolute — **absoluta**
+- position: relative — **relativa**
+- position: fixed — **fija**
+- position: sticky — **anclada**
 
 ### preprocessor
 
-**препроце́ссор,** инструмент, преобразующий код из одного синтаксиса в другой, напр. _Sass CSS preprocessor — CSS-препроцессор Sass._
+**preprocesador,** es una herramienta que convierte el código de una sintaxis a otra, p. ej. _Sass CSS preprocessor — Preprocesador CSS Sass._
 
 ### progress bar
 
-**прогресс-бар** или индикатор выполнения — элемент интерфейса, отражающий прогресс выполнения операции.
+**progress bar** o barra de progreso, es un elemento de la interfaz que muestra el progreso de una operación.
 
 ### progressive enhancement
 
-**прогрессивное улучшение** — подход, при котором все браузеры получают одинаковую базовую функциональность, но в современных браузерах эта функциональность расширяется в соответствии с поддержкой новых технологий. Например: градиенты, векторная графика, воспроизведение видео.
+**mejoras progresivas** — es un enfoque en el que todos los navegadores reciben la misma funcionalidad básica, pero en los navegadores modernos esta funcionalidad se amplía en función de la compatibilidad con las nuevas tecnologías. Por ejemplo: degradados, gráficos vectoriales, reproducción de vídeo.
 
 ### Progressive Web App (PWA)
 
-**прогрессивное веб-приложение,** — подход к разработке веб-приложений, сочетающий преимущества обычных сайтов и нативных приложений: быстрая загрузка, установка в ОС, работа в офлайне, пуш-уведомления, доступ к системным API. Информация для установки описывается в веб-манифесте. Прогрессивность подхода в том, что в обычном браузере — это просто сайт, а в поддерживающих браузерах и ОС — приложение.
+**aplicación web progresiva,** — un enfoque del desarrollo de aplicaciones web que combina las ventajas de los sitios web convencionales y las aplicaciones nativas: carga rápida, instalación en el SO, funcionamiento sin conexión, notificaciones push, acceso a las API del sistema. La información para la instalación se describe en el webmanifest. El enfoque progresivo consiste en que, en un navegador normal es simplemente un sitio web, pero en los navegadores y sistemas operativos compatibles es una aplicación.
 
 ### promises
 
-**про́мисы,** способ асинхронного выполнения скриптов, противопоставляется использованию обратных вызовов.
+**promises,** es una forma de ejecutar scripts de forma asíncrona, en contraste con el uso de callbacks.
 
 ### property
 
-**свойство,** напр. _CSS-свойство_.
+**propiedad,** p.ej. _Propiedad CSS_.
 
 ### proposed recommendation (PR)
 
-**предложенная рекомендация,** статус спецификации [W3C](#world-wide-web-consortium-w3c), вероятный кандидат в [рекомендацию](#recommendation-rec).
+**recomendación propuesta,** estado de la especificación [W3C](#world-wide-web-consortium-w3c), candidato probable a [recomendación](#recommendation-rec).
 
 ### pseudo-element
 
-**псевдоэлемент,** дополнительный внутренний элемент, созданный с помощью CSS и `::before` или `::after`.
+**pseudoelemento,** elemento interno adicional creado con CSS y `::before` o `::after`.
 
 ### pseudo-class
 
-**псевдокласс,** используется для привязки декларации к определенному состоянию элемента DOM. Отделяется от селектора знаком двоеточия `:`. Напр., декларация блока правил с селектором `.item:hover` применится, когда на `.item` наведут курсор.
+**pseudoclase,** se utiliza para vincular la declaración a un determinado estado de un elemento DOM. Se separa del selector con el símbolo de dos puntos `:`. P. ej., la declaración del bloque de reglas con el selector `.item:hover` se aplica cuando se pasa el mouse por encima. `.item`.
 
 ### pull request, pr
 
-**пулреквест,** запрос на принятие изменений в ветку репозитория из форка или другой ветки.
+**pull request,** petición para aceptar cambios en una rama del repositorio desde una bifurcación u otra rama.
 
 ## Q
 
 ### quirks mode
 
-**режим совместимости,** режим интерпретации и отображения страницы браузером, в котором браузер целенаправленно отходит от стандартов ради отображения документов, созданных до начала 2000-х гг. и полагавшихся на ошибки и особенности браузеров того времени. Используется для страниц без [доктайпа](#doctype) и с устаревшими доктайпами (напр. HTML 3.2).
+**modo de compatibilidad,** un modo de interpretación y visualización de páginas que utiliza el navegador, en el que éste se aparta deliberadamente de los estándares para poder mostrar documentos creados antes de principios de la década de 2000 y que se basan en los errores y características de los navegadores de aquella época. Se usa para páginas sin [doctype](#doctype) y con doctypes obsoletos (p. ej. HTML 3.2).
 
 ## R
 
 ### radio button
 
-**радиокно́пка,** элемент формы `<input type="radio">` для выбора одного варианта из нескольких, напр. _radio button is checked — радиокнопка выбрана._
+**boton de radio,** es un elemento de formulario `<input type="radio">` para seleccionar una opción de entre varias, p.ej. _radio button is checked — el radio button está seleccionado._
 
 ### recalculate
 
-**перерасчет**
+**recalcular**
 
 ### recommendation (REC)
 
-**рекомендация,** финальный статус спецификации [W3C](#world-wide-web-consortium-w3c), рекомендованной для внедрения в браузеры и использования разработчиками.
+**recomendación,** estado final de la especificación [W3C](#world-wide-web-consortium-w3c), recomendada para su implementación en navegadores y su uso por desarrolladores.
 
 ### registry
 
-**реестр,** место для хранения пакетов, напр. _GitHub Package Registry — реестр пакетов Гитхаба._ Калька «регистр» является неудачным переводом, поскольку конфликтует с употребимым во фронтенде значением _регистр букв._
+**registro,**espacio para el almacenamiento de paquetes, p. ej. _GitHub Package Registry — Registro de paquetes de GitHub._ La traducción "registro" es poco acertada, ya que entra en conflicto con el _registro de letras _utilizado en el frontend.
 
 ### reflow
 
-**перекомпоновка**
+**reajuste**
 
 ### rem
 
-**рем,** единица измерения в CSS, которая зависит от размера шрифта корневого элемента `<html>`, напр. _font-size: 3rem — размер шрифта 3 рема._
+**rem,** unidad de medida en CSS que depende del tamaño de fuente del elemento raíz `<html>`, p. ej. _font-size: 3rem — tamaño de fuente: 3rem._
 
 ### render
 
-**отрисовка**
+**renderización**
 
 ### repaint
 
-**перерисовка**
+**volver a dibujar**
 
 ### reset
 
-**сброс,** обычно сброс стилей по умолчанию в CSS, напр. _style reset file — файл сброса стилей._
+**reset,** normalmente es el restablecimiento de los estilos por defecto en CSS, p. ej. _style reset file — archivo de restablecimiento del estilo._
 
 ### resolution
 
-**разрешение,** количество физических пикселей на экране устройства, напр. _screen resolution is 1024×768 pixels — разрешение экрана 1024×768 пикселей._
+**resolución,** es el número de píxeles físicos en la pantalla del dispositivo, p. ej. _screen resolution is 1024×768 pixels — resolución de pantalla de 1024×768 píxeles._
 
 ### responsive design
 
-**отзывчивый дизайн,** один из технологических методов создания [адаптивного дизайна](#adaptive-design).
+**diseño adaptativo,** es uno de los métodos tecnológicos para crear [un diseño adaptativo](#adaptive-design).
 
 ### Responsive Images Community Group (RICG)
 
-**Общественная группа по адаптивным изображениям**
+**Grupo comunitario de imágenes adaptativas**
 
 ### rest parameters
 
-**остаточные параметры,** (также _оставшиеся параметры_, разг. _рест-параметры_) синтаксис в JavaScript, позволяющий представить неименованные параметры функции в виде массива.
+**parámetros residuales,** (también _parámetros restantes_, informal. _parámetros-rest_) en JavaScript permite que los parámetros de función sin nombre se representen como un array.
 
 ### root
 
-**корень**
+**raíz**
 
 ### rounded corners
 
-**скруглённые углы,** напр. _rounded corners are out of fashion — скруглённые углы вышли из моды,_ см. также [скругление рамки](#border-radius).
+**esquinas redondeadas,** p. ej. _rounded corners are out of fashion — las esquinas redondeadas han pasado de moda,_ véase. [redondeo de marcos](#border-radius).
 
 ### row
 
-**строка, ряд**
+**línea, fila**
 
-- горизонтальная область в таблице или раскладке.
-- элемент таблицы `<tr>`.
+- área horizontal en una tabla o diseño.
+- elemento de tabla `<tr>`.
 
 ### rowspan
 
-**объединение строк,** HTML-атрибут для объединения нескольких ячеек таблицы в одном столбце.
+**fusionar filas,** es un atributo HTML para fusionar varias celdas de una tabla en una sola columna.
 
 ### rule-set
 
-**блок стилей элемента,** состоит из селектора (или медиавыражения) и блока деклараций.
+**bloque de estilos de elemento,** consta de un selector (o declaración de medios) y un bloque de declaración.
 
 ## S
 
 ### shallow comparison
 
-**поверхностное сравнение,** сравнение, при котором проверяется, ссылаются ли две переменные на один и тот же объект в памяти.
+**comparación superficial,** es una comparación que comprueba si dos variables hacen referencia a un mismo objeto en la memoria.
 
 ### scaffolding
 
-**скафо́лдинг,** автоматическая генерация кода по описанию, метод метапрограммирования.
+**scaffolding,** es la generación automática de código según la descripción, método de metaprogramación.
 
 ### scale
 
-1. сущ. **масштаб**
-2. гл. **масштабировать**
+1. sust. **escala**
+2. v. **escalar**
 
 ### scope
 
-**область видимости,** ограниченная часть программной структуры, в которой доступна объявленная переменная, либо применяются `<style scoped>` стили.
+**área de visibilidad,** es una parte limitada de la estructura del programa, en la que está disponible la variable declarada o `<style scoped>` se aplican estilos.
 
 ### screen reader
 
-**скринри́дер,** программа, озвучивающая информацию с экрана устройства, один из видов вспомогательных технологий. Их используют зрячие люди, которым проще воспринимать информацию на слух, люди с дислексией, слепые или слабовидящие. Напр. _they use screen reader to navigate the web_ — _для навигации в сети они используют скринридер_, _screen reader will say “image cat”_ — _скринридер прочитает «изображение кошка»_.
+**lector de pantalla,** es un programa que lee en voz alta la información que está en la pantalla del dispositivo, es un tipo de tecnología de asistencia. Los usan personas videntes a las que les resulta más fácil asimilar la información de oído, personas disléxicas, ciegas o con deficiencias visuales. P. ej. _they use screen reader to navigate the web_ — _ellos usan el lector de pantalla para navegar por la web_, _screen reader will say “image cat”_ — _el lector de pantalla dirá "imagen de gato"_.
 
 ### script
 
-**скрипт,** инструкции, описывающие поведение страниц, напр. _scripts are not loaded yet — скрипты пока не подгрузились._
+**script,** son las instrucciones que describen el comportamiento de la página, p. ej. _scripts are not loaded yet — los scripts aún no se han cargado._
 
 ### scroll
 
-1. **прокрутка,** элемент интерфейса для перемещения скрытой части страницы или блока, является признаком того, что вложенный элемент больше родительского, напр. _horizontal scroll is disabled — горизонтальная прокрутка запрещена._
-2. **прокручивать,** перемещать скрытую часть страницы или блока.
+1. **desplazamiento,** es un elemento de interfaz para mover una parte oculta de la página o bloque, es un indicador de que el elemento anidado es más grande que el principal, p. ej. _horizontal scroll is disabled — el desplazamiento horizontal está prohibido._
+2. **desplazar,** desplazar la parte oculta de una página o bloque.
 
 ### scrollbar
 
-**полоса прокрутки,** формальное название [прокрутки](#scroll), напр. _system scrollbars — системные полосы прокрутки._
+**barra de desplazamiento,** es el nombre formal de la [barra de scroll](#scroll), p. ej. _system scrollbars — barras de desplazamiento del sistema._
 
 ### sectioning roots
 
-**структурные основы**
+**raíces estructurales**
 
 ### semantics
 
-**семантика,** смысловая нагрузка HTML-элементов, напр. _semantic coding — семантическая вёрстка._
+**semántica,** es la carga semántica de los elementos HTML, p. ej. _semantic coding — programación semántica._
 
 ### selector
 
-**селектор,** необходимая структурная часть [блока стилей](#rule-set). Отвечает за привязку деклараций к элементам DOM.
+**selector,** es la parte estructural necesaria del [bloque de estilos](#rule-set). Responsable de vincular las declaraciones a los elementos DOM.
 
-- simple selector — **простой селектор,** может быть [псевдоклассом](#pseudo-class) или одним из следующих типов:
-  - type selector — **селектор по типу,** обращается к тегу, напр. `ul`, `input` и др.
-  - universal selector — **универсальный селектор,** «звездочка»: `*`.
-  - ID selector — **селектор по идентификатору,** напр. `#content`.
-  - class selector — **селектор по классу,** напр. `.item`.
-  - attribute selector — **селектор по атрибуту,** напр. `[type=submit]`.
-- compound selector (др. sequence of simple selectors) — **составной селектор,** цепочка простых селекторов, не разделенных комбинаторами, напр. `input[type=submit]:focus`.
-- complex selector — **сложный селектор,** несколько простых и/или составных селекторов, разделенных комбинаторами:
-  - descendant selector — **селектор потомка,** напр. `ul li`.
-  - child selector — **селектор непосредственного потомка,** напр. `#buttons > *`. Также часто называется **дочерним**.
-  - adjacent sibling selector — **селектор непосредственного соседства,** напр. `.item + .item`. Также часто называется **соседским**.
-  - general sibling selector — **селектор соседства,** напр. `.item ~ .item`.
+- simple selector — **selector simple,** puede ser [pseudoclase](#pseudo-class) o uno de los siguientes tipos:
+  - type selector — ** selector de tipo,** hace referencia a un tag, p.ej. `ul`, `input` и др.
+  - universal selector — **selector universal,** «asterisco»: `*`.
+  - ID selector — **selector mediante identificador,** p. ej. `#content`.
+  - class selector — **selector de clase,** p.ej. `.item`.
+  - attribute selector — **selector de atributo,** p. ej. `[type=submit]`.
+- compound selector (tambien: sequence of simple selectors) — **selector compuesto,** es una cadena de selectores simples, no separados por combinadores, p. ej. `input[type=submit]:focus`.
+- complex selector — **selector complejo,** son varios selectores simples y/o compuestos, separados por combinadores:
+  - descendant selector — **selector de descendiente,** p. ej. `ul li`.
+  - child selector — **selector de descendiente directo,** p.ej. `#buttons > *`. También suele llamarse **subordinado**.
+  - adjacent sibling selector — **selector de hermanos adyacentes** p ej. `.item + .item`. También suele llamarse **vecino**.
+  - general sibling selector — **selector general de vecinos,** p.ej. `.item ~ .item`.
 
 ### server-side
 
-**серверсайд,** область технологий, работающих на сервере, часто синоним [бэкенда](#back-end).
+**server-side,** área de la tecnología que se ejecuta en un servidor, a menudo sinónimo de [backend](#back-end).
 
 ### shadow DOM
 
-**теневой DOM, теневая модель документа**
+**DOM en la sombra, modelo del documento en la sombra.**
 
 ### shapes
 
-**фигуры, CSS-фигуры**
+**figuras, figuras CSS**
 
 ### shared
 
-1. прил. **разделяемый,** напр. _shared memory — разделяемая память_
-2. прил. **общий,** напр. _shared folder — общая папка_, _shared access — общий доступ_
+1. adj. **compartido,** p. ej. _shared memory — memoria compartida_
+2. adj. **público,** p. ej. _shared folder — carpeta pública_, _shared access — acceso público_
 
 ### shim
 
-**шим,** код, помогающий унифицировать работу с браузерами, обычно реализует недостающую или нормализует существующую поддержку, напр. _HTML5 shim for IE8 — HTML5-шим для IE8._
+**shim,** es un código que ayuda a unificar el funcionamiento de los navegadores, por lo general implementando lo que falta o normalizando el soporte existente, p. ej. _HTML5 shim for IE8 — Shim HTML5 para IE8._
 
 ### sibling
 
-**сосед** (в знач. «соседний элемент»).
+**vecino** (en el sentido: "elemento vecino").
 
 ### sidebar
 
-**боковая панель,** боковая часть сайта со второстепенным содержимым, напр. _sidebar is on the right side — справа находится боковая панель._
+**barra lateral,** es la parte lateral del sitio web con contenido secundario, p. ej. _sidebar is on the right side — a la derecha se encuentra la barra lateral._
 
 ### skew
 
-1. сущ. **наклон**
-2. гл. **наклонять**
+1. sust. **inclinación**
+2. v. **inclinar**
 
 ### source maps
 
-**карты кода,** специальная разметка, позволяющая привести в соответствие исходные файлы и скомпилированный код для отладки.
+**mapas de código,** marcado especial que permite ordenar los archivos fuente y el código compilado para su depuración.
 
 ### specification, spec
 
-**спецификация,** документация по технологии для разработчиков и производителей браузеров, обычно в одном из статусов: от предложенной до утверждённой W3C, напр. _specification draft — черновик спецификации._
+**especificación,** es la documentación tecnológica para desarrolladores y creadores de navegadores, por lo general en uno de los siguientes estados: de propuesto a aprobado por el W3C, p. ej. _specification draft — borrador de especificación_
 
 ### spread
 
-**расширение,** оператор в JavaScript, расширяющий выражения в тех местах, где предусмотрено использование нескольких аргументов при вызовах функций `doSomething(...array)`, ожидается несколько элементов в массивах `[1, 2, ...array]`) и добавление или перезапись полей в объектах `{ ...object, field: 'value' }`.
+**extender,** operador en JavaScript que extiende las expresiones en los lugares en donde está previsto usar múltiples argumentos al llamar a las funciones `doSomething(...array)`, se esperan múltiples elementos en los arrays `[1, 2, ...array]`) y la adición o sobrescritura de campos en los objetos `{ ...object, field: 'value' }`.
 
 ### specificity
 
-**специфичность,** характеристика [CSS-селектора](#selector), определяющая его приоритет [в каскаде](#cascade). Складывается из веса каждого [простого селектора](#selector) в его составе.
+**especificidad,** es la característica del [selector CSS](#selector) que define su prioridad en la [cascada](#cascade). Se compone del peso de cada [selector simple](#selector) en su composición.
 
 ### stacking context
 
-**контекст наложения,** элемент визуальной структуры страницы, ограничивающий действие свойства `z-index` его потомков и размещаемый по оси _z_ как единое целое (либо целиком поверх, либо целиком под любым другим элементом). Напр. _elements with opacity create new stacking context — элементы с полупрозрачностью образуют новый контекст наложения._
+**contexto de superposición,** elemento de la estructura visual de la página que limita la acción de la propiedad `z-index` de sus descendientes y que se coloca en el eje _z_ como una unidad (totalmente encima o totalmente debajo de cualquier otro elemento). P. ej. _elements with opacity create new stacking context — los elementos con opacidad forman un nuevo contexto de superposición._
 
 ### staging server
 
-**отладочный сервер,** сервер, на котором продукт проходит тестирование и отладку.
+**servidor de depuración,** el servidor en el que se prueba y depura el producto.
 
 ### standards mode, standards compliance mode
 
-**стандартный режим,** режим интерпретации и отображения страницы браузером, в котором браузер обязан максимально полно соблюдать стандарты, насколько может. Используется для страниц с более-менее современными [доктайпами](#doctype), напр. доктайпом HTML5.
+**modo estándar,** el modo de interpretación y visualización de la página por parte del navegador, en el que este está obligado a seguir las normas en la medida de lo posible. Se usa para páginas con [doctypes](#doctype) suficientemente modernos, p. ej. doctype HTML5.
 
 ### statement
 
-**объявление,** структурный элемент CSS. Это может быть блок стилей элемента, директива импорта, медиавыражение и т.д.
+**declaración,** elemento estructural de CSS. Este puede ser un bloque de estilos de elemento, una directiva de importación, una declaración de medios, etc.
 
 ### string
 
-1. **строковый тип,** в программировании — тип данных, значениями которого является произвольная последовательность (строка) символов алфавита.
-2. **строка,** в CSS — строковое значение директивы или свойства. Напр., в `content: "\201d"` строкой является `"\201d"`.
+1. **tipo cadena,** en programación, es un tipo de datos cuyos valores son una secuencia arbitraria (cadena) de caracteres alfabéticos.
+2. **cadena,** en CSS es el valor de cadena de una directiva o propiedad. P. ej., en `content:"\201d"` la cadena es `"\201d"`.
 
 ### stub object
 
-**заглушка**
+**marcador de posición**
 
 ### style
 
-1. сущ. **стили,** напр. _apply styles to an element — применить стили к элементу,_ мн.ч. предпочтительнее: _стили элемента,_ а не _стиль элемента_ (неправильно).
-2. гл. **оформлять,** напр. _how to style selects — как оформить селекты,_ предпочтительнее, чем двусмысленное «стилизовать».
+1. sust. **estilos,** p. ej. _apply styles to an element — aplicar estilos al elemento,_ plural. es preferible: _estilos del elemento,_ y no _estilo del elemento_ (no es correcto).
+2. v. **diseñar,** p. ej. _how to style selects — cómo diseñar los selects,_ es preferible al verbo ambiguo "estilizar".
 
 ### style guide
 
-**руководство по стилю,** напр. _project code style guide — руководство по стилю кода проекта_.
+**guía de estilo,** p.ej. _project code style guide — guía de estilo del código del proyecto_.
 
 ### stylesheet
 
-**таблица стилей,** напр. _таблица стилей документа_.
+**tabla de estilos,** p. ej. _tabla de estilos del documento_.
 
 ### swipe
 
-**смахивание,** жест для управления сенсорным интерфейсом: смахивающее движение пальцев по сенсорному экрану.
+**deslizar,** gesto para manejar la interfaz táctil: movimiento de deslizar los dedos por la pantalla táctil.
 
 ### submit
 
-**отправка,** напр. _отправка формы_.
+**envío,** p. ej. _envío de formularios_.
 
 ## T
 
 ### tab
 
-1. **вкладка,** один из слоёв интерфейса сайта или программы, который активируется выбором его заголовка, напр. _open in new tab — открыть в новой вкладке._
-2. **таб,** клавиша табуляции, вставляет символ табуляции, переключает фокус на следующий элемент интерфейса, либо дополняет частично набранное слово, напр. _press Ctrl Tab — нажмите контрол-таб._
-3. **таб,** символ табуляции, имеет настраиваемую ширину и используется для отступов в коде, напр. _tabs are better than spaces — табы лучше пробелов._
+1. **pestaña,** es una de las capas de interfaz de un sitio web o programa, que se activa seleccionando su título, p. ej. _open in new tab — abrir en una nueva pestaña._
+2. **tab,** es la tecla de tabulación, que inserta un carácter de tabulación, cambia el enfoque al siguiente elemento de la interfaz o completa una palabra parcialmente escrita, p. ej. _press Ctrl Tab — pulse control-tab._
+3. **tab,** es el símbolo de tabulación, tiene un ancho configurable y se usa para introducir sangrías en el código, p. ej. _tabs are better than spaces — los tabs son mejores que los espacios_
 
 ### tag
 
-1. **тег,** обозначение элемента в HTML, существуют открывающие, закрывающие и одиночные теги. Напр. _закрывающий тег отсутствует — closing tag is missing._
- - tag name — **название тега**
- - start tag — **открывающий тег**
- - end tag — **закрывающий тег**
-2. **метка,** маркер содержимого, обычно короткое слово.
+1. **tag,** es el nombre de un elemento en HTML. Existen tags de apertura, de cierre e individuales. P. ej. _no hay tag de cierre — closing tag is missing._
+ - tag name — **nombre del tag**
+ - start tag — **tag de apertura**
+ - end tag — **tag de cierre**
+2. **etiqueta,** marcador de contenido, generalmente es una palabra corta.
 
 ### tap
 
-**нажатие,** жест для управления сенсорным интерфейсом: однократное касание сенсорного экрана.
+**pulsar,** gesto para manejar una interfaz táctil: un toque único a la pantalla táctil.
 
 ### text
 
-**текст**
+**texto**
 
 ### textarea
 
-**текстовая область,** элемент формы для ввода многострочного текста.
+**campo de texto,** elemento de formulario para introducir varias líneas de texto.
 
 ### text-align
 
-**выравнивание, вы́ключка,** ориентация строк текста в определённом направлении, либо равномерно по ширине блока.
+**nivelación, justificación,** orientación de las líneas de texto en una dirección determinada, o uniformemente a lo ancho de un bloque.
 
-- text-align: left — **влево**
-- text-align: right — **вправо**
-- text-align: justify — **по ширине**
+- text-align: left — **a la izquierda**
+- text-align: right — **a la derecha**
+- text-align: justify — **a lo ancho (justificar)**
 
 ### text-shadow
 
-**тень (текста),** напр. _text-shadow is red — тень текста красная._
+**sombra (texto),** p. ej. _text-shadow is red — la sombra del texto es roja._
 
 ### throttling
 
-**тротлинг,** введение искусственных ограничений, например, для уменьшения частоты вызовов обработчиков событий в JavaScript или скорости сети и мощности ЦП при тестировании.
+**throttling,** es la introducción de restricciones artificiales, por ejemplo, para reducir la frecuencia de las llamadas a los gestores de eventos en JavaScript o la velocidad de la red y la potencia del CPU durante las pruebas.
 
 ### thumb
 
-1. Сокращение от [thumbnail](#thumbnail).
-2. **ползунок,** элемент управления [полосой прокрутки](#scrollbar).
+1. Abreviatura de [thumbnail](#thumbnail).
+2. **deslizador,** elemento para manejar la [barra de desplazamiento](#scrollbar).
 
 ### thumbnail
 
-**миниатюра,** уменьшенная копия изображения.
+**miniatura,** es la copia reducida de una imagen.
 
 ### title
 
-1. **заголовок,** если речь идёт об элементе `<title>`, либо о заглавии элемента.
-2. **подсказка,** если речь идёт об атрибуте `title=""`.
+1. **título,** cuando se trata del elemento `<title>`, o sobre el título de un elemento.
+2. **sugerencia,** cuando se trata del atributo `title=""`.
 
 ### toggle
 
-**переключать,** переводить из одного состояния в другое, _переключить классы — toggle classes._
+**interruptor,** para pasar de un estado a otro, _cambiar de clase — toggle classes._
 
 ### tooltip
 
-**всплывающая подсказка,** вспомогательная информация, появляющаяся при наведении на элемент или при его активации, в частности `title=""`.
+**sugerencia,** información auxiliar que aparece al pasar el cursor por encima de un elemento o al activarlo, concretamente `title=""`.
 
 ### touch interface
 
-**сенсорный интерфейс**
+**interfaz táctil**
 
 ### transform
 
-**трансформация,** напр. _transform: scale(2) — трансформация масштабированием в 2 раза._
+**transformación,** p. ej. _transform: scale(2) — transformar la escala por un factor de 2._
 
 ### transition
 
-**переход,** напр. _transition: all 2s linear — линейный переход длительностью 2 секунды._
+**transición,** p ej. _transition: all 2s linear — transición lineal con una duración de 2 segundos._
 
 ### translate
 
-**перемещать,** перемещение объекта с помощью CSS-трансформации, напр. _translate(x, y) — перемещение на X и Y._
+**mover,** mover el objeto usando una transformación CSS, p. ej. _translate(x, y) — moverse a X y Y._
 
 ### transpiler
 
-**транспилер,** компилятор, преобразующий исходный код на одном яз. программирования в исходный код на другом яз. программирования.
+**transpiler,** Un compilador que convierte el código fuente de un lenguaje de programación, a un código fuente en otro lenguaje  de programación.
 
 ### typography
 
-**типографика,** оформление текста с помощью выбора гарнитуры, параметров строки и других.
+**tipografía,** formato de texto mediante la selección de fuentes, parámetros de línea y otros.
 
 ## U
 
 ### unit
 
-**единица изменения,** напр. _rem unit — единица измерения «рем»._
+**unidad de medida,** p. ej. _rem unit — unidad de medida "rem"._
 
 ### unit testing
 
-**модульное тестирование**
+**pruebas unitarias**
 
 ### URI
 
-**унифицированный идентификатор ресурса,** последовательность символов, идентифицирующая абстрактный или физический ресурс.
+**identificador unificado de recursos,** es la secuencia de caracteres que identifica un recurso abstracto o físico.
 
 ### URL
 
-1. _разг._ **адрес**. Значение рекомендовано к использованию при переводах статей.
+1. _informal._ **dirección**. Valor recomendado para usar en la traducción de artículos.
 
-2. **унифицированный указатель ресурса,** [URI](#uri), который предоставляет ещё и информацию о местонахождении этого ресурса, напр. _background: url("http://www.example.com/picture.png")_
+2. **localizador unificado de recursos,** [URI](#uri) que ofrece además información sobre la ubicación del recurso, p. ej. _background: url("http://www.example.com/picture.png")_
 
 ### user experience (UX)
 
-**пользовательский опыт,** совокупность ощущений от взаимодействия с чем-л. (интерфейсом, девайсом, продуктом). В контексте области знаний рекомендуется употреблять аббревиатуру UX (напр., _UX-специалист_).
+**experiencia de usuario,** es la totalidad de la experiencia al interactuar con algo (interfaz, dispositivo, producto). En el contexto del área de conocimiento, se recomienda usar la abreviatura UX ( p. ej. _especialista en UX_).
 
 ### user interface (UI)
 
-**пользовательский интерфейс,** в прозрачном контексте рекомендуется употреблять просто «интерфейс».
+**interfaz de usuario,** en un contexto claro, se recomienda utilizar simplemente "interfaz".
 
 ### utility
 
-**утили́та,** программа с узким назначением.
+**utilidad,** un programa con un propósito muy concreto.
 
 ## V
 
 ### valid
 
-**валидный,** соответствующий стандарту, спецификации или другому нормативу, напр. _valid markup — валидная разметка_.
+**válido,** cumple una norma, especificación u otro reglamento, p. ej. _valid markup — maquetado válido_.
 
 ### validator
 
-**валидатор,** средство проверки соответствия стандарту, спецификации или другому нормативу (см. [valid](#valid)), напр. _W3C markup validator — валидатор разметки W3C_.
+**validador,** instrumento para comprobar el cumplimiento de una norma, especificación u otro reglamento (véase. [valid](#valid)), p. ej. _W3C markup validator — Validador de marcado W3C_.
 
 ### value
 
-**значение,** напр. _значение CSS-свойства_.
+**valor,** p. ej. _Valor de la propiedad CSS_.
 
 ### variable units
 
-**переменные единицы измерения,** — кастомные свойства, которые можно использовать как единицы измерения в CSS. Допустимо использование в сокращённом виде, без слова «измерения», напр. _variable units make this easier to write — переменные единицы делают эту запись проще._
+**unidades de medida variables,** — propiedades personalizadas que pueden utilizarse como unidades de medida en CSS. Está permitido usarlo de forma abreviada, sin la palabra "medida", p. ej. _variable units make this easier to write — Las unidades variables facilitan su escritura._
 
 ### vendor prefix
 
-**бра́узерный пре́фикс,** приставка к CSS-свойству `-webkit-` или `-moz-`, напр. _add vendor prefixes — добавьте браузерные префиксы._
+**prefijo de navegador,** prefijo de la propiedad CSS `-webkit-` o `-moz-`, p. ej. _add vendor prefixes — añada los prefijos de navegador._
 
 ### vendor files
 
-**сторонние файлы,** стили, скрипты и другие ресурсы (зависимости) других авторов, использующиеся в проекте, напр. _tons of vendor scripts included in the code — куча сторонних скриптов подключены в коде._
+**archivos de terceros,** estilos, scripts y otros recursos (dependencias) de otros autores usados en el proyecto, p. ej. _tons of vendor scripts included in the code — muchos scripts de terceros están incluidos en el código._
 
 ### vertical-align
 
-**вертикальное выравнивание,** расположение элементов по вертикали в пределах строки текста или таблицы.
+**alineación vertical,** es la disposición de los elementos verticalmente dentro de una línea de texto o tabla.
 
 ### viewport
 
-**вьюпо́рт**
+**viewport**
 
-1. видимая область документа в рамках экрана.
-2. элемент `<meta name="viewport">`, управляющий адаптацией страниц на мобильных устройствах.
+1. es el área visible de un documento en la pantalla.
+2. elemento `<meta name="viewport">`, que gestiona la adaptación de las páginas en dispositivos móviles.
 
 ## W
 
 ### website, web site
 
-**сайт,** объединённые под одним адресом страницы, перевод «веб-сайт» избыточен.
+**sitio,** son páginas que están unidas por una sola dirección. La traducción "sitio web" esta de más.
 
 ### worker
 
-**воркер,** интерфейс в JavaScript, позволяющий выполнить скрипт не в основном потоке.
+**worker,** interfaz de JavaScript que permite ejecutar un script en un flujo secundario.
 
-- web worker — **веб-воркер**
-- service worker — **сервис-воркер**
-- shared worker — **общий воркер**
+- web worker — **worker web**
+- service worker — **worker de servicio**
+- shared worker — **worker público**
 
 ### working draft (WD)
 
-**рабочий черновик,** ранний статус спецификации [W3C](#world-wide-web-consortium-w3c).
+**borrador de trabajo,** estado temprano de la especificación [W3C](#world-wide-web-consortium-w3c).
 
 ### worklet
 
-**во́рклет,** класс в JavaScript, обладающий заранее известными методами с определённой сигнатурой, дающий доступ к различным браузерным API. [Проект Гудини](https://github.com/w3c/css-houdini-drafts/wiki) предусматривает следующие виды ворклетов:
+**worklet,** es una clase de JavaScript que tiene métodos predefinidos con una firma determinada y que da acceso a varias API del navegador. [Proyecto Houdini](https://github.com/w3c/css-houdini-drafts/wiki) contempla los siguientes tipos de worklets:
 
-- paint worklet — **ворклет отрисовки**
-- compositor worklet — **ворклет композитинга**
-- layout worklet — **ворклет раскладки**
+- paint worklet — **worklet de renderizado**
+- compositor worklet — **worklet de composición**
+- layout worklet — **worklet de disposición**
 
 ### World Wide Web Consortium (W3C)
 
-**Консорциум всемирной сети,** организация, разрабатывающая веб-стандарты. Переводить «web» как «паутину» в XXI веке уже смешно.
+**Consorcio WWW,** es una organización que desarrolla estándares web. Traducir "web" como "red" en el siglo XXI ya resulta algo chistoso.
 
 ### web standards
 
-**веб-стандарты**
+**estándares web**
 
 ### width
 
-**ширина**
+**ancho**
 
 ### word-spacing
 
-**межсловный пробел**
+**espacio entre palabras**
 
 ### workaround
 
-**обходное решение (приём),** способ решения задачи в ограниченных условиях, напр. _to figure out workaround — придумать обходной приём._
-
+**una solución alternativa (técnica),** es una forma de resolver un problema en condiciones limitadas, p. ej. _to figure out workaround — encontrar una solución alternativa._

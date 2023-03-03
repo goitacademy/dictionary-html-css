@@ -1,189 +1,189 @@
-# Слова, часто используемые в CSS-классах
+# Palabras que siempre se usan en las clases de CSS
 
-## Изображения
+## Imágenes
 
-`image`, `img`, `picture`, `pic` — картинка
+`image`, `img`, `picture`, `pic` — imagen
 
-`icon` — иконка
+`icon` — ícono
 
-`logo` — логотип
+`logo` — logotipo
 
-`userpic`, `avatar` — юзерпик, маленькая картинка пользователя
+`userpic`, `avatar` — nombre del usuario, foto del usuario
 
-`thumbnail`, `thumb` — миниатюра, уменьшенное изображение
+`thumbnail`, `thumb` — miniatura, imagen en miniatura
 
-## Текст
+## Texto
 
-`title`, `subject`, `heading`, `headline`, `caption` — заголовок
+`title`, `subject`, `heading`, `headline`, `caption` — título
 
-`subtitle` — подзаголовок
+`subtitle` — subtítulo
 
-`slogan` — слоган
+`slogan` — eslogan
 
-`lead`, `tagline` — лид-абзац в тексте
+`lead`, `tagline` — párrafo principal del texto
 
-`text` — текстовый контент
+`text` — contenido textual
 
-`desc` — описание, вариант текстового контента
+`desc` — descripción, opción de contenido textual
 
-`excerpt` — отрывок текста, обычно используется перед ссылкой «Читать далее...»
+`excerpt` —extracto del texto, que suele usarse antes del enlace "Leer más..."
 
-`quote`, `blockquote` — цитата
+`quote`, `blockquote` — cita
 
-`snippet` — пример кода
+`snippet` — ejemplo de código
 
-`link` — ссылка
+`link` — enlace
 
-`copyright`, `copy` — копирайт
+`copyright`, `copy` — copyright
 
-## Списки
+## Listas
 
-`list`, `items` — список
+`list`, `items` — lista
 
-`item` — элемент списка
+`item` — elemento de la lista
 
-## Блоки
+## Bloques
 
-`page` — корневой элемент страницы
+`page` — elemento raíz de la página
 
-`header` — шапка (страницы или элемента)
+`header` — encabezado (páginas o elementos)
 
-`footer` — подвал (страницы или элемента)
+`footer` — pie de página (páginas o elementos)
 
-`section` — раздел контента (один из нескольких)
+`section` — sección de contenido (uno de tantos)
 
-`main`, `body` — основная часть (страницы или элемента)
+`main`, `body` — parte principal (páginas o elementos)
 
-`content` — содержимое элемента
+`content` — contenido del elemento
 
-`sidebar` — боковая колонка (страницы или элемента)
+`sidebar` — barra lateral (páginas o elementos)
 
-`aside` — блок с дополнительной информацией
+`aside` — bloque con información adicional
 
-`widget` — виджет, например, в боковой колонке
+`widget` — widget, por ejemplo, en la barra lateral
 
-## Раскладка
+## Disposición
 
-`wrapper`, `wrap` — обёртка, обычно внешняя
+`wrapper`, `wrap` — envoltura, normalmente externa
 
-`inner` — внутренняя обёртка
+`inner` — envoltura interna
 
-`container`, `holder`, `box` — контейнер
+`container`, `holder`, `box` — contenedor
 
-`grid` — раскладка (страницы или элемента) в виде сетки (обычно содержит в себе `row` и `col`)
+`grid` — disposición (páginas y elementos) en forma cuadrícula (normalmente con `row` и `col`)
 
-`row` — контейнер в виде строки
+`row` — contenedor en forma de cadena
 
-`col`, `column` — контейнер в виде столбца
+`col`, `column` — contenedor en forma de columna
 
-## Элементы управления
+## Elementos de control
 
-`button`, `btn` —  кнопка, например, для отправки формы
+`button`, `btn` —  botón para enviar un formulario, por ejemplo
 
-`control` — элемент управления, например, стрелки «Вперёд/назад» в фотогалерее, кнопки управления слайдером
+`control` — elementos de control, por ejemplo, las flechas «Siguiente/atrás» en la galería de fotos, botones del control deslizante
 
-`dropdown` — выпадающий список
+`dropdown` — lista desplegable
 
-## Медиавыражения
+## Declaración de medios
 
-`phone`, `mobile` — мобильные устройства
+`phone`, `mobile` — dispositivos móviles
 
-`phablet` — телефоны с большим экраном (6-7")
+`phablet` — teléfonos con pantalla grande (6-7")
 
-`tablet` — планшеты
+`tablet` — tablet
 
-`notebook`, `laptop` — ноутбуки
+`notebook`, `laptop` — laptop
 
-`desktop` — настольные компьютеры
+`desktop` — computadoras de escritorio
 
-## Размеры
+## Tamaños
 
-`tiny`, `xs` — маленький, крохотный
+`tiny`, `xs` — pequeño, diminuto
 
-`small`, `sm` — небольшой
+`small`, `sm` — pequeño
 
-`medium`, `base` — средний
+`medium`, `base` — mediano
 
-`big`, `large`, `lg` — большой
+`big`, `large`, `lg` — grande
 
-`huge`, `xl` — огромный
+`huge`, `xl` — enorme
 
-`narrow` — узкий
+`narrow` — estrecho
 
-`wide` — широкий
+`wide` — ancho
 
-## Разное
+## Otros
 
-`search` — поиск
+`search` — buscar
 
-`socials` — блок иконок соцсетей
+`socials` — bloque de iconos de las redes sociales
 
-`advertisement`, `adv`, `commercial`, `promo` — рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)
+`advertisement`, `adv`, `commercial`, `promo` — bloque publicitario (bloqueado por Adblock, no se recomienda usar este tipo de clases para bloques con publicidad interna)
 
-`features`, `benefits` — список основных особенностей товара, услуги
+`features`, `benefits` — lista de las principales características del producto, servicio
 
-`slider`, `carousel` — слайдер, интерактивный элемент с прокруткой содержимого
+`slider`, `carousel` — control deslizante, elemento interactivo de contenido desplazable
 
-`pagination` — постраничная навигация
+`pagination` — navegación por páginas
 
-`user`, `author` — пользователь, автор записи или комментария
+`user`, `author` — usuario, autor de un registro o comentario
 
-`meta` — блок с дополнительной информацией, например, блок тегов и даты в посте
+`meta` — bloque de información adicional, por ejemplo, un bloque de tag y fecha en el post
 
-`cart`, `basket` — корзина
+`cart`, `basket` — papelera
 
-`breadcrumbs` — навигационная цепочка, «хлебные крошки»
+`breadcrumbs` — cadena de navegación, "migajas de pan"
 
-`more`, `all` — ссылка на полную информацию
+`more`, `all` — enlace a la información completa
 
-`modal` — модальное (диалоговое) окно
+`modal` — ventana (diálogo) modal
 
-`popup` — всплывающее окно
+`popup` — ventana emergente
 
-`tooltip`, `tip` — всплывающее подсказки
+`tooltip`, `tip` — información sobre las herramientas
 
-`preview` — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию
+`preview` — un anuncio, un extracto, como una noticia o un post, puede consistir de un título, una descripción y una imagen. Se espera un enlace a la versión completa
 
-`overlay` — перекрывающий слой, например, для затемнения изображений или создания модальных окон
+`overlay` — sobreposición, por ejemplo, para oscurecer imágenes o crear ventanas modales
 
-## Состояния
+## Estados
 
-`active`, `current` — активный элемент, например, текущий пункт меню
+`active`, `current` — el elemento activo, por ejemplo, el elemento de menú actual
 
-`visible` — видимый элемент
+`visible` — elemento visible
 
-`hidden` — скрытый элемент
+`hidden` — elemento oculto
 
-`error` — статус ошибки
+`error` — estado de error
 
-`warning` — статус предупреждения
+`warning` — estado de alerta
 
-`success` — статус успешного выполнения задачи
+`success` — estado de realización exitosa de la tarea
 
-`pending` — состояние ожидания, например, перед сменой статуса на error или success
+`pending` — estado de espera, por ejemplo, antes de que el estado cambie de error a success
 
-## Примеры использования
+## Ejemplo de uso
 
-### Простой список
+### Lista simple
 
 ```html
 <ul class="list">
-  <li class="item">Первое</li>
-  <li class="item">Второе</li>
-  <li class="item">Третье</li>
+  <li class="item">Primero</li>
+  <li class="item">Segundo</li>
+  <li class="item">Tercero</li>
 </ul>
 ```
 
-### Картинка пользователя (юзерпик)
+### Imagen de usuario (nombre del usuario)
 
 ```html
 <div class="user">
   <img class="user__img" src="userpic.png" alt="Дормидонт Петрович">
-  <a class="user__link" href="#">Дормидонт Петрович</a>
+  <a class="user__link" href="#">Dormidont Petrovich</a>
 </div>
 ```
 
-### Галерея
+### Galería
 
 ```html
 <div class="gallery">
@@ -198,15 +198,15 @@
 </div>
 ```
 
-### Навигация
+### Navegación
 
 ```html
 <nav class="nav">
-  <a class="nav__link nav__link--active">Главная</a>
-  <a class="nav__link" href="#">Второстепенная</a>
-  <a class="nav__link" href="#">Третья с конца</a>
-  <a class="nav__link" href="#">Предпоследняя</a>
-  <a class="nav__link" href="#">Совсем конец</a>
+  <a class="nav__link nav__link--active">Inicio</a>
+  <a class="nav__link" href="#">Secundaria</a>
+  <a class="nav__link" href="#">Tercera</a>
+  <a class="nav__link" href="#">Penúltima</a>
+  <a class="nav__link" href="#">El final</a>
 </nav>
 ```
 
@@ -214,121 +214,121 @@
 <nav class="nav">
   <ul class="nav__list">
     <li class="nav__item nav__item--current">
-      <a class="nav__link">Главная</a>
+      <a class="nav__link">Principal</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Статьи</a>
+      <a class="nav__link" href="#">Artículos</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Фотогалерея</a>
+      <a class="nav__link" href="#">Galería de fotos</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Контакты</a>
+      <a class="nav__link" href="#">Contactos</a>
     </li>
   </ul>
 </nav>
 ```
 
-### Виджет в боковой колонке
+### Widget de la barra lateral
 
 ```html
 <div class="widget">
-  <h4 class="widget__title">Выращиваем желе</h4>
+  <h4 class="widget__title">Cultivando gelatina</h4>
 
   <div class="widget__content">
-    <p>Чтобы вырастить общительное дружелюбное желе,
-    нам потребуется рулон поролона, два килограмма сахара,
-    три яйца и пол чайной чашки ацетона.</p>
+    <p>Para hacer crecer una linda gelatina,
+    necesitaremos un tubo de espuma de caucho, dos kilos de azúcar,
+    tres huevos y media cucharadita de acetona.</p>
 
-    <a class="widget__link" href="#">Не читать дальше...</a>
+    <a class="widget__link" href="#">Dejar de leer</a>
   </div>
 </div>
 ```
 
-### Блок новостей
+### Sección de noticias
 
 ```html
 <div class="news">
-    <h3 class="news__title">Вчерашние новости</h3>
+    <h3 class="news__title">Noticias de ayer</h3>
 
     <ul class="news__list">
-        <!-- к классу элемента добавляем класс блока,
-             чтобы создать новое пространство имён -->
+        <!-- agregar una clase bloque a la clase elemento,
+              para crear un nuevo espacio de nombres -->
         <li class="news__item item-news">
-            <h4 class="item-news__title">Соревнования среди воблы по конькобежному спорту</h4>
+            <h4 class="item-news__title">Concurso de patinaje de velocidad sobre hielo</h4>
             <div class="item-news__text">
-              <p>Победила команда килек из Петрозаводска</p>
+              <p>El equipo ganador fue el equipo Kilek de Petrozavodsk</p>
 
-              <a href="#" class="item-news__link">Читать дальше</a>
+              <a href="#" class="item-news__link">Leer más</a>
             </div>
         </li>
 
         <li class="news__item item-news">
-            <h4 class="item-news__title">Учёные уточнили роль напильника в уходе за ногтями</h4>
+            <h4 class="item-news__title">Los científicos han aclarado la importancia de la lima en el cuidado de las uñas</h4>
             <div class="item-news__text">
-              <p>Британские учёные высоко оценили вклад
-                напильника в отращивание полутораметровых ногтей.</p>
+              <p>Científicos británicos han reconocido la
+                contribución de la lima al crecimiento de uñas que miden un metro y medio.</p>
 
-              <a href="#" class="item-news__link">Не читать дальше</a>
+              <a href="#" class="item-news__link">Dejar de leer</a>
             </div>
         </li>
     </ul>
 </div>
 ```
 
-### Статья или пост в блоге (простой вариант)
+### Artículo o post del blog (versión simple)
 
 ```html
 <article class="article">
-  <h3 class="article__title">Нащупываем чакры у пучка петрушки</h3>
-  <time class="article__datetime">32 мая, 10:87</time>
+  <h3 class="article__title">Sensación de los chakras en el manojo de perejil</h3>
+  <time class="article__datetime">32 de Mayo, 10:87</time>
 
   <div class="article__author author-article">
     <img class="author-article__img" src="userpic.png" alt="Клешня Андреевна">
-    <a class="author-article__link" href="#">Клешня Андреевна Долгорукая</a>
-    <div class="author-article__desc">Наш эксперт по чакрам</div>
+    <a class="author-article__link" href="#">Kleshnia Andreyevna Dolgorukaya</a>
+    <div class="author-article__desc">Nuestra experta en chakras</div>
   </div>
 
   <div class="article__content">
-    Сходите на рынок и купите у старушек пучок петрушки грамм на 100.
-    Как следует переберите, очистите от жуков и гусениц. Жуков отдайте поиграться
-    коту, гусениц поселите в горшок с кактусами, пусть одна будет Джоном,
-    вторая Билли, а у вас в горшке теперь будет Дикий Запад. Вернитесь
-    к пучку петрушки. Ласково взгляните на него и как следует почешите
-    за ухом, можно себе или коту. Перевяжите атласной ленточкой,
-    непременно завяжите бант. Поздравляем! Теперь у вас есть полностью
-    одомашненный пучок петрушки, который будет весело бегать за вами
-    по пятам и проращивать свои семена в ваших тапках.
+    Ve al mercado y compra un ramo de 100 gramos de perejil a las viejitas.
+    Luego retira los bichos y gusanos y límpialos bien. Dale los bichos al 
+    gato, pon los gusanos en la maceta del cactus, ponle el nombre de John
+    y al segundo Billy, y ahora tendrás al Viejo Oeste en tu maceta. Regresa
+    al manojo de perejil. Míralo cariñosamente y ráscate detrás de la oreja
+     puedes hacerlo para ti o para tu gato. Amárralo con una cinta,
+    asegurándote de hacer un lazo. ¡Felicidades! Ahora tienes un manojo de
+    perejil completamente domesticado que te perseguirá felizmente
+    y hará brotar sus semillas en tus zapatos.
   </div>
 </article>
 ```
 
-### Статья или пост в блоге (сложный вариант)
+### Artículo o post del blog (versión compleja)
 
 ```html
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Резиновые уточки как способ самопознания</a>
+      <a class="title-entry__link" href="#">Los patitos de hule como forma de autodescubrimiento</a>
     </h3>
 
-    <time class="entry__datetime">32 мая, 10:87</time>
+    <time class="entry__datetime">32 de Mayo, 10:87</time>
   </header>
 
   <div class="entry__author author-entry">
     <img class="author-entry__img" src="userpic.png" alt="Василиса Сергеевич">
 
-    <a class="author-entry__link" href="#">Василиса Сергеевич</a>
+    <a class="author-entry__link" href="#">Vasilisa Sergeyevich</a>
   </div>
 
   <div class="entry__content">
-    Достаньте с чердака коробку с полусотней резиновых уточек,
-    оставшихся после празднования нового года. Из уточек
-    и горящих свечей выложите пентаграмму на полу комнаты.
-    Сядьте посередине в позу лотоса, в каждую руку возьмите
-    по немецко-бразильскому словарю, прокашляйтесь, наберите
-    полную грудь воздуха и громко и уверенно,
-    с полной самоотдачей скажите "Кря!"
+    Saca del ático una caja con medio centenar de patitos de hule que
+    sobraron de las celebraciones de Nochevieja. Haz un pentagrama
+    con patos y velas encendidas en el suelo del cuarto.
+    Siéntate en el centro en posición de meditación
+     coge un diccionario alemán-brasileño en cada mano,
+    tose, llena el pecho de aire y di "¡Cuac!" en voz alta
+    y con confianza, con total compromiso.
   </div>
 
   <div class="entry__tags tags-entry">

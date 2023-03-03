@@ -1,567 +1,327 @@
-# Слова и сокращения в CSS-классах
+# Palabras y abreviaturas de las clases CSS
 
-Деление на подразделы условно и не накладывает каких-либо обязательств.
+La división en las subsecciones es condicional y no implica ninguna obligación.
 
-Сделано в дополнение <https://github.com/goitacademy/dictionary-html-css/blob/main/es/common-words.md>.
+Hecho adicionalmente en <https://github.com/goitacademy/dictionary-html-css/blob/main/uk/common-words.md>.
 
-## Крупные блоки/элементы
+## Bloques/elementos de gran tamaño
 
 ### `page`
 
-Cтраница (обычно, корневой элемент). <br>
-Сокращение: нет <br>
-Пример: `page`
+Página (generalmente el elemento raíz). <br> Abreviatura: no <br> Ejemplo: `page`
 
 ### `container`
 
-Контейнер, обёртка. <br>
-Сокращение: нет <br>
-Пример: `container`
+Contenedor, envoltura. <br> Abreviatura: no <br> Ejemplo: `container`
 
 ### `grid`
 
-Сетка (для раскладки блоков по модульной сетке). <br>
-Сокращение: нет <br>
-Пример: <br>
-`grid` (элемент, внутри которого будет модульная сетка)
+Rejilla (para colocar los bloques en una rejilla modular). <br> Abreviatura: no <br> Ejemplo: <br> `grid` (elemento en el que habrá una rejilla modular)
 
 ### `row`
 
-Обёртка для ячеек модульной сетки. <br>
-Сокращение: нет <br>
-Пример: <br>
-`grid__row` (одна или несколько «строк» модульной сетки)
+Envoltura para las celdas de la rejilla modular. <br> Abreviatura: no <br> Ejemplo: <br> `grid__row` (una o varias "filas" de la rejilla modular)
 
 ### `column`
 
-Ячейка модульной сетки. <br>
-Сокращение: `col`  <br>
-Пример: <br>
-`grid__col-md-6` (ячейка, занимающая 6 колонок на MD-ширине)
+Celda de la rejilla modular. <br> Abreviatura: `col`  <br> Ejemplo: <br> `grid__col-md-6` (celda que ocupa 6 columnas en ancho MD)
 
 ### `wrapper`
 
-Обёртка чего-либо. <br>
-Сокращение: `wrap`  <br>
-Пример: <br>
-`contacts__wrapper` (обёртка вокруг контента блока контактов)
+Envoltura de algo. <br> Abreviatura: `wrap`  <br> Por ejemplo: <br> `contacts__wrapper` (envolviendo el contenido del bloque de contacto)
 
 ### `inner`
 
-Внутренняя обёртка чего-либо (чаще всего — для ограничения ширины и выравнивания по центру). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__inner` (внутренняя обертка промо-блока)
+Envoltura interior de algo ( por lo general para limitar el ancho y la alineación central). <br> Abreviatura: no <br> Ejemplo: <br> `promo__inner` (envoltura interior de la unidad promocional)
 
 ### `navigation`
 
-Навигация. <br>
-Сокращение: `nav`  <br>
-Пример: <br>
-`main-nav` (главная навигация)
+Navegación. <br> Abreviatura: `nav`  <br> Ejemplo: <br> `main-nav` (navegación principal)
 
 ### `promo`
 
-Внутренняя реклама, какое-то введение. <br>
-Сокращение: нет <br>
-Пример: `promo` <br>
+Publicidad interna, algún tipo de introducción. <br> Abreviatura: no <br> Ejemplo: `promo` <br>
 
 ### `features`
 
-Особенности, преимущества. <br>
-Сокращение: нет <br>
-Пример: <br>
-`features` (блок с описанием свойств и преимуществ)
+Características, ventajas. <br> Abreviatura: no <br> Ejemplo: <br> `features` (un bloque que describe las características y ventajas)
 
 ### `cart`
 
-Корзина в магазине. <br>
-Сокращение: нет <br>
-Пример: <br>
-`cart` (блок корзины на странице корзины)
+Carrito de la tienda. <br> Abreviatura: no <br> Ejemplo: <br> `cart` (bloque del carrito en la página del carrito)
 
 ### `sidebar`, `aside`
 
-Дополнительная информация (часто — узкая колонка на блоговой странице). <br>
-Сокращение: нет  <br>
-Пример: `sidebar`, `aside`  <br>
+Información adicional (normalmente una columna estrecha en la página de un blog). <br> Abreviatura: no <br> Ejemplo: `sidebar`, `aside`  <br>
 
-## Мелкие блоки/элементы
+## Bloques/elementos pequeños
 
 ### `item`, `element`, `part`
 
-Часть, элемент, отдельная «единица». Универсальное слово, если не удаётся придумать что-то специфическое. <br>
-Сокращение: `element` → `el`  <br>
-Пример: <br>
-`main-nav__list-item` (пункт в списке в главной навигации, вероятно, `li`), <br>
-`filter__part` (типовая часть фильтра)
+Parte, elemento, "unidad" independiente. Es una palabra universal si no se te ocurre nada en específico. <br> Abreviatura: `element` → `el`  <br> Ejemplo: <br> `main-nav__list-item` (es un elemento de lista en la navegación principal,`li`), <br> `filter__part` (parte típica del filtro)
 
 ### `widget`
 
-Виджет. <br>
-Сокращение: нет <br>
-Пример: <br>
-`aside__widget` (виджет в блоке дополнительной информации)
+Widget. <br> Abreviatura: no <br> Ejemplo: <br> `aside__widget` (widget en la casilla de información adicional)
 
 ### `logo`
 
-Логотип. <br>
-Сокращение: нет <br>
-Пример: <br>
-`logo` (вы не поверите...)
-`.partner__logo` (логотип партнёра)
+Logotipo. <br> Abreviatura: no <br> Ejemplo: <br> `logo` (no lo vas a creer...) `.partner__logo` (logotipo del socio)
 
 ### `field`
 
-Поле формы. <br>
-Сокращение: нет <br>
-Пример: <br>
-`field-text` (универсальный блок для набора форм), <br>
-`field-radio` (универсальный блок для набора форм), <br>
-`field-checkbox` (универсальный блок для набора форм), <br>
-`field-select` (универсальный блок для набора форм), <br>
-`field-file` (универсальный блок для набора форм)
+Campo del formulario. <br> Abreviatura: no <br> Ejemplo: <br> `field-text` (unidad de conjunto de forma universal), <br> `field-radio` (unidad de conjunto de forma universal), <br> `field-checkbox` (unidad de conjunto de forma universal), <br> `field-select` (unidad de conjunto de forma universal), <br> `field-file` (unidad de conjunto de forma universal)
 
 ### `pagination`
 
-Навигация по нескольким страницам (1 2 3 ...). <br>
-Сокращение: нет <br>
-Пример: `pagination` <br>
+Navegación por varias páginas (1 2 3 ...). <br> Abreviatura: no <br> Ejemplo: `pagination` <br>
 
 ### `breadcrumbs`
 
-«Хлебные крошки» (Главная > Каталог > Товар). <br>
-Сокращение: нет <br>
-Пример: `breadcrumbs` <br>
+"Migajas de pan" (Inicio > Catálogo > Productos). <br> Abreviatura: no <br> Ejemplo: `breadcrumbs` <br>
 
 ### `modal`
 
-Модальное окно. <br>
-Сокращение: нет <br>
-Пример: `modal` <br>
+Ventana modal. <br> Abreviatura: no <br> Ejemplo: `modal` <br>
 
 ### `popup`
 
-Всплывающий блок (обычно, по клику на чем-либо). <br>
-Сокращение: нет <br>
-Пример: `popup` <br>
+Bloque emergente (normalmente haciendo clic en algo). <br> Abreviatura: no <br> Ejemplo: `popup` <br>
 
 ### `tooltip`
 
-Всплывающая подсказка, небольшой блок (обычно, по наведению на что-либо). <br>
-Сокращение: нет <br>
-Пример: `tooltip` <br>
+Tooltip, es un pequeño bloque (normalmente pasando el mouse por encima de algo). <br> Abreviatura: no <br> Ejemplo: `tooltip` <br>
 
 ### `copyright`
 
-Копирайт. <br>
-Сокращение: нет <br>
-Пример: `copyright` <br>
+Copyright. <br> Abreviatura: no <br> Ejemplo: `copyright` <br>
 
 ### `button`
 
-Кнопка/кнопки. Сама по себе кнопка — всегда [БЭМ-блок](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Может иметь миксование с БЭМ-элементами. Слово может использоваться в классах-обёртках (см. пример). <br>
-Сокращение: `btn` <br>
-Пример: <br>
-`btn` (отдельная кнопка), <br>
-`.promo__btns` (обёртка для кнопок в промо-блоке)
+Botón/Botones. El botón en sí siempre es un [bloque BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Puede tener una combinación con los elementos BEM. La palabra puede usarse en las clases de envoltura (véase en el ejemplo). <br> Abreviatura: `btn` <br> Ejemplo: <br> `btn` (botón individual), <br> `.promo__btns` (envoltorio para los botones de la unidad promocional)
 
 ### `title`, `heading`, `caption`
 
-Заголовок (часто применяется на заголовочных тегах, но не обязательно на них). <br>
-Сокращение: нет  <br>
-Пример: <br>
-`promo__title` (заголовок промо-блока)
+Título (suele aplicarse en los tags del título, aunque no es necesario que aparezca en ellos). <br> Abreviatura: no <br> Ejemplo: <br> `promo__title` (título del bloque promocional)
 
 ### `subtitle`
 
-Подзаголовок. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__subtitle` (подзаголовок записи в блоге)
+Subtítulo. <br> Abreviatura: no <br> Ejemplo: <br> `post__subtitle` (subtítulo de la publicación del blog)
 
 ### `name`
 
-Название. <br>
-Сокращение: нет <br>
-Пример: `product__name` <br>
+Título. <br> Abreviatura: no <br> Ejemplo: `product__name` <br>
 
 ### `slogan`
 
-Слоган. <br>
-Сокращение: нет <br>
-Пример: <br>
-`logo__slogan` (слоган в блоке логотипа)
+Lema. <br> Abreviatura: no <br> Ejemplo: <br> `logo__slogan` (eslogan en el bloque del logotipo)
 
 ### `user`
 
-Пользователь. <br>
-Сокращение: нет <br>
-Пример: <br>
-`user` (блок авторизованного/неавторизованного посетителя, к примеру, в шапке)
+Usuario. <br> Abreviatura: no <br> Ejemplo: <br> `user` (bloque de visitantes autorizados/no autorizados, por ejemplo, en el encabezado)
 
 ### `label`, `tag`
 
-Метка, тег. <br>
-Сокращение: нет <br>
-Пример: <br>
-`label` (лейбл), <br>
-`post__tags-list` (список меток записи в блоге)
+Etiqueta, tag. <br> Abreviatura: no <br> Ejemplo: <br> `label` (etiqueta), <br> `post__tags-list` (lista de tags de publicaciones del blog)
 
 ### `category`
 
-Рубрика(и). <br>
-Сокращение: `cat`  <br>
-Пример: <br>
-`post__cats` (рубрики записи в блоге)
+Categoría(s). <br> Abreviatura: `cat`  <br> Ejemplo: <br> `post__cats` (títulos de las publicaciones del blog)
 
 ### `dropdown`
 
-Выпадающий элемент (направление выпадения не имеет значения). <br>
-Сокращение: `drop`  <br>
-Пример: <br>
-`filter__drop` (выпадающий по клику блок в фильтре)
+Elemento desplegable (la dirección desplegable no tiene valor). <br> Abreviatura: `drop`  <br> Ejemplo: <br> `filter__drop` (casilla desplegable donde se puede hacer clic en el filtro)
 
 ### `search`
 
-Поиск. <br>
-Сокращение: нет <br>
-Пример: <br>
-`search-form` (блок быстрого поиска, возможно, в «шапке»)
+Buscar. <br> Abreviatura: no <br> Ejemplo: <br> `search-form` (bloque de búsqueda rápida, posiblemente en el "encabezado")
 
 ### `socials`
 
-Социальные сети (иконки, обычно). <br>
-Сокращение: нет <br>
-Пример: <br>
-`socials__list` (список с соц. ссылками)
+Redes sociales (por lo general, iconos). <br> Abreviatura: no <br> Ejemplo: <br> `socials__list` (lista con enlaces de las redes sociales)
 
 ### `carousel`, `slider`
 
-Карусель, слайдер (несколько сменяющих друг друга слайдов). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__slider` (карусель в промо-блоке)
+Carrusel, control deslizante (varias diapositivas sucesivas). <br> Abreviatura: no <br> Ejemplo: <br> `promo__slider` (carrusel en bloque promocional)
 
 ### `header`
 
-Верхняя часть, «шапка». <br>
-Сокращение: нет <br>
-Пример: <br>
-`page-header` («шапка» страницы), <br>
-`post__header` («шапка» записи в блоге)
+La parte superior, "encabezado". <br> Abreviatura: no <br> Ejemplo: <br> `page-header` (encabezado de la página), <br> `post__header` ("encabezado" de la entrada del blog)
 
 ### `footer`
 
-Нижняя часть, «подвал». <br>
-Сокращение: нет <br>
-Пример: <br>
-`page-footer` («подвал» страницы), <br>
-`post__footer` («подвал» записи в блоге)
+Parte inferior, "pie de página". <br> Abreviatura: no <br> Ejemplo: <br> `page-footer` ("pie de página" de la página), <br> `post__footer` ("pie de página" de la publicación del blog)
 
 ### `additional`
 
-Добавление чего-либо. <br>
-Сокращение: `add`  <br>
-Пример: <br>
-`location__btn-add` (кнопка добавления в блоке какого-то места)
+Agregar algo (adicional). <br> Abreviatura: `add`  <br> Ejemplo: <br> `location__btn-add` (botón de agregar un bloque de algún lugar)
 
 ### `info`, `meta`
 
-Информация о какой-либо сущности. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__info` (информация о записи в блоге)  
+Información sobre una entidad. <br> Abreviatura: no <br> Ejemplo: <br> `post__info` (información sobre el blog)
 
 ### `body`
 
-Главная контентная часть чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__body` (основной текстовой фрагмент записи в блоге)
+La parte del contenido principal de algo. <br> Abreviatura: no <br> Ejemplo: <br> `post__body` (fragmento de texto principal de la publicación del blog)
 
 ### `content`
 
-Содержимое чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__content` (основной текстовой фрагмент записи в блоге)
+El contenido de algo. <br> Abreviatura: no <br> Ejemplo: <br> `post__content` (fragmento de texto principal de la publicación del blog)
 
 ### `section`
 
-Крупный раздел чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__section` (большой раздел промо-блока)
+Sección grande de algo. <br> Abreviatura: no <br> Ejemplo: <br> `post__content` (fragmento de texto principal de la publicación del blog)
 
 ### `icon`
 
-Иконка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`icon--twitter` (иконка соц. сети (модификатор))
+Ícono. <br> Abreviatura: no <br> Ejemplo: <br> `icon--twitter` (ícono de la red social (modificador))
 
 ### `link`
 
-Cсылка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product__more-link` (ссылка «Далее» в блоке продукта)
+Enlace. <br> Abreviatura: no <br> Ejemplo: <br> `product__more-link` ("siguiente" enlace en el bloque de productos)
 
 ### `list`
 
-Cписок. <br>
-Сокращение: нет <br>
-Пример: <br>
-`features__list` (список преимуществ)
+Lista. <br> Abreviatura: no <br> Ejemplo: <br> `features__list` (lista de ventajas)
 
 ### `description`
 
-Описание какой-либо сущности <br>
-Сокращение: `descr` <br>
-Пример: <br>
-`product__descr` (описание продукта)
+Descripción de la entidad <br> Abreviatura: `descr` <br> Ejemplo: <br> `product__descr` (descripción del producto)
 
 ### `image`
 
-Изображение. <br>
-Сокращение: `img`  <br>
-Пример: <br>
-`promo__img` (изображение в промо-блоке)
+Imagen. <br> Abreviatura: `img`  <br> Ejemplo: <br> `promo__img` (imagen de la unidad de promoción)
 
 ### `picture`
 
-Изображение. <br>
-Сокращение: `pict`, `pic`  <br>
-Пример: <br>
-`promo__pict` (картинка в промо-блоке)
+Imagen. <br> Abreviatura: `pict`, `pic`  <br> Ejemplo: <br> `promo__pict` (foto del bloque promocional)
 
 ### `toggle`
 
-Переключение, тумблер. Часто — «гамбургер», переключающий показ/сокрытие главного меню (на медиа-условии, при котором меню скрывается под «гамбургером»). <br>
-Сокращение: нет <br>
-Пример: <br>
-`main-nav__toggle` (переключатель видимости гл. меню)
+Conmutación, tumblr. Por lo general, un conmutador "hamburguesa" permite mostrar/ocultar el menú principal (en caso de que el menú esté oculto en la parte inferior de la "hamburguesa"). <br> Abreviatura: no <br> Ejemplo: <br> `main-nav__toggle` (cambio de visibilidad del menú principal)
 
 ### `tab`
 
-Вкладка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`tabs` (вкладки), <br>
-`promo__tab` (вкладка в промо-блоке)
+Pestaña. <br> Abreviatura: no <br> Ejemplo: <br> `tabs` (pestañas), <br> `promo__tab` (pestaña con el bloque promocional)
 
 ### `thumbnail`
 
-Миниатюра (обычно, в какой-либо галерее). <br>
-Сокращение: `thumb` <br>
-Пример: <br>
-`photo__thumb` (миниатюра в фотогалерее)
+Miniatura (por lo general en una galería de algún tipo). <br> Abreviatura: `thumb` <br> Ejemplo: <br> `photo__thumb` (miniatura de la galería de fotos)
 
 ### `avatar`
 
-Аватарка, маленькая картинка пользователя. <br>
-Сокращение: нет <br>
-Пример: <br>
-`user__avatar` (аватарка пользователя в блоке пользователя в шапке)
+Avatar, una pequeña imagen del usuario. <br> Abreviatura: no <br> Ejemplo: <br> `user__avatar` (avatar del usuario en la casilla de usuario del encabezado)
 
 ### `text`
 
-Текстовой фрагмент (обычно, выводимый из CMS). <br>
-Сокращение: нет <br>
-Пример: <br>
-`about__text` (текст «о нас», вероятно обертка вокруг нескольких параграфов)
+Fragmento de texto ( por lo general es emitido por el CMS). <br> Abreviatura: no <br> Ejemplo: <br> `about__text` (el texto "sobre nosotros" es quizás una envoltura de algunos párrafos)
 
 ### `author`
 
-Автор. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__author` (имя/ник автора записи в блоге)
+Autor. <br> Abreviatura: no <br> Ejemplo: <br> `post__author` (nombre/apodo del autor de la publicación del blog)
 
 ### `more`
 
-«далее», «подробнее». <br>
-Сокращение: нет <br>
-Пример: <br>
-`product__more-link` (кнопка или ссылка в промо-блоке, предлагающая ознакомиться подробнее)
+"más", "más detalles". <br> Abreviatura: no <br> Ejemplo: <br> `product__more-link` (un botón o enlace en el bloque promocional que ofrece más detalles)
 
-## Модификации, состояния
+## Modificaciones, estados
 
 ### `active`, `current`
 
-Активный элемент (пункт навигации, активный таб). <br>
-Сокращение: нет <br>
-Пример: <br>
-`main-nav__item--active` (модификатор на пункте гл. навигации, соответствущем странице, на которой пребывает посетитель)
+Elemento activo (elemento de navegación, pestaña activa). <br> Abreviatura: no <br> Ejemplo: <br> `main-nav__item--active` (modificador del elemento de navegación principal correspondiente a la página en la que se encuentra el visitante)
 
 ### `hidden`
 
-Скрытое. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product--hidden` (модификатор, скрывающий блок продукта)
+Oculto. <br> Abreviatura: no <br> Ejemplo: <br> `product--hidden` (modificador para ocultar el bloque de productos)
 
 ### `shown`
 
-Показанное. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product--shown` (модификатор, показывающий продукт)
+Se muestra. <br> Abreviatura: no <br> Ejemplo: <br> `product--shown` (modificador que muestra el producto)
 
 ### `error`
 
-Состояние ошибки. <br>
-Сокращение: нет <br>
-Пример: <br>
-`field-text--error` (модификатор, помечающий блок текстового поля как ошибочное)
+Estado de error. <br> Abreviatura: no <br> Ejemplo: <br> `field-text--error` (modificador que marca un bloque de texto como erróneo)
 
 ### `success`
 
-Состояние успеха. <br>
-Сокращение: нет <br>
-Пример: <br>
-`field-text--success`
+Estado de éxito. <br> Abreviatura: no <br> Ejemplo: <br> `field-text--success`
 
 ### `warning`
 
-Предупреждение. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--warning` (модификатор, меняющий вид кнопки)
+Advertencia. <br> Abreviatura: no <br> Ejemplo: <br> `btn--warning` (modificador que cambia el aspecto del botón)
 
 ### `pending`
 
-Ожидание чего-либо (к примеру, ответа севера после асинхронной отправки формы). <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--pending` (модификатор, меняющий вид кнопки)
+Esperar algo (por ejemplo, una respuesta del servidor luego del envío de un formulario asíncrono). <br> Abreviatura: no <br> Ejemplo: <br> `btn--pending` (modificador que cambia el aspecto del botón)
 
-## Размеры
+## Tamaños
 
-### `extra small`
+### `muy pequeño`
 
-Очень маленький. <br>
-Сокращение: `xs` <br>
-Пример: <br>
-`grid__col-xs-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xs` (имя переменной с соотв. шириной вьюпорта в значении)
+Muy pequeño. <br> Abreviatura: `xs` <br> Ejemplo: <br> `grid__col-xs-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente ancho), <br> `screen-xs` (nombre de la variable con  el ancho de la ventana en valor)
 
-### `small`
+### `pequeño`
 
-Маленький. <br>
-Сокращение: `sm` <br>
-Пример: <br>
-`grid__col-sm-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-sm` (имя переменной с соотв. шириной вьюпорта в значении)
+Pequeño. <br> Abreviatura: `sm` <br> Ejemplo: <br> `grid__col-sm-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente ancho), <br> `screen-sm` (nombre de la variable con  el ancho de la ventana en valor)
 
-### `medium`
+### `mediano`
 
-Средний. <br>
-Сокращение: `md` <br>
-Пример: <br>
-`grid__col-md-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-md` (имя переменной с соотв. шириной вьюпорта в значении)
+Mediano. <br> Abreviatura: `md` <br> Ejemplo: <br> `grid__col-md-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente. ancho), <br> `screen-md` (nombre de la variable con  el ancho de la ventana en valor)
 
 ### `large`
 
-Большой. <br>
-Сокращение: `lg` <br>
-Пример: <br>
-`grid__col-lg-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-lg` (имя переменной с соотв. шириной вьюпорта в значении)
+Grande. <br> Abreviatura: `lg` <br> Ejemplo: <br> `grid__col-lg-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente ancho), <br> `screen-lg` (nombre de la variable con  el ancho de la ventana en valor)
 
 ### `extra large`
 
-Очень большой. <br>
-Сокращение: `xl` <br>
-Пример: <br>
-`grid__col-xl-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xl` (имя переменной с соотв. шириной вьюпорта в значении)
+Muy grande. <br> Abreviatura: `xl` <br> Ejemplo: <br> `grid__col-xl-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente ancho), <br> `screen-xl` (nombre de la variable con  el ancho de la ventana en valor)
 
 ### `extra extra large`
 
-Сафсэм балшой. <br>
-Сокращение: `xxl` <br>
-Пример: <br>
-`grid__col-xxl-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xxl` (имя переменной с соотв. шириной вьюпорта в значении)
+Bastante grande. <br> Abreviatura: `xxl` <br> Ejemplo: <br> `grid__col-xxl-6` (celda que ocupa 6 columnas de la rejilla modular respectivamente ancho), <br> `screen-xxl` (nombre de la variable con  el ancho de la ventana en valor)
 
 ### `narrow`
 
-Узкий. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--narrow` (модификатор, делающий кнопку узкой)
+Estrecho. <br> Abreviatura: no <br> Ejemplo: <br> `btn--narrow` (modificador que hace que el botón sea más estrecho)
 
 ### `wide`
 
-Широкий. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--wide` (модификатор, делающий кнопку широкой)
+Ancho. <br> Abreviatura: no <br> Ejemplo: <br> `btn--wide` (modificador que hace que el botón sea más ancho)
 
 ### `phone`, `mobile`
 
-Мобильные устройства (телефоны до 5 дюймов). <br>
-Сокращение: нет  <br>
-Пример: <br>
-`promo--phone` (модификация промо-блока для соотв. устройств)
+Dispositivos móviles (teléfonos de hasta 5 pulgadas). <br> Abreviatura: no <br> Ejemplo: <br> `promo--phone` (modificación de la unidad de promoción para dispositivos)
 
 ### `tablet`
 
-Планшеты (ориентировочно до 12 дюймов). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo--tablet` (модификация промо-блока для соотв. устройств)
+Tablets (de hasta unas 12 pulgadas). <br> Abreviatura: no <br> Ejemplo: <br> `promo--tablet` (modificación de la unidad de promoción para dispositivos)
 
 ### `notebook`, `laptop`
 
-Ноутбуки. <br>
-Сокращение: нет      <br>
-Пример: <br>
-`promo--laptop` (модификация промо-блока для соотв. устройств)
+Laptops. <br> Abreviatura: no <br> Ejemplo: <br> `promo--laptop` (modificación de la unidad de promoción para dispositivos)
 
-### `desktop`
+### `escritorio`
 
-Настольные компьютеры. <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo--desktop` (модификация промо-блока для соотв. устройств)
+Computadoras de escritorio. <br> Abreviatura: no <br> Ejemplo: <br> `promo--desktop` (Modificación de la unidad de promoción por consiguiente. dispositivos)
 
-## Прочее
+## Otros
 
 ### `previous`
 
-Предыдущее (часто - ссылка/кнопка). <br>
-Сокращение: `prev`  <br>
-Пример: <br>
-`slider__prev` (кнопка/стрелка на слайдере)
+Anterior (a veces - enlace/botón). <br> Abreviatura: `prev`  <br> Ejemplo: <br> `slider__prev` (botón/flecha en el control deslizante)
 
-### `next`
+### `siguiente`
 
-Следущее (часто - ссылка/кнопка). <br>
-Сокращение: нет <br>
-Пример: <br>
-`slider__next` (кнопка/стрелка на слайдере)  
+Siguiente (a veces - enlace/botón). <br> Abreviatura: no <br> Ejemplo: <br> `slider__next` (botón/flecha en el control deslizante)
 
-### `advertisement`
+### `publicidad`
 
-Рекламный фрагмент (осторожно, может вырезаться баннерорезками). <br>
-Сокращение: `adv`  <br>
-Пример: <br>
-`aside__adv` (рекламный блок в сайдбаре)
+Fragmento de anuncio (precaución, puede cortarse con cortadores de banners). <br> Abreviatura: `adv`  <br> Ejemplo: <br> `aside__adv` (anuncio en la barra lateral)
 
 ### `background`
 
-Фон (чаще — какое-то изменение фонового цвета блока). <br>
-Сокращение: `bg` <br>
-Пример: <br>
-`top-rated--bg-gray` (модификация фонового цвета блока самых рейтинговых товаров/услуг)
+Fondo (normalmente algún cambio en el color de fondo del bloque). <br> Abreviatura: `bg` <br> Ejemplo: <br> `top-rated--bg-gray` (modificación del color de fondo del cuadro de productos/servicios mejor valorados)
 
-### `number`
+### `número`
 
-Число. <br>
-Сокращение: `num`  <br>
-Пример: <br>
-`field-text--num` (модификатор для текстового поля, позволяющий иначе оформить числовые поля)
+Número. <br> Abreviatura: `num`  <br> Ejemplo: <br> `field-text--num` (modificador de un campo de texto para permitir una disposición diferente de los campos numéricos)
