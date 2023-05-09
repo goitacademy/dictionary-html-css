@@ -1,212 +1,212 @@
-# Слова, часто используемые в CSS-классах
+# Cuvinte utilizate frecvent în clasele CSS
 
-## Изображения
+## Imagini
 
-`image`, `img`, `picture`, `pic` — картинка
+`image`, `img`, `picture`, `pic` — imagine
 
-`icon` — иконка
+`icon` — iconiță, pictogramă
 
-`logo` — логотип
+`logo` — logo, siglă
 
-`userpic`, `avatar` — юзерпик, маленькая картинка пользователя
+`userpic`, `avatar` — imagine de utilizator, imagine mică de utilizator
 
-`thumbnail`, `thumb` — миниатюра, уменьшенное изображение
+`thumbnail`, `thumb` — miniatură, imagine mică
 
-## Текст
+## Text
 
-`title`, `subject`, `heading`, `headline`, `caption` — заголовок
+`title`, `subject`, `heading`, `headline`, `caption` — titlu
 
-`subtitle` — подзаголовок
+`subtitle` — subtitlu
 
-`slogan` — слоган
+`slogan` — slogan
 
-`lead`, `tagline` — лид-абзац в тексте
+`lead`, `tagline` — paragraf principal în text
 
-`text` — текстовый контент
+`text` — conținut text
 
-`desc` — описание, вариант текстового контента
+`desc` — descriere, opțiune pentru conținutul textului
 
-`excerpt` — отрывок текста, обычно используется перед ссылкой «Читать далее...»
+`excerpt` — un fragment de text, utilizat de obicei înainte de linkul "Citește mai mult...".
 
-`quote`, `blockquote` — цитата
+`quote`, `blockquote` — citat
 
-`snippet` — пример кода
+`snippet` — parte de cod
 
-`link` — ссылка
+`link` — link
 
-`copyright`, `copy` — копирайт
+`copyright`, `copy` — copyright
 
-## Списки
+## Liste
 
-`list`, `items` — список
+`list`, `items` — listă
 
-`item` — элемент списка
+`item` — element al listei
 
-## Блоки
+## Blocuri
 
-`page` — корневой элемент страницы
+`page` — elementul rădăcină al paginii
 
-`header` — шапка (страницы или элемента)
+`header` — antet (al paginii sau elementului)
 
-`footer` — подвал (страницы или элемента)
+`footer` — subsol (al paginii sau elementului)
 
-`section` — раздел контента (один из нескольких)
+`section` — secțiune de conținut (una din mai multe)
 
-`main`, `body` — основная часть (страницы или элемента)
+`main`, `body` — partea principală (a paginii sau elementului)
 
-`content` — содержимое элемента
+`content` — conținutul elementului
 
-`sidebar` — боковая колонка (страницы или элемента)
+`sidebar` — bară laterală (a paginii sau elementului)
 
-`aside` — блок с дополнительной информацией
+`aside` — bloc cu informații suplimentare
 
-`widget` — виджет, например, в боковой колонке
+`widget` — widget, de exemplu, în bara laterală
 
-## Раскладка
+## Layout
 
-`wrapper`, `wrap` — обёртка, обычно внешняя
+`wrapper`, `wrap` — înveliș, de obicei extern
 
-`inner` — внутренняя обёртка
+`inner` — înveliș intern
 
-`container`, `holder`, `box` — контейнер
+`container`, `holder`, `box` — container
 
-`grid` — раскладка (страницы или элемента) в виде сетки (обычно содержит в себе `row` и `col`)
+`grid` — layout (al paginii sau elementului) ca o rețea (de obicei conține `row` și `col`)
 
-`row` — контейнер в виде строки
+`row` — container sub formă de rând
 
-`col`, `column` — контейнер в виде столбца
+`col`, `column` — container sub formă de coloană
 
-## Элементы управления
+## Controale
 
-`button`, `btn` —  кнопка, например, для отправки формы
+`button`, `btn` —  buton, de exemplu, pentru a trimite formularul
 
-`control` — элемент управления, например, стрелки «Вперёд/назад» в фотогалерее, кнопки управления слайдером
+`control` — controale, de exemplu, săgeți înainte/înapoi în galeria foto, butoane de glisare
 
-`dropdown` — выпадающий список
+`dropdown` — lista derulantă
 
-## Медиавыражения
+## Media Queries
 
-`phone`, `mobile` — мобильные устройства
+`phone`, `mobile` — dispozitive mobile
 
-`phablet` — телефоны с большим экраном (6-7")
+`phablet` — telefoane cu ecran mare (6-7")
 
-`tablet` — планшеты
+`tablet` — tablete
 
-`notebook`, `laptop` — ноутбуки
+`notebook`, `laptop` — laptop
 
-`desktop` — настольные компьютеры
+`desktop` — calculatoare desktop
 
-## Размеры
+## Dimensiuni
 
-`tiny`, `xs` — маленький, крохотный
+`tiny`, `xs` — minuscul, foarte mic
 
-`small`, `sm` — небольшой
+`small`, `sm` — mic
 
-`medium`, `base` — средний
+`medium`, `base` — mediu
 
-`big`, `large`, `lg` — большой
+`big`, `large`, `lg` — mare
 
-`huge`, `xl` — огромный
+`huge`, `xl` — foarte mare
 
-`narrow` — узкий
+`narrow` — îngust
 
-`wide` — широкий
+`wide` — larg
 
-## Разное
+## Diverse
 
-`search` — поиск
+`search` — căutare
 
-`socials` — блок иконок соцсетей
+`socials` — bloc de iconițe social media
 
-`advertisement`, `adv`, `commercial`, `promo` — рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)
+`advertisement`, `adv`, `commercial`, `promo` — bloc de publicitate (tăiat de Adblock, nu se recomandă utilizarea unor astfel de clase pentru blocurile cu reclame interne)
 
-`features`, `benefits` — список основных особенностей товара, услуги
+`features`, `benefits` — lista caracteristicilor principale ale produsului, serviciului
 
-`slider`, `carousel` — слайдер, интерактивный элемент с прокруткой содержимого
+`slider`, `carousel` — slider, element interactiv cu conținut derulant
 
-`pagination` — постраничная навигация
+`pagination` — navigare pe pagină
 
-`user`, `author` — пользователь, автор записи или комментария
+`user`, `author` — utilizator, autorul înregistrării sau al comentariului
 
-`meta` — блок с дополнительной информацией, например, блок тегов и даты в посте
+`meta` — bloc cu informații suplimentare, de exemplu, bloc de tag-uri și de date în postare
 
-`cart`, `basket` — корзина
+`cart`, `basket` — coș
 
-`breadcrumbs` — навигационная цепочка, «хлебные крошки»
+`breadcrumbs` — lanț de navigație, "breadcrumbs"
 
-`more`, `all` — ссылка на полную информацию
+`more`, `all` — link către toate informațiile
 
-`modal` — модальное (диалоговое) окно
+`modal` — fereastră modală
 
-`popup` — всплывающее окно
+`popup` — fereastră pop-up
 
-`tooltip`, `tip` — всплывающее подсказки
+`tooltip`, `tip` — sugestie, indicație
 
-`preview` — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию
+`preview` — anunț, fragment, cum ar fi o știre sau o postare, poate fi format dintr-un titlu, o descriere și o imagine. Se prevede un link către versiunea integrală
 
-`overlay` — перекрывающий слой, например, для затемнения изображений или создания модальных окон
+`overlay` — strat de suprapunere, de exemplu, pentru întunecarea imaginilor sau crearea ferestrelor modale
 
-## Состояния
+## Stări
 
-`active`, `current` — активный элемент, например, текущий пункт меню
+`active`, `current` — elementul activ, de exemplu elementul de meniu curent
 
-`visible` — видимый элемент
+`visible` — element vizibil
 
-`hidden` — скрытый элемент
+`hidden` — element ascuns
 
-`error` — статус ошибки
+`error` — stare de eroare
 
-`warning` — статус предупреждения
+`warning` — stare de avertizare
 
-`success` — статус успешного выполнения задачи
+`success` — stare de execuție cu succes a sarcinii
 
-`pending` — состояние ожидания, например, перед сменой статуса на error или success
+`pending` — stare de așteptare, de exemplu înainte de schimbarea stării în eroare sau succes
 
-## Примеры использования
+## Exemple de utilizare
 
-### Простой список
+### Listă simplă
 
 ```html
 <ul class="list">
-  <li class="item">Первое</li>
-  <li class="item">Второе</li>
-  <li class="item">Третье</li>
+  <li class="item">Primul</li>
+  <li class="item">Al doilea</li>
+  <li class="item">Al treilea</li>
 </ul>
 ```
 
-### Картинка пользователя (юзерпик)
+### Imaginea utilizatorului (userpic)
 
 ```html
 <div class="user">
-  <img class="user__img" src="userpic.png" alt="Дормидонт Петрович">
-  <a class="user__link" href="#">Дормидонт Петрович</a>
+  <img class="user__img" src="userpic.png" alt="Martin Brooks">
+  <a class="user__link" href="#">Martin Brooks</a>
 </div>
 ```
 
-### Галерея
+### Galerie
 
 ```html
 <div class="gallery">
   <ul class="gallery__list">
     <li class="gallery__item">
-      <img class="gallery__img" src="flowers.jpg" alt="Цветём как в последний раз">
+      <img class="gallery__img" src="flowers.jpg" alt="Înflorind ca și cum ar fi ultima dată">
     </li>
     <li class="gallery__item">
-      <img class="gallery__img" src="trees.jpg" alt="Парк «Три сосны»">
+      <img class="gallery__img" src="trees.jpg" alt="Parcul «Trei pini»">
     </li>
   </ul>
 </div>
 ```
 
-### Навигация
+### Navigare
 
 ```html
 <nav class="nav">
-  <a class="nav__link nav__link--active">Главная</a>
-  <a class="nav__link" href="#">Второстепенная</a>
-  <a class="nav__link" href="#">Третья с конца</a>
-  <a class="nav__link" href="#">Предпоследняя</a>
-  <a class="nav__link" href="#">Совсем конец</a>
+  <a class="nav__link nav__link--active">Principal</a>
+  <a class="nav__link" href="#">Secundar</a>
+  <a class="nav__link" href="#">Al treilea de la sfârșit</a>
+  <a class="nav__link" href="#">Penultimul</a>
+  <a class="nav__link" href="#">De la sfârșit</a>
 </nav>
 ```
 
@@ -214,135 +214,134 @@
 <nav class="nav">
   <ul class="nav__list">
     <li class="nav__item nav__item--current">
-      <a class="nav__link">Главная</a>
+      <a class="nav__link">Acasă</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Статьи</a>
+      <a class="nav__link" href="#">Articole</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Фотогалерея</a>
+      <a class="nav__link" href="#">Galerie foto</a>
     </li>
     <li class="nav__item">
-      <a class="nav__link" href="#">Контакты</a>
+      <a class="nav__link" href="#">Contacte</a>
     </li>
   </ul>
 </nav>
 ```
 
-### Виджет в боковой колонке
+### Widget pentru bara laterală
 
 ```html
 <div class="widget">
-  <h4 class="widget__title">Выращиваем желе</h4>
+  <h4 class="widget__title">Facem jeleu</h4>
 
   <div class="widget__content">
-    <p>Чтобы вырастить общительное дружелюбное желе,
-    нам потребуется рулон поролона, два килограмма сахара,
-    три яйца и пол чайной чашки ацетона.</p>
+    <p>Pentru a face un jeleu sociabil și prietenos,
+    vom avea nevoie de un rulou de spumă poliuretanică, 
+    două kilograme de zahăr, trei ouă și o jumătate de  
+    linguriță de acetonă.</p>
 
-    <a class="widget__link" href="#">Не читать дальше...</a>
+    <a class="widget__link" href="#">Nu citi mai departe...</a>
   </div>
 </div>
 ```
 
-### Блок новостей
+### Bloc de știri
 
 ```html
 <div class="news">
-    <h3 class="news__title">Вчерашние новости</h3>
+    <h3 class="news__title">Știrile de ieri</h3>
 
     <ul class="news__list">
-        <!-- к классу элемента добавляем класс блока,
-             чтобы создать новое пространство имён -->
+        <!-- la clasa elementului adăugăm clasa blocului,
+             pentru a crea un nou spațiu de nume -->
         <li class="news__item item-news">
-            <h4 class="item-news__title">Соревнования среди воблы по конькобежному спорту</h4>
+            <h4 class="item-news__title">Competiția de patinaj viteză Forks</h4>
             <div class="item-news__text">
-              <p>Победила команда килек из Петрозаводска</p>
+              <p>Echipa câștigătoare a fost echipa Turbo din Iași</p>
 
-              <a href="#" class="item-news__link">Читать дальше</a>
+              <a href="#" class="item-news__link">Citește mai mult</a>
             </div>
         </li>
 
         <li class="news__item item-news">
-            <h4 class="item-news__title">Учёные уточнили роль напильника в уходе за ногтями</h4>
+            <h4 class="item-news__title">Oamenii de știință au explicat rolul pilei în    îngrijirea unghiilor</h4>
             <div class="item-news__text">
-              <p>Британские учёные высоко оценили вклад
-                напильника в отращивание полутораметровых ногтей.</p>
+              <p>Oamenii de știință din Marea Britanie au lăudat 
+                contribuția pilei la obținerea unor unghii lungi 
+                de un metru și jumătate.</p>
 
-              <a href="#" class="item-news__link">Не читать дальше</a>
+              <a href="#" class="item-news__link">Nu citi mai departe</a>
             </div>
         </li>
     </ul>
 </div>
 ```
 
-### Статья или пост в блоге (простой вариант)
+### Articol sau postare de blog (varianta simplă)
 
 ```html
 <article class="article">
-  <h3 class="article__title">Нащупываем чакры у пучка петрушки</h3>
-  <time class="article__datetime">32 мая, 10:87</time>
+  <h3 class="article__title">Deschidem chackrele la o legătură de pătrunjel</h3>
+  <time class="article__datetime">32 mai, 10:87</time>
 
   <div class="article__author author-article">
-    <img class="author-article__img" src="userpic.png" alt="Клешня Андреевна">
-    <a class="author-article__link" href="#">Клешня Андреевна Долгорукая</a>
-    <div class="author-article__desc">Наш эксперт по чакрам</div>
+    <img class="author-article__img" src="userpic.png" alt="Venera Baltă">
+    <a class="author-article__link" href="#">Venera Baltă</a>
+    <div class="author-article__desc">Expertul nostru în chakre</div>
   </div>
 
   <div class="article__content">
-    Сходите на рынок и купите у старушек пучок петрушки грамм на 100.
-    Как следует переберите, очистите от жуков и гусениц. Жуков отдайте поиграться
-    коту, гусениц поселите в горшок с кактусами, пусть одна будет Джоном,
-    вторая Билли, а у вас в горшке теперь будет Дикий Запад. Вернитесь
-    к пучку петрушки. Ласково взгляните на него и как следует почешите
-    за ухом, можно себе или коту. Перевяжите атласной ленточкой,
-    непременно завяжите бант. Поздравляем! Теперь у вас есть полностью
-    одомашненный пучок петрушки, который будет весело бегать за вами
-    по пятам и проращивать свои семена в ваших тапках.
+    Mergi la piață și cumpără o legătură de 100g de pătrunjel de la băbuțe.
+    Scoate gândacii și omizile și curăță-le cum trebuie. Dă gândacii pisicii, 
+    și pune omizile în ghiveciul de la cactus, unul pentru Ioan, iar celălalt Billy, 
+    și vei avea Vestul Sălbatic în ghiveci. Întoarce-te la legătura de pătrunjel.   
+    Privește-l cu drag și scarpină-l după ureche. Leagă-l cu o panglică de satin,
+    și fă-i o fundă. Felicitări! Acum ai o legătură complet domesticită de 
+    pătrunjel care te va urma cu plăcere și își va încolți semințele în papucii tăi.
   </div>
 </article>
 ```
 
-### Статья или пост в блоге (сложный вариант)
+### Articol sau postare de blog (varinata dificilă)
 
 ```html
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Резиновые уточки как способ самопознания</a>
+      <a class="title-entry__link" href="#">Rățuștele de cauciuc ca modalitate de autodescoperire</a>
     </h3>
 
-    <time class="entry__datetime">32 мая, 10:87</time>
+    <time class="entry__datetime">32 mai, 10:87</time>
   </header>
 
   <div class="entry__author author-entry">
-    <img class="author-entry__img" src="userpic.png" alt="Василиса Сергеевич">
+    <img class="author-entry__img" src="userpic.png" alt="Andaluzia Poşircă">
 
-    <a class="author-entry__link" href="#">Василиса Сергеевич</a>
+    <a class="author-entry__link" href="#">Andaluzia Poşircă</a>
   </div>
 
   <div class="entry__content">
-    Достаньте с чердака коробку с полусотней резиновых уточек,
-    оставшихся после празднования нового года. Из уточек
-    и горящих свечей выложите пентаграмму на полу комнаты.
-    Сядьте посередине в позу лотоса, в каждую руку возьмите
-    по немецко-бразильскому словарю, прокашляйтесь, наберите
-    полную грудь воздуха и громко и уверенно,
-    с полной самоотдачей скажите "Кря!"
+    Scoate din pod o cutie cu o jumătate de sută de rățuște 
+    de cauciuc rămase de la petrecerile de Revelion. Fă o pentagramă 
+    cu rațele și lumânări aprinse pe podeaua camerei. Așează-te în 
+    mijloc în poziția lotus, ia câte un dicționar germano-brazilian în 
+    fiecare mână, tușește, umple-ți pieptul cu aer și spune tare și 
+    încrezător, cu toată dăruirea "Quack!".
   </div>
 
   <div class="entry__tags tags-entry">
-    <h4 class="tags-entry__title">Метки</h4>
+    <h4 class="tags-entry__title">Tag-uri</h4>
 
     <ul class="tags-entry__list">
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">хоровод своими руками</a>
+        <a class="tags-entry__link" href="#">hora cu propriile mâini</a>
       </li>
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">фарфоровые тапки</a>
+        <a class="tags-entry__link" href="#">șlapi de porțelan</a>
       </li>
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">гуталин в кулинарии</a>
+        <a class="tags-entry__link" href="#">lustruirea pantofilor în gătit</a>
       </li>
     </ul>
   </div>
@@ -350,13 +349,13 @@
   <div class="entry__actions actions-entry">
     <ul class="actions-entry__list">
       <li class="actions-entry__item actions-entry__item--read">
-        <a class="actions-entry__link" href="#">238 ответов</a>
+        <a class="actions-entry__link" href="#">238 răspunsuri</a>
       </li>
       <li class="actions-entry__item actions-entry__item--write">
-        <a class="actions-entry__link" href="#">Написать в спортлото</a>
+        <a class="actions-entry__link" href="#">Scrie la loto sport</a>
       </li>
       <li class="actions-entry__item actions-entry__item--share">
-        <a class="actions-entry__link" href="#">Поделиться</a>
+        <a class="actions-entry__link" href="#">Distribuie</a>
       </li>
     </ul>
   </div>
