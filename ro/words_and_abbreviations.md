@@ -1,184 +1,184 @@
-# Слова и сокращения в CSS-классах
+# Cuvinte și abrevieri în clasele CSS
 
-Деление на подразделы условно и не накладывает каких-либо обязательств.
+Divizarea în subsecțiuni este condiționată și nu prevede nicio obligație.
 
-Сделано в дополнение <https://github.com/goitacademy/dictionary-html-css/blob/main/ro/common-words.md>.
+Realizat ca o completare la: <https://github.com/goitacademy/dictionary-html-css/blob/main/ro/common-words.md>.
 
-## Крупные блоки/элементы
+## Blocurile/elementele mari
 
 ### `page`
 
-Cтраница (обычно, корневой элемент). <br>
-Сокращение: нет <br>
-Пример: `page`
+Pagina (de obicei, elementul rădăcină). <br>
+Prescurtare: niciuna <br>
+Exemplu: `page`
 
 ### `container`
 
-Контейнер, обёртка. <br>
-Сокращение: нет <br>
-Пример: `container`
+Container, wrapper. <br>
+Prescurtare: niciuna <br>
+Exemplu: `container`
 
 ### `grid`
 
-Сетка (для раскладки блоков по модульной сетке). <br>
-Сокращение: нет <br>
-Пример: <br>
-`grid` (элемент, внутри которого будет модульная сетка)
+Grid (pentru amplasarea blocurilor pe un grid modular). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`grid` (element în care va fi amplasat gridul modular)
 
 ### `row`
 
-Обёртка для ячеек модульной сетки. <br>
-Сокращение: нет <br>
-Пример: <br>
-`grid__row` (одна или несколько «строк» модульной сетки)
+Înveliș pentru celulele gridului modular. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`grid__row` (unul sau mai multe "rânduri" ale gridului modular)
 
 ### `column`
 
-Ячейка модульной сетки. <br>
-Сокращение: `col`  <br>
-Пример: <br>
-`grid__col-md-6` (ячейка, занимающая 6 колонок на MD-ширине)
+Celula gridului modular. <br>
+Prescurtare: `col` <br>
+Exemplu: <br>
+`grid__col-md-6` (celulă care ocupă 6 coloane pe lățimea MD)
 
 ### `wrapper`
 
-Обёртка чего-либо. <br>
-Сокращение: `wrap`  <br>
-Пример: <br>
-`contacts__wrapper` (обёртка вокруг контента блока контактов)
+Înveliș a ceva. <br>
+Prescurtare: `wrap` <br>
+Exemplu: <br>
+`contacts__wrapper` (înveliș în jurul conținutului blocului de contact)
 
 ### `inner`
 
-Внутренняя обёртка чего-либо (чаще всего — для ограничения ширины и выравнивания по центру). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__inner` (внутренняя обертка промо-блока)
+Înveliș intern a ceva (cel mai des pentru a limita lățimea și alinierea la centru). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo__inner` (înveliș intern a blocului de publicitate)
 
 ### `navigation`
 
-Навигация. <br>
-Сокращение: `nav`  <br>
-Пример: <br>
-`main-nav` (главная навигация)
+Navigare. <br>
+Prescurtare: `nav` <br>
+Exemplu: <br>
+`main-nav` (navigare principală)
 
 ### `promo`
 
-Внутренняя реклама, какое-то введение. <br>
-Сокращение: нет <br>
-Пример: `promo` <br>
+Publicitate internă, un fel de introducere. <br>
+Prescurtare: niciuna <br>
+Exemplu: `promo` <br>
 
 ### `features`
 
-Особенности, преимущества. <br>
-Сокращение: нет <br>
-Пример: <br>
-`features` (блок с описанием свойств и преимуществ)
+Caracteristici, avantaje. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`features` (bloc care descrie caracteristicile și avantajele)
 
 ### `cart`
 
-Корзина в магазине. <br>
-Сокращение: нет <br>
-Пример: <br>
-`cart` (блок корзины на странице корзины)
+Coșul din magazin. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`cart` (bloc de coș pe pagina coșului)
 
 ### `sidebar`, `aside`
 
-Дополнительная информация (часто — узкая колонка на блоговой странице). <br>
-Сокращение: нет  <br>
-Пример: `sidebar`, `aside`  <br>
+Informații suplimentare (cel mai des o coloană îngustă pe o pagină de blog). <br>
+Prescurtare: niciuna  <br>
+Exemplu: `sidebar`, `aside`  <br>
 
 ## Мелкие блоки/элементы
 
 ### `item`, `element`, `part`
 
-Часть, элемент, отдельная «единица». Универсальное слово, если не удаётся придумать что-то специфическое. <br>
-Сокращение: `element` → `el`  <br>
-Пример: <br>
-`main-nav__list-item` (пункт в списке в главной навигации, вероятно, `li`), <br>
-`filter__part` (типовая часть фильтра)
+O parte, un element, o "unitate" separată. Un cuvânt universal dacă nu este ceva specific. <br>
+Prescurtare: `element` → `el` <br>
+Exemplu: <br>
+`main-nav__list-item` (un element de listă în navigarea principală, probabil, `li`), <br>
+`filter__part` (parte tipică a filtrului)
 
 ### `widget`
 
-Виджет. <br>
-Сокращение: нет <br>
-Пример: <br>
-`aside__widget` (виджет в блоке дополнительной информации)
+Widget. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`aside__widget` (widget în blocul de informații suplimentare)
 
 ### `logo`
 
-Логотип. <br>
-Сокращение: нет <br>
-Пример: <br>
-`logo` (вы не поверите...)
-`.partner__logo` (логотип партнёра)
+Logo. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`logo` (n-o să vă vină să credeți...)
+`.partner__logo` (logo partener)
 
 ### `field`
 
-Поле формы. <br>
-Сокращение: нет <br>
-Пример: <br>
-`field-text` (универсальный блок для набора форм), <br>
-`field-radio` (универсальный блок для набора форм), <br>
-`field-checkbox` (универсальный блок для набора форм), <br>
-`field-select` (универсальный блок для набора форм), <br>
-`field-file` (универсальный блок для набора форм)
+Câmp de formular. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`field-text` (bloc universal pentru formulare), <br>
+`field-radio` (bloc universal pentru formulare), <br>
+`field-checkbox` (bloc universal pentru formulare), <br>
+`field-select` (bloc universal pentru formulare), <br>
+`field-file` (bloc universal pentru formulare)
 
 ### `pagination`
 
-Навигация по нескольким страницам (1 2 3 ...). <br>
-Сокращение: нет <br>
-Пример: `pagination` <br>
+Navigarea prin mai multe pagini (1 2 3 ...). <br>
+Prescurtare: niciuna <br>
+Exemplu: `pagination` <br>
 
 ### `breadcrumbs`
 
-«Хлебные крошки» (Главная > Каталог > Товар). <br>
-Сокращение: нет <br>
-Пример: `breadcrumbs` <br>
+Breadcrumbs (Acasă > Catalog > Produs). <br>
+Prescurtare: niciuna <br>
+Exemplu: `breadcrumbs` <br>
 
 ### `modal`
 
-Модальное окно. <br>
-Сокращение: нет <br>
-Пример: `modal` <br>
+Fereastră modală. <br>
+Prescurtare: niciuna <br>
+Exemplu: `modal` <br>
 
 ### `popup`
 
-Всплывающий блок (обычно, по клику на чем-либо). <br>
-Сокращение: нет <br>
-Пример: `popup` <br>
+Bloc pop-up (de obicei, la click pe ceva). <br>
+Prescurtare: niciuna <br>
+Exemplu: `popup` <br>
 
 ### `tooltip`
 
-Всплывающая подсказка, небольшой блок (обычно, по наведению на что-либо). <br>
-Сокращение: нет <br>
-Пример: `tooltip` <br>
+O sugestie/indicație, un bloc mic (de obicei, prin trecerea deasupra a ceva). <br>
+Prescurtare: niciuna <br>
+Exemplu: `tooltip` <br>
 
 ### `copyright`
 
-Копирайт. <br>
-Сокращение: нет <br>
-Пример: `copyright` <br>
+Copyright. <br>
+Prescurtare: niciuna <br>
+Exemplu: `copyright` <br>
 
 ### `button`
 
-Кнопка/кнопки. Сама по себе кнопка — всегда [БЭМ-блок](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Может иметь миксование с БЭМ-элементами. Слово может использоваться в классах-обёртках (см. пример). <br>
-Сокращение: `btn` <br>
-Пример: <br>
-`btn` (отдельная кнопка), <br>
-`.promo__btns` (обёртка для кнопок в промо-блоке)
+Buton/butonae. Butonul în sine — întotdeauna un [bloc BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Poate avea un amestec de elemente BEM. Cuvântul poate fi utilizat în clasele wrapper (vedeți exemplu). <br>
+Prescurtare: `btn` <br>
+Exemplu: <br>
+`btn` (buton aparte), <br>
+`.promo__btns` (înveliș pentru butoane din blocul de publicitate)
 
 ### `title`, `heading`, `caption`
 
-Заголовок (часто применяется на заголовочных тегах, но не обязательно на них). <br>
-Сокращение: нет  <br>
-Пример: <br>
-`promo__title` (заголовок промо-блока)
+Titlu (часто применяется на заголовочных тегах, но не обязательно на них). <br>
+Prescurtare: нет  <br>
+Exemplu: <br>
+`promo__title` (titlu pentru bloc de publicitate)
 
 ### `subtitle`
 
-Подзаголовок. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__subtitle` (подзаголовок записи в блоге)
+Subtitlu. <br>
+Prescurtare: нет <br>
+Exemplu: <br>
+`post__subtitle` (subtitlul postării de blog)
 
 ### `name`
 
