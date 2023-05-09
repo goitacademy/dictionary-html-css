@@ -118,7 +118,7 @@
 
 `socials` — bloc de iconițe social media
 
-`advertisement`, `adv`, `commercial`, `promo` — bloc de publicitate (tăiat de Adblock, nu se recomandă utilizarea unor astfel de clase pentru blocurile cu reclame interne)
+`advertisement`, `adv`, `commercial`, `promo` — bloc publicitar (șters de Adblock, nu se recomandă utilizarea unor astfel de clase pentru blocurile cu reclame interne)
 
 `features`, `benefits` — lista caracteristicilor principale ale produsului, serviciului
 
