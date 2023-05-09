@@ -265,7 +265,7 @@
         </li>
 
         <li class="news__item item-news">
-            <h4 class="item-news__title">Oamenii de știință au explicat rolul pilei în    îngrijirea unghiilor</h4>
+            <h4 class="item-news__title">Oamenii de știință au explicat rolul pilei în îngrijirea unghiilor</h4>
             <div class="item-news__text">
               <p>Oamenii de știință din Marea Britanie au lăudat 
                 contribuția pilei la obținerea unor unghii lungi 
