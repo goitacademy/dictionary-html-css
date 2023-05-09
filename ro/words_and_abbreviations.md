@@ -30,7 +30,7 @@ Exemplu: <br>
 Înveliș pentru celulele gridului modular. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`grid__row` (unul sau mai multe "rânduri" ale gridului modular)
+`grid__row` (unul sau mai multe rânduri ale gridului modular)
 
 ### `column`
 
@@ -90,7 +90,7 @@ Exemplu: `sidebar`, `aside`  <br>
 
 ### `item`, `element`, `part`
 
-O parte, un element, o "unitate" separată. Un cuvânt universal dacă nu este ceva specific. <br>
+O parte, un element, o unitate separată. Un cuvânt universal dacă nu este ceva specific. <br>
 Prescurtare: `element` → `el` <br>
 Exemplu: <br>
 `main-nav__list-item` (un element de listă în navigarea principală, probabil, `li`), <br>
@@ -168,223 +168,223 @@ Exemplu: <br>
 
 ### `title`, `heading`, `caption`
 
-Titlu (часто применяется на заголовочных тегах, но не обязательно на них). <br>
-Prescurtare: нет  <br>
+Titlu (se aplică cel mai des la tag-urile de titlu, dar nu neapărat). <br>
+Prescurtare: niciuna <br>
 Exemplu: <br>
 `promo__title` (titlu pentru bloc de publicitate)
 
 ### `subtitle`
 
 Subtitlu. <br>
-Prescurtare: нет <br>
+Prescurtare: niciuna <br>
 Exemplu: <br>
 `post__subtitle` (subtitlul postării de blog)
 
 ### `name`
 
-Название. <br>
-Сокращение: нет <br>
-Пример: `product__name` <br>
+Nume, denumire. <br>
+Prescurtare: niciuna <br>
+Exemplu: `product__name` <br>
 
 ### `slogan`
 
-Слоган. <br>
-Сокращение: нет <br>
-Пример: <br>
-`logo__slogan` (слоган в блоке логотипа)
+Slogan. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`logo__slogan` (slogan în blocul logo)
 
 ### `user`
 
-Пользователь. <br>
-Сокращение: нет <br>
-Пример: <br>
-`user` (блок авторизованного/неавторизованного посетителя, к примеру, в шапке)
+Utilizator. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`user` (bloc de vizitatori autorizați/neautorizați, de exemplu, în antet)
 
 ### `label`, `tag`
 
-Метка, тег. <br>
-Сокращение: нет <br>
-Пример: <br>
-`label` (лейбл), <br>
-`post__tags-list` (список меток записи в блоге)
+Tag, etichetă. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`label` (label), <br>
+`post__tags-list` (listă de tag-uri pentru postările pe blog)
 
 ### `category`
 
-Рубрика(и). <br>
-Сокращение: `cat`  <br>
-Пример: <br>
-`post__cats` (рубрики записи в блоге)
+Categorie. <br>
+Prescurtare: `cat`  <br>
+Exemplu: <br>
+`post__cats` (categorii pentru postările pe blog)
 
 ### `dropdown`
 
-Выпадающий элемент (направление выпадения не имеет значения). <br>
-Сокращение: `drop`  <br>
-Пример: <br>
-`filter__drop` (выпадающий по клику блок в фильтре)
+Element derulant (direcția derulării nu contează) <br>
+Prescurtare: `drop` <br>
+Exemplu: <br>
+`filter__drop` (bloc derulant la click din filtru)
 
 ### `search`
 
-Поиск. <br>
-Сокращение: нет <br>
-Пример: <br>
-`search-form` (блок быстрого поиска, возможно, в «шапке»)
+Căutare. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`search-form` (bloc pentru căutare rapidă, eventual în antet)
 
 ### `socials`
 
-Социальные сети (иконки, обычно). <br>
-Сокращение: нет <br>
-Пример: <br>
-`socials__list` (список с соц. ссылками)
+Social media (iconițe, de obicei). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`socials__list` (listă cu linkuri către rețelele sociale)
 
 ### `carousel`, `slider`
 
-Карусель, слайдер (несколько сменяющих друг друга слайдов). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__slider` (карусель в промо-блоке)
+Carousel, slider (mai multe slide-uri succesive). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo__slider` (carousel în blocul publicitar)
 
 ### `header`
 
-Верхняя часть, «шапка». <br>
-Сокращение: нет <br>
-Пример: <br>
-`page-header` («шапка» страницы), <br>
-`post__header` («шапка» записи в блоге)
+Partea de sus, antet. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`page-header` (antetul paginii), <br>
+`post__header` (antet pentru postările pe blog)
 
 ### `footer`
 
-Нижняя часть, «подвал». <br>
-Сокращение: нет <br>
-Пример: <br>
-`page-footer` («подвал» страницы), <br>
-`post__footer` («подвал» записи в блоге)
+Partea de sus, subsol. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`page-footer` (subsolul paginii), <br>
+`post__footer` (subsol pentru postările pe blog)
 
 ### `additional`
 
-Добавление чего-либо. <br>
-Сокращение: `add`  <br>
-Пример: <br>
-`location__btn-add` (кнопка добавления в блоке какого-то места)
+Adăugarea a ceva. <br>
+Prescurtare: `add`  <br>
+Exemplu: <br>
+`location__btn-add` (buton de adăugare într-un loc undeva în bloc)
 
 ### `info`, `meta`
 
-Информация о какой-либо сущности. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__info` (информация о записи в блоге)  
+Informații despre o entitate. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`post__info` (informații despre o postare din blog)  
 
 ### `body`
 
-Главная контентная часть чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__body` (основной текстовой фрагмент записи в блоге)
+Partea principală de conținut a ceva. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`post__body` (fragment text principal al postării din blog)
 
 ### `content`
 
-Содержимое чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__content` (основной текстовой фрагмент записи в блоге)
+Conținutul a ceva. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`post__content` (fragment text principal al postării din blog)
 
 ### `section`
 
-Крупный раздел чего-либо. <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo__section` (большой раздел промо-блока)
+Secțiune mare din ceva. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo__section` (secțiune mare a blocului publicitar)
 
 ### `icon`
 
-Иконка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`icon--twitter` (иконка соц. сети (модификатор))
+Iconiță. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`icon--twitter` (iconiță pentru rețele sociale (modificator))
 
 ### `link`
 
-Cсылка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product__more-link` (ссылка «Далее» в блоке продукта)
+Link. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`product__more-link` (link "Următorul" în blocul produsului)
 
 ### `list`
 
-Cписок. <br>
-Сокращение: нет <br>
-Пример: <br>
-`features__list` (список преимуществ)
+Listă. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`features__list` (lista de avantaje)
 
 ### `description`
 
-Описание какой-либо сущности <br>
-Сокращение: `descr` <br>
-Пример: <br>
-`product__descr` (описание продукта)
+Descrierea unei entități.<br>
+Prescurtare: `descr` <br>
+Exemplu: <br>
+`product__descr` (descrierea produsului)
 
 ### `image`
 
-Изображение. <br>
-Сокращение: `img`  <br>
-Пример: <br>
-`promo__img` (изображение в промо-блоке)
+Imagine. <br>
+Prescurtare: `img` <br>
+Exemplu: <br>
+`promo__img` (imagine a blocului publicitar)
 
 ### `picture`
 
-Изображение. <br>
-Сокращение: `pict`, `pic`  <br>
-Пример: <br>
-`promo__pict` (картинка в промо-блоке)
+Imagine. <br>
+Prescurtare: `pict`, `pic` <br>
+Exemplu: <br>
+`promo__pict` (imagine a blocului publicitar)
 
 ### `toggle`
 
-Переключение, тумблер. Часто — «гамбургер», переключающий показ/сокрытие главного меню (на медиа-условии, при котором меню скрывается под «гамбургером»). <br>
-Сокращение: нет <br>
-Пример: <br>
-`main-nav__toggle` (переключатель видимости гл. меню)
+Comutator. Cel mai des un comutator "hamburger" pentru a afișa/ascunde meniul principal (în condițiile în care meniul este ascuns sub "hamburger"). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`main-nav__toggle` (comutator de vizibilitate a meniului principal)
 
 ### `tab`
 
-Вкладка. <br>
-Сокращение: нет <br>
-Пример: <br>
-`tabs` (вкладки), <br>
-`promo__tab` (вкладка в промо-блоке)
+Filă. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`tabs` (file), <br>
+`promo__tab` (filă a blocului publicitar)
 
 ### `thumbnail`
 
-Миниатюра (обычно, в какой-либо галерее). <br>
-Сокращение: `thumb` <br>
-Пример: <br>
-`photo__thumb` (миниатюра в фотогалерее)
+Miniatură (de obicei, într-o galerie). <br>
+Prescurtare: `thumb` <br>
+Exemplu: <br>
+`photo__thumb` (miniatură în galeria foto)
 
 ### `avatar`
 
-Аватарка, маленькая картинка пользователя. <br>
-Сокращение: нет <br>
-Пример: <br>
-`user__avatar` (аватарка пользователя в блоке пользователя в шапке)
+Avatar, o mică imagine a utilizatorului.  <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`user__avatar` (avatarul utilizatorului în blocul utilizatorului din antet)
 
 ### `text`
 
-Текстовой фрагмент (обычно, выводимый из CMS). <br>
-Сокращение: нет <br>
-Пример: <br>
-`about__text` (текст «о нас», вероятно обертка вокруг нескольких параграфов)
+Fragment textual (de obicei, extras din CMS). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`about__text` (text "Despre noi", probabil un înveliș în jurul a câteva paragrafe)
 
 ### `author`
 
 Автор. <br>
-Сокращение: нет <br>
-Пример: <br>
-`post__author` (имя/ник автора записи в блоге)
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`post__author` (numele/nickul autorului postăriid din blog)
 
 ### `more`
 
-«далее», «подробнее». <br>
-Сокращение: нет <br>
-Пример: <br>
-`product__more-link` (кнопка или ссылка в промо-блоке, предлагающая ознакомиться подробнее)
+"Detalii", "Mai multe". <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`product__more-link` (buton sau link din blocul publicitar care sugerează detalii suplimentare)
 
 ## Модификации, состояния
 
