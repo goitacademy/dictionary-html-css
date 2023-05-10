@@ -1,217 +1,216 @@
-# Словарь терминов по фронтенду
+# Glosar de termeni frontend
 
-Оглавление: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) J [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) X Y Z
+Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) J [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) X Y Z
 
 ## 0-9
 
 ### 9-slice scaling
 
-**9-дольное масштабирование** (неискажающее масштабирование), техника, позволяющая изменять размер объекта без геометрических искажений. Объект делится на 9 долей (3 строки и 3 колонки), каждая из которых масштабируется по собственным правилам: углы не масштабируются совсем, центральная доля масштабируется по высоте и по ширине, оставшиеся доли масштабируются либо только по ширине, либо только по высоте.
+**9-slice scaling** (scalare fără distorsiuni), o tehnică care permite redimensionarea obiectului fără distorsiuni geometrice. Obiectul este împărțit în 9 părți (3 rânduri și 3 coloane), fiecare dintre acestea fiind redimensionată în funcție de propriile reguli: colțurile nu sunt deloc redimensionate, partea central este redimensionată în înălțime și lățime, iar restul părților sunt redimensionate fie numai în lățime, fie numai în înălțime.
 
 ## A
 
 ### accessibility, a11y
 
-**доступность,** возможность использования интерфейса всеми, независимо от физических или технических ограничений.
+**accesibilitate,** capacitatea de utilizare a interfeței de oricine, indiferent de restricțiile fizice sau tehnice.
 
 ### adaptive design
 
-**адаптивный дизайн,** подход к дизайну сайтов, учитывающий их адаптацию под различные устройства и условия, противопоставляется распространённому «фиксированному» дизайну только для компьютеров. Один из способов создания адаптивного дизайна — методики [отзывчивого дизайна](#responsive-design).
+**design adaptiv**, abordare a web designului care ia în considerare adaptarea la diferite dispozitive și medii, spre deosebire de designul obișnuit "fix", destinat exclusiv calculatoarelor. O modalitate de a crea design adaptiv este prin tehnici de [responsive design] (#responsive-design).
 
 ### almost standards mode
 
-**почти стандартный режим,** режим интерпретации и отображения страницы браузером, в котором браузер целенаправленно отходит от стандартов (как при [режиме совместимости](#quirks-mode)) лишь для отдельных особых случаев, используется для страниц с переходными [доктайпами](#doctype) HTML 4 и XHTML 1.
+**mod aproape standard,** mod de interpretare și afișare a unei pagini de către browser, în care browserul se abate în mod deliberat de la standarde (ca în [compatibility mode](#quirks-mode)) numai pentru anumite cazuri speciale, utilizat pentru paginile de tranziție cu [doctypes](#doctype) HTML 4 și XHTML 1.
 
 ### anchor
 
-1. **ссылка,** гиперссылка между двумя документами.
-2. **якорь,** ссылка на элемент в пределах документа, может быть частью гиперссылки.
+1. **link,** hyperlink între două documente.
+2. **ancoră,** referință la un element dintr-un document, poate face parte dintr-un hyperlink.
 
 ### animation
 
-**анимация,** плавное изменение визуальных параметров объекта.
+**animație,** schimbare lină a parametrilor vizuali ai unui obiect.
 
 ### asset
 
-**ресурс,** составная часть сайта: текстовые файлы, графика, видео, базы данных и др. В узком смысле «статический ресурс»: стили, скрипты, оформительская графика, в противоположность динамическому [содержимому](https://github.com/web-standards-ru/dictionary/blob/master/dictionary.md#content).
+**resursă,** parte componentă a unui site: fișiere text, grafică, video, baze de date, etc. În sens restrâns, o "resursă statică": stiluri, scripturi, grafică de design, spre deosebire de [conținutul] dinamic (https://github.com/web-standards-ru/dictionary/blob/master/dictionary.md#content).
 
 ### assert
 
-**проверка,** условие, которое проверяется, употр. в тестировании, напр. _field assert has failed — проверка поля не прошла._
+**verificare,** condiție, care este verificată, utilizată în testare, de ex. _field assert has failed — verificarea câmpului a eșuat._
 
 ### at-keyword
 
-**ключ директивы,** см. [директива](#at-rule)
+**cheia directivei,** vezi [directivă](#at-rule)
 
 ### at-rule
 
-**директива,** тип [объявления](#statement), начинающегося со знака `@`, напр. _@import_.
+**directivă,** tip de [declarație](#statement) care începe cu un semn `@`, de ex. _@import_.
 
 ### attribute
 
-**атрибут,** напр. `rel="stylesheet"`.
+**atribut,** de ex. `rel="stylesheet"`
 
-- attribute name — **название атрибута**
-- attribute value — **значение атрибута**
+- attribute name — **nume atribut**
+- attribute value — **valoare atribut**
 
 ## B
 
 ### back-end
 
-**бэке́нд**
+**back-end**
 
-1. область веб-технологий, работающих на сервере.
-2. внутренняя часть серверной системы, занимается обработкой данных.
+1. Zonă a tehnologiei web care rulează pe un server.
+2. Partea internă a sistemului serverului, care se ocupă cu prelucrarea datelor.
 
 ### background
 
-**фон,** напр. _background image — фоновое изображение._
+**fundal,** de ex. _background image — imagine de fundal._
 
-- background-color — **цвет фона**
-- background-position — **позиция фона**
-- background-size — **размер фона**
-- background-repeat — **повторение фона**
-- background-origin — **границы фона**
-- background-clip — **обрезка фона**
-- background-attachment — **закрепление фона**
-- background-image — **фоновое изображение**
+- background-color — **culoare fundal**
+- background-position — **poziție fundal**
+- background-size — **dimensiune fundal**
+- background-repeat — **repetare fundal**
+- background-origin — **graniță fundal**
+- background-clip — **decupare fundal**
+- background-attachment — **fixare fundal**
+- background-image — **imagine de fundal**
 
 ### baseline
 
-**базовая линия,** воображаемая линия в основании букв в строке.
+**linie de bază,** linie imaginară la baza literelor din șir.
 
 ### bikeshed
 
-**уделять чрезмерное внимание мелочам,** (см. [закон тривиальности](https://ru.wikipedia.org/wiki/Закон_тривиальности)). Устоявшегося русского эквивалента нет, при переводе лучше передавать общий смысл, напр. _avoid bikeshedding — не спорить о мелочах_.
+**a acorda o atenție excesivă banalităților,** (vezi [legea banalității]([legea banalității](https://en.wikipedia.org/wiki/Law_of_triviality)). Nu există un echivalent stabilit în limba română, este mai bine să se traducă sensul general, de exemplu _avoid bikeshedding - nu vă certați din fleacuri._
 
 ### blending mode
 
-**режим наложения,** алгоритм смешивания слоёв, применяемый в графических редакторах или прямо в CSS, напр. _overlay blending mode — режим наложения перекрытием._
+**mod de amestecare,** algoritm de amestecare a layerelor utilizat în editorii grafici sau direct în CSS, de exemplu. _overlay blending mode — mod de amestecare prin suprapunere.
 
 ### block
-
-1. **блок деклараций,** структурная часть [объявления](#statement). Заключается в фигурные скобки и содержит декларации свойств (или, в случае медиавыражения, блоки стилей).
-2. **блочный вид,** см. [вид](#display)
+1. **bloc de declarații,** parte structurală a [declarației](#statement). Închisă între acolade și conține declarații cu proprietăți (sau, în cazul unei expresii media, blocuri de stil).
+2. **aspect de bloc,** vezi [view](#display).
 
 ### blockquote
 
-**блочная цитата,** HTML-элемент для выделения цитируемой _нестрочной_ области документа. Может содержать атрибут `cite` со ссылкой на первоисточник.
+**blockquote,** element HTML pentru evidențierea secțiunii fără ghilimele a unui document. Poate conține un atribut `cite` cu o legătură către sursa originală.
 
 ### border
 
-**рамка,** внешняя видимая часть блока, напр. _border-left — рамка слева._
+**chenar,** partea exterioară vizibilă a blocului, de exemplu. _border-left este chenarul din stânga._
 
-- border-collapse — слияние рамки
-- border-color — цвет рамки
-- border-image — графическая рамка
-- border-image-outset — выступ графической рамки
-- border-image-repeat — повторение графической рамки
-- border-image-slice — разбивка графической рамки
-- border-image-source — адрес изображения для графической рамки
-- border-image-width — толщина графической рамки
-- border-radius — скругление рамки
-- border-style — стиль рамки
-- border-width — ширина рамки
+- border-collapse — **combinare chenar**
+- border-color — **culoare chenar**
+- border-image — **chenar grafic**
+- border-image-outset — **distanță chenar grafic**
+- border-image-repeat — **repetare chenar grafic**
+- border-image-slice — **tăierea pe părți a chenarului grafic**
+- border-image-source — **adresa imaginii pentru chenarul grafic**
+- border-image-width — **grosime chenar grafic**
+- border-radius — **rotunjire chenar**
+- border-style — **stil chenar**
+- border-width — **lățime chenar**
 
 ### border-radius
 
-**скругление рамки,** напр., _border-radius: 3px — скругление рамки на 3 пикселя, border-top-left-radius — скругление верхнего левого угла,_ см. также [скруглённые углы](#rounded-corners).
+**rotunjire chenar,** de ex., _border-radius: 3px — rotunjirea chenarului cu 3 px, border-top-left-radius — rotunjirea colțului din stânga sus,_ de asemenea, vezi [rotunjire colțuri](#rounded-corners).
 
 ### bounding box
 
-**окаймляющий блок**
+**bloc de bordură**
 
 ### box model
 
-**блочная модель,** система размерностей блока, состоит из содержимого, отступа, рамки и внешнего отступа.
+**model bloc,** sistem dimensional de blocuri, format din conținut, margină, chenar și padding.
 
 ### box-shadow
 
-**тень (блока),** напр. _box-shadow is red — тень блока красная._
+**umbra (blocului),** de ex. _box-shadow is red — umbra blocului este roșie._
 
 ### breadcrumbs
 
-**хлебные кро́шки,** вспомогательная навигация на сайте, последовательно отражающая структуру или пройденные шаги.
+**breadcrumbs,** navigare auxiliară pe site, care indică în mod succesiv structura sau pașii parcurși de utilizator.
 
 ### breakpoint
 
-1. **брейкпоинт,** — одно из широко употребимых многозначных переводов, точное значение понятно из контекста.
-2. **точка останова,** строка в коде, на которой выполнение скрипта приостанавливается для вызова отладчика.
-3. **контрольная точка,** условие, при котором раскладка сайта меняется с одной на другую. Характерно для медиавыражений.
+1. **breakpoint,** este una dintre traducerile utilizate în mod obișnuit, sensul exact fiind clar din context.
+2. **punct de oprire,** o linie din cod la care execuția scriptului este întreruptă pentru a apela debuggerul.
+3. **punct de control,** condiția în care aspectul site-ului se schimbă din unul în altul. Tipic pentru expresiile media.
 
 ### browser
 
-**бра́узер**
+**browserr**
 
 ### button
 
-**кнопка**
+**buton**
 
-1. элемент интерфейса, при нажатии отправляющий форму или производящий иное действие
-2. элемент формы `<button>` или `<input type="button">` (также `submit` и `image`).
+1. Element de interfață, la apăsarea căruia este trimis un formular sau se face o altă acțiune.
+2. Element de formular `<button>` sau `<input type="button">` (de asemenea `submit` și `image`).
 
 ## C
 
 ### callback
 
-**колбэк,** исполнение кода по завершению работы функции, напр. _pass value in a callback — передай значение в колбэке._
+**callback,** executarea codului atunci când funcția este terminată, de exemplu. _pass value in a callback - transmite valoarea într-un callback._
 
 ### candidate recommendation (CR)
 
-**кандидат в рекомендации,** статус спецификации [W3C](#world-wide-web-consortium-w3c), один из возможных вариантов для [предложенной рекомендации](#proposed-recommendation-pr).
+**candidat la recomandare,** statutul specificației [W3C](#world-wide-web-consortium-w3c), o opțiune posibilă pentru [recomandarea propusă](#proposed-recommendation-pr).
 
 ### cascade
 
 ### cascade
 
-**каскад,** описанная в спецификации CSS схема, определяющая порядок применения к элементу блоков стилей.
+**cascadă,** schemă descrisă în specificația CSS care definește modul în care blocurile de stil sunt aplicate unui element.
 
 ### cascade layer
 
-**каскадный слой,** способ группировки и управления порядком применения стилей в рамках одного [источника](#cascade-origin), объявляется с помощью [директивы](#at-rule) `@layer`. Напр. _rules within a cascade layer cascade together_ — _правила в каскадных слоях каскадируют вместе._
+**layer în cascadă,** modalitate de a grupa și de a controla ordinea în care sunt aplicate stilurile în cadrul unei singure [surse](#cascade-origin), declarată cu ajutorul [directivei](#at-rule) `@layer`. De ex. _rules within a cascade layer cascade together_ — _regulile din cadrul layerelor în cascadă se aplică în cascadă la un loc._
 
 ### cascade origin
 
-**каскадный источник,** встроенная в браузеры область описания стилей, порядок источников определяет применение стилей или [каскад](#cascade): от стилей браузера до transition-деклараций. Напр. _there are eight cascade origings, including user styles_ — _есть восемь каскадных источников, включая пользовательские стили._
+**sursă în cascadă,** zonă de descriere a stilurilor încorporată în browsere, ordinea surselor determină aplicarea stilurilor sau [cascada](#cascade): de la stilurile browserului la transition-property. De ex. _there are eight cascade origings, including user styles_ — _există opt surse în cascadă, inclusiv stilurile utilizatorului._
 
 ### cell
 
-**ячейка**
+**celulă**
 
-1. структурная единица таблицы.
-2. элемент таблицы `<td>` или `<th>`.
+1. Unitate structurală a tabelului.
+2. Element al tabelului `<td>` sau `<th>`.
 
 ### cellpadding
 
-**отступ в ячейках** таблицы.
+**padding în celulele** tabelului.
 
 ### cellspacing
 
-**расстояние между ячейками** таблицы.
+**distanța între celulele** tabelului.
 
 ### character reference
 
-**символьная подстановка,** напр. `&nbsp;`. Допустим также не совсем точный, но более устоявшийся перевод **спецсимвол.**
+**entități,** de ex. `&nbsp;`. De asemenea, se acceptă o traducere nu complet exactă, dar mai bine cunoscută **simboluri speciale.**
 
 ### checkbox
 
-**чекбо́кс**
+**checkbox**
 
-1. элемент интерфейса для выбора одного или нескольких вариантов, напр. _checkbox is disabled — чекбокс неактивен._
-2. элемент формы `<input type="checkbox">`.
+1. Element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled - checkbox este inactiv._
+2. Element de formular `<input type="checkbox">`.
 
 ### child
 
-1. сущ. **потомок,** (во мн. ч. children — **потомки**)
-2. прил. **дочерний,** напр. _child process_ — _дочерний процесс_
+1. Substantiv **copil,** (plural children — **copii**)
+2. Adjectiv **înrudit,** de ex. _child process — proces înrudit_
 
 ### classitis
 
-**классянка,** выдуманное заболевание, для которого характерно чрезмерное использование множественных классов: как для оформления, так и для хранения информации.
+**classitis,** o boală inventată caracterizată prin utilizarea excesivă a mai multor clase: atât pentru proiectare, cât și pentru stocarea informațiilor.
 
 ### clear
 
-**отмена обтекания,** CSS-свойство, запрещающее блоку обтекать предшествующие плавающие блоки.
+**anulare flux,** proprietate CSS care împiedică un bloc să se alinieze cu blocurile plutitoare precedente.
 
 - clear: left — **отмена обтекания слева**
 - clear: right — **отмена обтекания справа**
