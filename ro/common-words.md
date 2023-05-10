@@ -110,7 +110,7 @@
 
 `narrow` — îngust
 
-`wide` — larg
+`wide` — lat
 
 ## Diverse
 
@@ -303,7 +303,7 @@
 </article>
 ```
 
-### Articol sau postare de blog (varinata dificilă)
+### Articol sau postare de blog (varianta dificilă)
 
 ```html
 <article class="entry">
