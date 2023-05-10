@@ -218,28 +218,28 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### clearfix
 
-**clearfix,** приём для предотвращения схлопывания контейнеров с плавающими блоками. Заключается в создании специальной распорки, которая располагается после плавающих блоков и отменяет их обтекание. Частный случай решения проблем с флоатами (см. [сводную таблицу всех проблем и решений](http://css-live.ru/articles-css/clearfix-block-formatting-context-methods-cheatsheet.html)).
+**clearfix,** metodă pentru a împiedica colapsul containerelor cu blocuri plutitoare. Aceasta constă în crearea unui spațiu special care este plasat după blocurile plutitoare și care anulează deplasarea acestora.
 
 ### click
 
-**клик,** нажатие на объект с помощью курсора мыши или подобного устройства, напр. _double click is firing event — двойной клик вызывает событие._
+**click,** apăsarea pe obiect cu cursorul mouse-ului sau cu un dispozitiv similar, de exemplu _double click is firing event — dublu click declanșează evenimentul._
 
 ### client-side
 
-**клиентсайд,** область технологий, работающих в браузере, часто синоним [фронтенда](#front-end).
+**client-side,** domeniu al tehnologiei bazate pe browser, adesea sinonim cu [front-end](#front-end).
 
 ### clipping path
 
-**контур обрезки**
+**imagine decupată**
 
 ### closure
 
-**замыкание,** функция, содержащая в теле ссылки на переменные, объявленные в окружающем коде.
+**closure,** funcție care conține în corpul său referințe către variabilele declarate în codul înconjurător.
 
 ### code
 
-1. сущ. **код,** неисчисл. (как сахар), напр. _error in code — ошибка в коде,_ но не _ошибка в кодах_ (неправильно).
-2. гл. **писать код, верстать, программировать,** напр. _to code a site — верстать сайт._
+1. Substantiv **cod,** fără plural, (ca soare), de ex. _error in code — eroare în cod,_ dar nu _eroare în coduri (greșit)._
+2. Verb **a scrie cod, a programa,** de ex. _to code a site — a scrie codul unui site._
 
 ### colspan
 
