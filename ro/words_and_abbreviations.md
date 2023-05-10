@@ -4,11 +4,11 @@ Divizarea în subsecțiuni este condiționată și nu prevede nicio obligație.
 
 Realizat ca o completare la: <https://github.com/goitacademy/dictionary-html-css/blob/main/ro/common-words.md>.
 
-## Blocurile/elementele mari
+## Blocuri/elemente mari
 
 ### `page`
 
-Pagina (de obicei, elementul rădăcină). <br>
+Pagină (de obicei, elementul rădăcină). <br>
 Prescurtare: niciuna <br>
 Exemplu: `page`
 
@@ -23,7 +23,7 @@ Exemplu: `container`
 Grid (pentru amplasarea blocurilor pe un grid modular). <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`grid` (element în care va fi amplasat gridul modular)
+`grid` (element pe care va fi amplasat gridul modular)
 
 ### `row`
 
@@ -48,10 +48,10 @@ Exemplu: <br>
 
 ### `inner`
 
-Înveliș intern a ceva (cel mai des pentru a limita lățimea și alinierea la centru). <br>
+Înveliș intern a ceva (cel mai des, pentru a limita lățimea și alinierea la centru). <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`promo__inner` (înveliș intern a blocului de publicitate)
+`promo__inner` (înveliș intern al blocului de publicitate)
 
 ### `navigation`
 
@@ -75,7 +75,7 @@ Exemplu: <br>
 
 ### `cart`
 
-Coșul din magazin. <br>
+Coș din magazin. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
 `cart` (bloc de coș pe pagina coșului)
@@ -86,14 +86,14 @@ Informații suplimentare (cel mai des o coloană îngustă pe o pagină de blog)
 Prescurtare: niciuna  <br>
 Exemplu: `sidebar`, `aside`  <br>
 
-## Мелкие блоки/элементы
+## Blocuri/elemente mici
 
 ### `item`, `element`, `part`
 
 O parte, un element, o unitate separată. Un cuvânt universal dacă nu este ceva specific. <br>
 Prescurtare: `element` → `el` <br>
 Exemplu: <br>
-`main-nav__list-item` (un element de listă în navigarea principală, probabil, `li`), <br>
+`main-nav__list-item` (element de listă în navigarea principală, probabil, `li`), <br>
 `filter__part` (parte tipică a filtrului)
 
 ### `widget`
@@ -124,7 +124,7 @@ Exemplu: <br>
 
 ### `pagination`
 
-Navigarea prin mai multe pagini (1 2 3 ...). <br>
+Navigare prin mai multe pagini (1 2 3 ...). <br>
 Prescurtare: niciuna <br>
 Exemplu: `pagination` <br>
 
@@ -160,25 +160,25 @@ Exemplu: `copyright` <br>
 
 ### `button`
 
-Buton/butonae. Butonul în sine — întotdeauna un [bloc BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Poate avea un amestec de elemente BEM. Cuvântul poate fi utilizat în clasele wrapper (vedeți exemplu). <br>
+Buton/butonae. Butonul în sine — întotdeauna un [bloc BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Poate conține un mix de elemente BEM. Cuvântul poate fi utilizat în clasele wrapper (vezi exemplu). <br>
 Prescurtare: `btn` <br>
 Exemplu: <br>
 `btn` (buton aparte), <br>
-`.promo__btns` (înveliș pentru butoane din blocul de publicitate)
+`.promo__btns` (înveliș pentru butoane din blocul publicitar)
 
 ### `title`, `heading`, `caption`
 
 Titlu (se aplică cel mai des la tag-urile de titlu, dar nu neapărat). <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`promo__title` (titlu pentru bloc de publicitate)
+`promo__title` (titlu pentru blocul publicitar)
 
 ### `subtitle`
 
 Subtitlu. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`post__subtitle` (subtitlul postării de blog)
+`post__subtitle` (subtitlul postării pe blog)
 
 ### `name`
 
@@ -211,7 +211,7 @@ Exemplu: <br>
 ### `category`
 
 Categorie. <br>
-Prescurtare: `cat`  <br>
+Prescurtare: `cat` <br>
 Exemplu: <br>
 `post__cats` (categorii pentru postările pe blog)
 
@@ -278,14 +278,14 @@ Exemplu: <br>
 Partea principală de conținut a ceva. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`post__body` (fragment text principal al postării din blog)
+`post__body` (fragment text principal al postării de pe blog)
 
 ### `content`
 
 Conținutul a ceva. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`post__content` (fragment text principal al postării din blog)
+`post__content` (fragment text principal al postării de pe blog)
 
 ### `section`
 
@@ -317,7 +317,7 @@ Exemplu: <br>
 
 ### `description`
 
-Descrierea unei entități.<br>
+Descrierea unei entități. <br>
 Prescurtare: `descr` <br>
 Exemplu: <br>
 `product__descr` (descrierea produsului)
@@ -377,7 +377,7 @@ Exemplu: <br>
 Автор. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`post__author` (numele/nickul autorului postăriid din blog)
+`post__author` (numele/nickul autorului postării de pe blog)
 
 ### `more`
 
@@ -386,182 +386,182 @@ Prescurtare: niciuna <br>
 Exemplu: <br>
 `product__more-link` (buton sau link din blocul publicitar care sugerează detalii suplimentare)
 
-## Модификации, состояния
+## Modificări, stări
 
 ### `active`, `current`
 
-Активный элемент (пункт навигации, активный таб). <br>
-Сокращение: нет <br>
-Пример: <br>
-`main-nav__item--active` (модификатор на пункте гл. навигации, соответствущем странице, на которой пребывает посетитель)
+Element activ (element de navigare, filă activă). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`main-nav__item--active` (modificator pe elementul principal de navigare care corespunde paginii pe care se află vizitatorul)
 
 ### `hidden`
 
-Скрытое. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product--hidden` (модификатор, скрывающий блок продукта)
+Ascunde. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`product--hidden` (modificator, care ascunde produsul)
 
 ### `shown`
 
-Показанное. <br>
-Сокращение: нет <br>
-Пример: <br>
-`product--shown` (модификатор, показывающий продукт)
+Arată. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`product--shown` (modificator, care arată produsul)
 
 ### `error`
 
-Состояние ошибки. <br>
-Сокращение: нет <br>
-Пример: <br>
-`field-text--error` (модификатор, помечающий блок текстового поля как ошибочное)
+Stare de eroare. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`field-text--error` (modificator, care marchează un bloc text ca fiind eronat)
 
 ### `success`
 
-Состояние успеха. <br>
-Сокращение: нет <br>
-Пример: <br>
+Stare de succes. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
 `field-text--success`
 
 ### `warning`
 
-Предупреждение. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--warning` (модификатор, меняющий вид кнопки)
+Avertizare. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`btn--warning` (modificator, care schimbă tipul butonului)
 
 ### `pending`
 
-Ожидание чего-либо (к примеру, ответа севера после асинхронной отправки формы). <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--pending` (модификатор, меняющий вид кнопки)
+Așteptarea a ceva (de exemplu, un răspuns de la server după trimiterea unui formular asincron). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`btn--pending` (modificator, care schimbă aspectul butonului)
 
-## Размеры
+## Dimensiuni
 
 ### `extra small`
 
-Очень маленький. <br>
-Сокращение: `xs` <br>
-Пример: <br>
-`grid__col-xs-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xs` (имя переменной с соотв. шириной вьюпорта в значении)
+Forte mic. <br>
+Prescurtare: `xs` <br>
+Exemplu: <br>
+`grid__col-xs-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă), <br>
+`screen-xs` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare)
 
 ### `small`
 
-Маленький. <br>
-Сокращение: `sm` <br>
-Пример: <br>
-`grid__col-sm-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-sm` (имя переменной с соотв. шириной вьюпорта в значении)
+Mic. <br>
+Prescurtare: `sm` <br>
+Exemplu: <br>
+`grid__col-sm-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă, <br>
+`screen-sm` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare
 
 ### `medium`
 
-Средний. <br>
-Сокращение: `md` <br>
-Пример: <br>
-`grid__col-md-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-md` (имя переменной с соотв. шириной вьюпорта в значении)
+Mediu. <br>
+Prescurtare: `md` <br>
+Exemplu: <br>
+`grid__col-md-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă), <br>
+`screen-md` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare)
 
 ### `large`
 
-Большой. <br>
-Сокращение: `lg` <br>
-Пример: <br>
-`grid__col-lg-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-lg` (имя переменной с соотв. шириной вьюпорта в значении)
+Mare. <br>
+Prescurtare: `lg` <br>
+Exemplu: <br>
+`grid__col-lg-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă), <br>
+`screen-lg` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare)
 
 ### `extra large`
 
-Очень большой. <br>
-Сокращение: `xl` <br>
-Пример: <br>
-`grid__col-xl-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xl` (имя переменной с соотв. шириной вьюпорта в значении)
+Foarte mare. <br>
+Prescurtare: `xl` <br>
+Exemplu: <br>
+`grid__col-xl-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă), <br>
+`screen-xl` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare)
 
 ### `extra extra large`
 
-Сафсэм балшой. <br>
-Сокращение: `xxl` <br>
-Пример: <br>
-`grid__col-xxl-6` (ячейка, занимающая 6 колонок модульной сетки на соотв. ширине), <br>
-`screen-xxl` (имя переменной с соотв. шириной вьюпорта в значении)
+Extrem de mare. <br>
+Prescurtare: `xxl` <br>
+Exemplu: <br>
+`grid__col-xxl-6` (celulă care ocupă 6 coloane din gridul modular pe lățimea respectivă), <br>
+`screen-xxl` (nume de variabilă cu lățimea viewport-ului corespunzătoare ca valoare)
 
 ### `narrow`
 
-Узкий. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--narrow` (модификатор, делающий кнопку узкой)
+Îngust. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`btn--narrow` (modificator, care face butonul îngust)
 
 ### `wide`
 
-Широкий. <br>
-Сокращение: нет <br>
-Пример: <br>
-`btn--wide` (модификатор, делающий кнопку широкой)
+Lat. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`btn--wide` (modificator, care face butonul lat)
 
 ### `phone`, `mobile`
 
-Мобильные устройства (телефоны до 5 дюймов). <br>
-Сокращение: нет  <br>
-Пример: <br>
-`promo--phone` (модификация промо-блока для соотв. устройств)
+Dispozitive mobile (telefoane de până la 5 inch). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo--phone` (modificarea blocului publicitar pentru dispozitivele respective)
 
 ### `tablet`
 
-Планшеты (ориентировочно до 12 дюймов). <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo--tablet` (модификация промо-блока для соотв. устройств)
+Tablete (orientativ până la 12 inch). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo--tablet` (modificarea blocului publicitar pentru dispozitivele respective)
 
 ### `notebook`, `laptop`
 
-Ноутбуки. <br>
-Сокращение: нет      <br>
-Пример: <br>
-`promo--laptop` (модификация промо-блока для соотв. устройств)
+Laptopuri. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo--laptop` (modificarea blocului publicitar pentru dispozitivele respective)
 
 ### `desktop`
 
-Настольные компьютеры. <br>
-Сокращение: нет <br>
-Пример: <br>
-`promo--desktop` (модификация промо-блока для соотв. устройств)
+Calculatoare desktop. <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`promo--desktop` (modificarea blocului publicitar pentru dispozitivele respective)
 
-## Прочее
+## Altele
 
 ### `previous`
 
-Предыдущее (часто - ссылка/кнопка). <br>
-Сокращение: `prev`  <br>
-Пример: <br>
-`slider__prev` (кнопка/стрелка на слайдере)
+Anterior (cel mai des, un link/buton). <br>
+Prescurtare: `prev` <br>
+Exemplu: <br>
+`slider__prev` (buton/săgeată pe slider)
 
 ### `next`
 
-Следущее (часто - ссылка/кнопка). <br>
-Сокращение: нет <br>
-Пример: <br>
-`slider__next` (кнопка/стрелка на слайдере)  
+Următorul (cel mai des, un link/buton). <br>
+Prescurtare: niciuna <br>
+Exemplu: <br>
+`slider__next` (buton/săgeată pe slider)
 
 ### `advertisement`
 
-Рекламный фрагмент (осторожно, может вырезаться баннерорезками). <br>
-Сокращение: `adv`  <br>
-Пример: <br>
-`aside__adv` (рекламный блок в сайдбаре)
+Fragment publicitar (atenție, acesta poate fi tăiat printr-un instrument de ștergere a bannerelor). <br>
+Prescurtare: `adv` <br>
+Exemplu: <br>
+`aside__adv` (bloc publicitar în bara laterală)
 
 ### `background`
 
-Фон (чаще — какое-то изменение фонового цвета блока). <br>
-Сокращение: `bg` <br>
-Пример: <br>
-`top-rated--bg-gray` (модификация фонового цвета блока самых рейтинговых товаров/услуг)
+Fundal (cel mai des, o modificare a culorii de fundal a blocului). <br>
+Prescurtare: `bg` <br>
+Exemplu: <br>
+`top-rated--bg-gray` (modificarea culorii de fundal a blocului cu produsele/serviciile cele mai populare)
 
 ### `number`
 
-Число. <br>
-Сокращение: `num`  <br>
-Пример: <br>
-`field-text--num` (модификатор для текстового поля, позволяющий иначе оформить числовые поля)
+Număr. <br>
+Prescurtare: `num`  <br>
+Exemplu: <br>
+`field-text--num` (modificator pentru câmp text, care permite aranjarea într-un mod diferit a câmpurilor numerice)
