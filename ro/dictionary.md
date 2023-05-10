@@ -210,15 +210,15 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### clear
 
-**anulare flux,** proprietate CSS care împiedică un bloc să se alinieze cu blocurile plutitoare precedente.
+**clear,** proprietate CSS care setează dacă un bloc trebuie să fie mutat sub blocurile plutitoare care îl preced. 
 
-- clear: left — **отмена обтекания слева**
-- clear: right — **отмена обтекания справа**
-- clear: both — **отмена обтекания с обеих сторон**
+- clear: left — **bloc împins sub blocurile plutitoare din stânga**
+- clear: right — **bloc împins sub blocurile plutitoare din dreapta**
+- clear: both — **bloc împins sub toate blocurile plutitoare**
 
 ### clearfix
 
-**клиарфикс,** приём для предотвращения схлопывания контейнеров с плавающими блоками. Заключается в создании специальной распорки, которая располагается после плавающих блоков и отменяет их обтекание. Частный случай решения проблем с флоатами (см. [сводную таблицу всех проблем и решений](http://css-live.ru/articles-css/clearfix-block-formatting-context-methods-cheatsheet.html)).
+**clearfix,** приём для предотвращения схлопывания контейнеров с плавающими блоками. Заключается в создании специальной распорки, которая располагается после плавающих блоков и отменяет их обтекание. Частный случай решения проблем с флоатами (см. [сводную таблицу всех проблем и решений](http://css-live.ru/articles-css/clearfix-block-formatting-context-methods-cheatsheet.html)).
 
 ### click
 
