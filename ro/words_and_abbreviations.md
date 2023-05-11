@@ -108,7 +108,7 @@ Exemplu: <br>
 Logo. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
-`logo` (n-o să vă vină să credeți...)
+`logo` (n-o să-ți vină să credeți...)
 `.partner__logo` (logo partener)
 
 ### `field`
