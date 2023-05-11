@@ -6,7 +6,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### 9-slice scaling
 
-**9-slice scaling** (scalare fără distorsiuni), o tehnică care permite redimensionarea obiectului fără distorsiuni geometrice. Obiectul este împărțit în 9 părți (3 rânduri și 3 coloane), fiecare dintre acestea fiind redimensionată în funcție de propriile reguli: colțurile nu sunt deloc redimensionate, partea central este redimensionată în înălțime și lățime, iar restul părților sunt redimensionate fie numai în lățime, fie numai în înălțime.
+**9-slice scaling** (scalare fără distorsiuni), o tehnică care permite redimensionarea obiectului fără distorsiuni geometrice. Obiectul este împărțit în 9 părți (3 rânduri și 3 coloane), fiecare dintre acestea fiind redimensionată în funcție de propriile reguli: colțurile nu sunt deloc redimensionate, partea centrală este redimensionată în înălțime și lățime, iar restul părților sunt redimensionate fie numai în lățime, fie numai în înălțime.
 
 ## A
 
@@ -20,7 +20,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### almost standards mode
 
-**mod aproape standard,** mod de interpretare și afișare a unei pagini de către browser, în care browserul se abate în mod deliberat de la standarde (ca în [compatibility mode](#quirks-mode)) numai pentru anumite cazuri speciale, utilizat pentru paginile de tranziție cu [doctypes](#doctype) HTML 4 și XHTML 1.
+**mod aproape standard,** mod de interpretare și afișare a unei pagini de către browser, în care browserul se abate în mod deliberat de la standarde (ca în [compatibility mode](#quirks-mode)) numai pentru anumite cazuri speciale, utilizat pentru paginile de tranziție cu [doctype](#doctype) HTML 4 și XHTML 1.
 
 ### anchor
 
@@ -60,15 +60,15 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **back-end**
 
-1. Zonă a tehnologiei web care rulează pe un server.
-2. Partea internă a sistemului serverului, care se ocupă cu prelucrarea datelor.
+1. zonă a tehnologiei web care rulează pe un server.
+2. partea internă a sistemului serverului, care se ocupă de prelucrarea datelor.
 
 ### background
 
 **fundal,** de ex. _background image — imagine de fundal._
 
 - background-color — **culoare fundal**
-- background-position — **poziție fundal**
+- background-position — **poziționare fundal**
 - background-size — **dimensiune fundal**
 - background-repeat — **repetare fundal**
 - background-origin — **graniță fundal**
@@ -78,18 +78,18 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### baseline
 
-**linie de bază,** linie imaginară la baza literelor din șir.
+**linie de bază,** linie imaginară la baza literelor unui șir.
 
 ### bikeshed
 
-**a acorda o atenție excesivă banalităților,** (vezi [legea banalității]([legea banalității](https://en.wikipedia.org/wiki/Law_of_triviality)). Nu există un echivalent stabilit în limba română, este mai bine să se traducă sensul general, de exemplu _avoid bikeshedding - nu vă certați din fleacuri._
+**a acorda o atenție excesivă banalităților,** (vezi [legea banalității]([legea banalității](https://en.wikipedia.org/wiki/Law_of_triviality)). Nu există un echivalent stabilit în limba română, este mai bine să se traducă sensul general, de exemplu _avoid bikeshedding — nu vă certați din fleacuri._
 
 ### blending mode
 
-**mod de amestecare,** algoritm de amestecare a layerelor utilizat în editorii grafici sau direct în CSS, de exemplu. _overlay blending mode — mod de amestecare prin suprapunere.
+**mod de amestecare,** algoritm de amestecare a layerelor utilizat în editorii grafici sau direct în CSS, de ex. _overlay blending mode — mod de amestecare prin suprapunere._
 
 ### block
-1. **bloc de declarații,** parte structurală a [declarației](#statement). Închisă între acolade și conține declarații cu proprietăți (sau, în cazul unei expresii media, blocuri de stil).
+1. **bloc de declarații,** parte structurală a [declarației](#statement). Cuprinsă între acolade, care conține declarații cu proprietăți (sau, în cazul unei media query, blocuri de stil).
 2. **aspect de bloc,** vezi [view](#display).
 
 ### blockquote
@@ -98,7 +98,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### border
 
-**chenar,** partea exterioară vizibilă a blocului, de exemplu. _border-left este chenarul din stânga._
+**chenar,** partea exterioară vizibilă a blocului, de ex. _border-left - chenar din stânga._
 
 - border-collapse — **combinare chenar**
 - border-color — **culoare chenar**
@@ -114,15 +114,15 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### border-radius
 
-**rotunjire chenar,** de ex. _border-radius: 3px — rotunjirea chenarului cu 3 px, border-top-left-radius — rotunjirea colțului din stânga sus_, de asemenea, vezi [rotunjire colțuri](#rounded-corners).
+**rotunjire chenar,** de ex. _border-radius: 3px — rotunjirea chenarului cu 3 px, border-top-left-radius — rotunjirea colțului din stânga sus_, vezi și [rotunjire colțuri](#rounded-corners).
 
 ### bounding box
 
-**bloc de bordură**
+**bounding box**
 
 ### box model
 
-**model bloc,** sistem dimensional de blocuri, format din conținut, margine, chenar și padding.
+**box model,** sistem dimensional de blocuri, format din conținut, margine, chenar și padding.
 
 ### box-shadow
 
@@ -134,20 +134,20 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### breakpoint
 
-1. **breakpoint,** este una dintre traducerile utilizate în mod obișnuit, sensul exact fiind clar din context.
+1. ** breakpoint, punct de rupere,** este una dintre traducerile utilizate de obicei, sensul exact fiind clar din context.
 2. **punct de oprire,** o linie din cod la care execuția scriptului este întreruptă pentru a apela debuggerul.
 3. **punct de control,** condiția în care aspectul site-ului se schimbă din unul în altul. Tipic pentru expresiile media.
 
 ### browser
 
-**browserr**
+**browser**
 
 ### button
 
 **buton**
 
-1. Element de interfață, la apăsarea căruia este trimis un formular sau se face o altă acțiune.
-2. Element de formular `<button>` sau `<input type="button">` (de asemenea `submit` și `image`).
+1. element de interfață, la apăsarea căruia este trimis un formular sau se face o altă acțiune.
+2. element de formular `<button>` sau `<input type="button">` (de asemenea `submit` și `image`).
 
 ## C
 
@@ -163,7 +163,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### cascade
 
-**cascadă,** schemă descrisă în specificația CSS care definește modul în care blocurile de stil sunt aplicate unui element.
+**cascadă,** algoritm descris în specificația CSS care definește modul în care blocurile de stil sunt aplicate unui element.
 
 ### cascade layer
 
@@ -196,13 +196,13 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **checkbox**
 
-1. Element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled - checkbox este inactiv._
-2. Element de formular `<input type="checkbox">`.
+1. element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled - checkbox dezactivat._
+2. element de formular `<input type="checkbox">`.
 
 ### child
 
 1. substantiv **copil,** (plural children — **copii**)
-2. adjectiv **înrudit,** de ex. _child process — proces înrudit_
+2. adjectiv **copil,** de ex. _child process — proces copil_
 
 ### classitis
 
@@ -226,7 +226,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### client-side
 
-**client-side,** domeniu al tehnologiei bazate pe browser, adesea sinonim cu [front-end](#front-end).
+**client-side,** domeniul tehnologiei bazate pe browser, adesea sinonim cu [front-end](#front-end).
 
 ### clipping path
 
@@ -257,23 +257,22 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **combinator,** caracter special utilizat într-un selector complex pentru a specifica cu precizie combinații de elemente DOM, de ex. `>`, `+` și altele. Un spațiu între selectori este considerat, de asemenea, un combinator.
 
-- descendant combinator — **combinatorul descendent,** ` ` (spațiu).
+- descendant combinator — **combinator descendent,** ` ` (spațiu).
 - child combinator — **combinator copil** `>`. Mai este numit **apropiat**.
 - adjacent sibling combinator — **combinator direct al vecinului,** `+`.
-- general sibling combinator — **combinatorul vecinului,** `~`.
+- general sibling combinator — **combinator vecin,** `~`.
 
 ### comment
 
-**comentariu,** explicație a codului
+**comentariu,** explicație a codului.
 
 ### component
 
-** componentă,** parte constitutivă a ceva. De ex. _app components_ — _componentele unei aplicații
-_
+** componentă,** parte constitutivă a ceva. De ex. _app components_ — _componentele unei aplicații._
 
 ### compositing
 
-** compositing**
+**compositing**
 
 ### composite layer
 
@@ -292,7 +291,7 @@ _
 
 ### content
 
-** conținut**
+**conținut**
 
 - metadata content — **meta conținut**
 - flow content — **conținut de flux**
@@ -314,10 +313,10 @@ _
 ** cookie,** un fragment scurt de date care este trimis de server și stocat în browser.
 
 - access to cookies — **acces la cookies**
-- cookie banner — **mesaj despre cookie**
-- authorization cookie — **cookie de autorizare**
-- first-party cookies — **cookie prima parte**
-- third-party cookies — ** cookie terță pasrte**
+- cookies banner — **mesaj despre cookies**
+- authorization cookies — **cookies de autorizare**
+- first-party cookies — **cookies prima parte**
+- third-party cookies — ** cookies terță parte**
 
 ### cross-browser
 
@@ -329,7 +328,7 @@ _
 
 ### custom properties
 
-**proprietăți personalizate,** proprietăți CSS de tip `--my-property`, pe care dezvoltatorii le pot crea pe cont propriu și le pot utiliza mai departe în cod ca variabile prin intermediul funcției `var()`. De asemenea, cunoscute ca **variabile CSS,** de ex. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — Variabilele CSS, cunoscute și sub numele de proprietăți personalizate CSS, vor apărea în Chrome 49.
+**proprietăți personalizate,** proprietăți CSS de tip `--my-property`, pe care dezvoltatorii le pot de sine stătător și le pot utiliza mai departe în cod ca variabile prin intermediul funcției `var()`. De asemenea, cunoscute ca **variabile CSS,** de ex. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — variabilele CSS, cunoscute și sub numele de proprietăți personalizate CSS, vor apărea în Chrome 49.
 
 ### CSS Working Group (CSSWG)
 
@@ -362,12 +361,12 @@ _
 
 ### deprecated
 
-**dezaprobat,** statutul unei caracteristici de limbaj a cărei utilizare nu se recomandă, întrucât deja _a fost înlocuită, eliminată sau _va fi_ în versiunile viitoare, de ex. _this API is a replacement of the deprecated `React.addons.cloneWithProps()` — этот API замена устаревшему `React.addons.cloneWithProps()`_ sau _`<applet>` is deprecated in favor of `<object>` — `<applet>` este marcat ca fiind dezaprobat în favoarea lui `<object>`._
+**dezaprobat,** statutul unei caracteristici de limbaj a cărei utilizare nu se recomandă, întrucât deja _a fost înlocuită, eliminată_ sau _va fi_ în versiunile viitoare, de ex. _this API is a replacement of the deprecated `React.addons.cloneWithProps()` — acest API este un înlocuitor al unuia învechit `React.addons.cloneWithProps()`_ sau _`<applet>` is deprecated in favor of `<object>` — `<applet>` este dezaprobat în favoarea lui `<object>`._
 
 ### design
 
 1. substantiv **design,** aspectul vizual al site-ului, poate încorpora principii de interacțiune și soluții de arhitectură, de ex. _new design for a site — un nou design pentru site._
-2. verb **dezcolta,** a crea sau proiecta aspectul și funcționalitatea site-ului.
+2. verb **a dezvolta,** a crea sau proiecta aspectul și funcționalitatea site-ului.
 
 ### device pixel ratio
 
@@ -375,7 +374,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### dirty checking
 
-**verificare privind proprietățile "murdare" ale obiectului,** adică [comparație profundă](#deep-comparison) proprietăților unui model care declanșează un [callback](#callback), dacă ceva s-a schimbat.
+**verificare privind proprietățile "murdare" ale obiectului,** adică [comparație profundă](#deep-comparison) a proprietăților unui model care declanșează un [callback](#callback), dacă ceva s-a schimbat.
 
 ### disable
 
@@ -387,12 +386,13 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### display
 
-1. **afișare,** proprietate css, care definește tipul de afișare a blocurilor.
+1. **afișare,** proprietate CSS, care definește tipul de afișare a blocurilor.
 
  - display: none — **afișare ascunsă**
  - display: block — **afișare de tip block**
  - display: inline — **afișare de tip inline**
  - display: inline-block — **afișare de tip inline-block**
+
 - display: flex — **afișare de tip flex** (vezi [flexbox](#flexbox))
 - display: inline-flex — **afișare de tip inline-flex** (vezi [flexbox](#flexbox))
 
@@ -408,11 +408,11 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### doctype
 
-**doctype,** formulare de tip `<DOCTYPE html>` la începutul unui document, care indică versiunea HTML utilizată. Se folosește de browsere pentru a selecta un mod ([standard](#standards-mode-standards-compliance-mode), [aproape standard](#almost-standards-mode) sau [compatibil](#quirks-mode)).
+**doctype,** formulare de tip `<DOCTYPE html>` la începutul unui document, care indică versiunea HTML utilizată. Se folosește de browsere pentru a selecta unul din moduri ([standard](#standards-mode-standards-compliance-mode), [aproape standard](#almost-standards-mode) sau [compatibil](#quirks-mode)).
 
 ### dropdown
 
-** meniu derulant** element de interfață care afișează informații suplimentare atunci când este activat.
+**meniu derulant** element de interfață care afișează informații suplimentare atunci când este activat.
 
 
 ## E
@@ -430,14 +430,14 @@ vezi [pixel ratio](#pixel-ratio)
 **element**
 
 - void elements — **elemente goale**
-- raw text elements — ** elemente de text brut**
+- raw text elements — **elemente de text raw**
 - escapable raw text elements — **элементы с экранируемым свободным текстом**
 - foreign elements — **elemente străine**
 - normal elements — ** elemente obișnuite**
 
 ### em
 
-**em,** unitate CSS care depinde de dimensiunea fontului părinte, de ex. _font-size: 3em — dimensiunea fontului 3em._
+**em,** unitate de măsură în CSS care depinde de dimensiunea fontului părinte, de ex. _font-size: 3em — dimensiunea fontului 3em._
 
 ### enable
 
@@ -455,7 +455,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### fallback
 
-**fallback,** o implementare suplimentară/de rezervă în cazul în care browserul nu dispune de caracteristici, precum scripturi activate sau video codec-uri necesare, de ex. _fallback to a link — fallback către un link._
+**fallback,** implementare suplimentară/de rezervă în cazul în care browserul nu dispune de caracteristici, precum scripturi activate sau video codec-uri necesare, de ex. _fallback to a link — fallback către un link._
 
 ### favicon
 
@@ -467,7 +467,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### fieldset
 
-**fieldset,** element, element care combină mai multe câmpuri de formular, de ex. _green border on a fieldset — chenar verde pe fieldset._
+**fieldset,** element care combină mai multe câmpuri de formular, de ex. _green border on a fieldset — chenar verde pe fieldset._
 
 ### figure
 
@@ -508,22 +508,22 @@ vezi [pixel ratio](#pixel-ratio)
 - flex-wrap — **transferul elementului de tip flex,** determină dacă containerul este inline sau multiline
 - flex-basis — **dimensiunea de bază** a elementului flex pe axa principală
 - flex-grow — **coeficient de întindere**
-- flex-shrink — ** coeficient de compresie**
+- flex-shrink — **coeficient de compresie**
 - main axis — **axa principală,** direcția în care elementele flex se succed în container
 - cross axis — **axa transversală,** direcția perpendiculară pe axa principală 
 - main size — **dimensiunea principală,** dimensiunea elementului de tip flex în direcția principală
-- cross size — ** dimensiunea transversală,** dimensiunea elementului de tip flex în direcția transversală
+- cross size — **dimensiunea transversală,** dimensiunea elementului de tip flex în direcția transversală
 - justify-content — **distribuția elementelor de tip flex** pe direcția principală
-- align-items — ** alinierea elementelor de tip flex** pe direcția transversală
+- align-items — **alinierea elementelor de tip flex** pe direcția transversală
 - align-self — **alinierea elementelor de tip flex** pe axa transversală
 - align-content — **alinierea rândurilor** containerului pe axa transversală
 - order — **numărul de ordine** al elementului de tip flex
 
 ### float
 
-1. adjectiv **плавающий,** свойство блока, заставляющее последующие блоки обтекать его, напр. _float layout — раскладка на плавающих блоках._
-2. verb **обтекать,** следовать вплотную к плавающему блоку, напр. _text is floating to the right — текст обтекает справа._
-3. verb **прижимать,** упираться вправо или влево, обычно из-за плавающих свойств, напр. _float block to the left — прижмите блок влево._
+1. adjectiv **plutitor,** proprietate a unui bloc care determină blocurile următoare să "curgă" în jurul acestuia, de ex. _float layout — layout pentru blocuri plutitoare._
+2. verb **a curge,** urmează îndeaproape blocul plutitor, de ex. _text is floating to the right — textul curge spre dreapta._
+3. verb **a presa,** presare la dreapta sau la stânga, de obicei din cauza proprietăților de plutire, de ex. _float block to the left — presați blocul în stânga._
 
 ### font
 
@@ -533,7 +533,7 @@ vezi [pixel ratio](#pixel-ratio)
 
   - font-weight: normal — **normal**
   - font-weight: bold — **îngroșat** sau **semi-îngroșat**
-  - font-weight: bolder — **mai îngroșat**
+  - font-weight: bolder — **mai gros**
   - font-weight: lighter — **mai subțire**
 
 - font-style — **stiluri font**
@@ -554,8 +554,8 @@ vezi [pixel ratio](#pixel-ratio)
 
 **subsol**
 
-1. zonă vizuală, de obicei la sfârșitul paginii
-2. elementul `<footer>` — parte cu informații meta
+1. zonă vizuală, de obicei la sfârșitul paginii.
+2. elementul `<footer>` — parte cu informații meta.
 
 ### formatting context
 
@@ -604,7 +604,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 **funcție**
 
 1. în programare — fragment de cod denumit al unui program (subprogram) care poate fi accesat din altă parte a programului.
-2. în CSS — poate fi prezent [declarație](#declaration) în poziția valorii. De ex. `url(img/gradient.png)`.
+2. în CSS — poate fi prezentă într-o [declarație](#declaration) în poziția valorii. De ex. `url(img/gradient.png)`.
 
 ## G
 
@@ -614,7 +614,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### graceful degradation
 
-**degradarea treptată** — подход, при котором интерфейс сайта деградирует для старых браузеров, где не поддерживаются какие-то из используемых технологий. При этом ущерб для пользователя по возможности смягчается. Например: цвет подложки вместо градиента, растровая графика вместо векторной, проигрывание видео с помощью плагина. Встречается также более буквальный перевод _«изящная деградация»_.
+**degradarea treptată**, abordare prin care interfața site-ului este redusă pentru browserele mai vechi, în cazul în care unele dintre tehnologiile utilizate nu sunt acceptate. În același timp, daunele aduse utilizatorului sunt atenuate ori de câte ori este posibil. De exemplu: culoare în loc de gradient, grafică bitmap în loc de grafică vectorială, redare video cu un plugin.
 
 ### gradient
 
@@ -635,11 +635,11 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 - **grid container** — _grid container_
 - **grid item** — _grid item_
-- **grid track** — _грид-полоса_, собирательный термин для рядов и колонок _грида_
-- **grid cell** — _грид-ячейка_
-- **grid line** — _грид-линия_, виртуальная граница между соседними _грид-полосами_, к которой можно привязывать _грид-элементы_
-- **grid area** — _грид-область_, пространство для размещения _грид-элементов_, ограниченное четырьмя _грид-линиями_
-- **grid gutter** — _грид-интервал_, промежуток между соседними _грид-полосами_
+- **grid track** — _grid track_, un termen colectiv pentru rândurile și coloanele _gridului_
+- **grid cell** — _grid tcell_
+- **grid line** — _grid line_, o limită virtuală între _grid track_ vecine, la care pot fi legate _elemente grid_
+- **grid area** — _grid area_, spațiu de plasare a _elementelor grid_, limitat de patru _grid track_
+- **grid gutter** — _grid gutter_, distanța dintre _grid track_ vecine
 
 ## H
 
@@ -647,8 +647,8 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 **antet**
 
-1. характерная визуальная область в начале страницы.
-2. elementul `<header>` — parte de titlu смысловая озаглавливающая часть.
+1. zonă vizuală, de obicei la începutul paginii.
+2. elementul `<header>` — parte semantică de titlu.
 
 
 ### height
@@ -674,14 +674,14 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 1. **inline,** având proprietăți inline.
 
  - inline block — **bloc inline**.
- - inline box — **container al rândului** în formatarea inline: часть наполнения контейнера строки, к которой непосредственно применяются CSS-правила, de ex. _anonymous inline box — element anonim al liniei_.
+ - inline box — **container inline** în formatarea inline: parte a umpluturii containerului de linii, la care se aplică direct regulile CSS, de ex. _anonymous inline box — element anonim al liniei_.
  - inline element — **element inline**.
 
-2. **встроенный,** находящийся внутри строки кода.
+2. **încorporat**, situat în interiorul unei linii de cod.
 
- - inline styles — **встроенные стили**.
- - inline SVG — **встроенный SVG**.
- - inline script — **встроенный скрипт**.
+ - inline styles — **stiluri încorporate**.
+ - inline SVG — **SVG încorporat**.
+ - inline script — **script încorporat**.
 
 ### input
 
@@ -689,11 +689,11 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### intrinsic dimensions
 
-**dimensiunile proprii ale elementului,** lățimea și înălțimea, sunt determinate de elementul însuși, nu de mediu. CSS nu poate specifica modul în care sunt calculate dimensiunile proprii. Doar elementele care se pot înlocui pot avea dimensiuni proprii, de ex.: imagini, video, audio și alte blocuri, представление care nu depind de dezvoltator.
+**dimensiunile proprii ale elementului,** lățimea și înălțimea, sunt determinate de elementul însuși, nu de mediu. CSS nu poate specifica modul în care sunt calculate dimensiunile proprii. Doar elementele care se pot înlocui pot avea dimensiuni proprii, de ex.: imagini, video, audio și alte blocuri, prezentarea cărora nu depinde de dezvoltator.
 
 ### internationalization, i18n
 
-**internaționalizare,** proces de proiectare și dezvoltare a interfeței care permite [localizarea](#localization-l10n) pentru diferite regiuni (diferite culturi sau limbi) fără modificări tehnice, de ex., _`Intl.DateTimeFormat` - constructor de clasă, позволяющий clasă constructor care permite formatarea datei și a orei în funcție de cele locale._
+**internaționalizare,** proces de proiectare și dezvoltare a interfeței care permite [localizarea](#localization-l10n) pentru diferite regiuni (diferite culturi sau limbi) fără modificări tehnice, de ex., _`Intl.DateTimeFormat` - constructor de clasă, care permite formatarea datei și a orei în funcție de cele locale._
 
 ### interoperability
 
@@ -733,7 +733,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### legend
 
-**legendă,** antetul unui grup de elemente de formular, definit de [fieldset](#fieldset)
+**legendă,** antetul unui grup de elemente de formular, definit de [fieldset](#fieldset).
 
 ### length
 
@@ -741,7 +741,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### letter-spacing
 
-**spațiere între litere, tracking,** distanța totală dintre literele unui text, se deosebește de [kerning](#kerning).
+**spațiere între litere, tracking,** distanța totală dintre literele unui text, a nu se încurca cu [kerning](#kerning).
 
 ### library
 
@@ -774,7 +774,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### margin
 
-**margine exterioară,** de ex. _margin-bottom: -10px — margine negativă de jos 10px._
+**margine exterioară,** de ex. _margin-bottom: -10px — margine negativă de jos -10px._
 
 ### margin box
 
@@ -782,7 +782,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### matrix
 
-**matrice (de transformare),** descriere a transformării unui obiect cu ajutorul unei matrice.
+**matrice (de transformare),** descrierea transformării unui obiect cu ajutorul unei matrice.
 
 ### media query
 
@@ -790,11 +790,11 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### media query list
 
-**condiții de media query,** listă de condiții care definesc momentul în care se aplică declarațiile din directiva `@media`. De ex. `only screen and (min-width: 35em)`.
+**condiții media query,** listă de condiții care definesc momentul în care se aplică declarațiile din directiva `@media`. De ex. `only screen and (min-width: 35em)`.
 
 ### media type
 
-**media type (tip dispozitiv),** poate fi o condiție de exprimare a media query. Indică pentru ce  moduri de ieșire sunt destinate stilurile (de ex. `screen` — pentru ecran, `print` — pentru tipărire, `speech` — pentru sintetizator de vorbire).
+**media type (tip dispozitiv),** poate fi o condiție de exprimare a media query. Indică pentru ce moduri de ieșire sunt destinate stilurile (de ex. `screen` — pentru ecran, `print` — pentru tipărire, `speech` — pentru sintetizator de vorbire).
 
 ### media feature
 
@@ -807,7 +807,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### mobile first
 
-**mobile first,** abordare în dezvoltare care constă în conceperea unui serviciu care începe cu o versiune mobilă mai degrabă decât cu o versiune pe ecran mare.Termen introdus de Luke Wroblewski în [cartea cu același nume](https://abookapart.com/products/mobile-first).
+**mobile first,** abordare în dezvoltare care constă în conceperea unui serviciu care începe cu o versiune mobilă mai degrabă decât cu o versiune pe ecran mare. Termen introdus de Luke Wroblewski în [cartea cu același nume](https://abookapart.com/products/mobile-first).
 
 ### mock object
 
@@ -829,7 +829,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 ### multiple columns
 
 1. **multi-coloane,** mecanism CSS care permite alinierea textului în mai multe coloane, de ex. _multiple columns support in IE — suport pentru mai multe coloane în IE._ Mai comod decât "coloane multiple".
-2. **multi-coloană,** format din mai multe coloane, de ex. _multiple columns layout — layout multi-coloane._
+2. **multi-coloane,** format din mai multe coloane, de ex. _multiple columns layout — layout multi-coloane._
 
 ## N
 
@@ -892,7 +892,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### performance budget
 
-**bugetul de performanță,** performanța maximă admisibilă a aplicației web. Depășirea unui astfel de buget înseamnă că performanța este în scădere. De ex. _Performance Budget Metrics — metrici ale bugetului de performanță._
+**buget de performanță,** performanța maximă admisibilă a aplicației web. Depășirea unui astfel de buget înseamnă că performanța este în scădere. De ex. _Performance Budget Metrics — metrici ale bugetului de performanță._
 
 ### persistent data structures
 
@@ -904,7 +904,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### pixel
 
-**pixel,** unitate de măsură în design, plural **pixeli,** pe scurt **px**
+**pixel,** unitate de măsură în design, plural **pixeli,** pe scurt **px**.
 
 - physical pixel — **pixel fizic,** celula de pe matrice, unitatea de rezoluție a display-ului dispozitivului.
 - device independent pixel (dip) — **pixel virtual,** pixel independent de dispozitiv, poate fi mai mare, mai mic sau egal cu un pixel fizic.
@@ -921,7 +921,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 ### placeholder
 
 1. **susbstituent,** înlocuitor temporar al unei imagini, text, etc. De ex.: _În loc de portretul președintelui, vom substitui cu imaginea unor pisicuțe_.
-2. **câmp indicativ,** atributul unui câmp text, menit să ofere indicații privind modul de completare a câmpului. Cel mai adesea este un exemplu de completare. De ex.: `placeholder="+7 (999) 123-12-13"`.
+2. **câmp indicativ,** atributul unui câmp text, menit să ofere indicații privind modul de completare a câmpului. Cel mai adesea este un exemplu de completare. De ex.: `placeholder="+40 (737) 521 123"`.
 
 ### ppi (pixel per inch)
 
@@ -945,7 +945,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 - visually ready — **disponibilitate vizuală**
 - visually complete — **completitudine vizuală**
 - first interactive — **prima interactivitate**
-- estimated input latency — **întârzierea de intrare preconizată**
+- estimated input latency — **întârzierea de intrare estimată**
 - time to interactive (TTI) — **timp până la prima interacțiune**
 - time to first consistently interactive — **timp până la interactivitate stabilă**
 - largest contentful paint (LCP) — **cea mai substanțială schiță**
@@ -1015,7 +1015,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### quirks mode
 
-**режим совместимости,** режим интерпретации и отображения страницы браузером, в котором браузер целенаправленно отходит от стандартов ради отображения документов, созданных до начала 2000-х гг. и полагавшихся на ошибки и особенности браузеров того времени. Используется для страниц без [доктайпа](#doctype) и с устаревшими доктайпами (напр. HTML 3.2).
+**mod de compatibilitate,** mod de interpretare și afișare a paginilor de către browser, în care browserul se abate în mod deliberat de la standarde pentru a afișa documente create înainte de începutul anilor 2000 și care se bazează pe bug-uri și caracteristici ale browserului de la acea vreme. Utilizat pentru paginile fără [doctype] (#doctype) și cu doctype vechi (de exemplu, HTML 3.2).
 
 ## R
 
@@ -1033,7 +1033,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### registry
 
-**registru,** loc pentru depozitarea pachetelor, de ex. _GitHub Package Registry — registru de pachete Github._ Denumirea de "registru" este o traducere nepotrivită, deoarece contravine înțelesului de _registru de litere_ folosit în frontend.
+**registru,** loc pentru depozitarea pachetelor, de ex. _GitHub Package Registry — registru de pachete Github._ Denumirea de "registru" este o traducere nepotrivită, deoarece contravine înțelesului de _registru de litere_ folosit în front-end.
 
 ### reflow
 
@@ -1106,8 +1106,8 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### scale
 
-1. substantiv **scalare, mărire**
-2. verb **scala, mări**
+1. substantiv **scalare, mărire**.
+2. verb **a scala, a mări**.
 
 ### scope
 
@@ -1140,20 +1140,20 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### selector
 
-**selector,** partea structurală necesară a [stylesheet](#rule-set). Este responsabilă pentru legarea declarațiilor la elementele DOM.
+**selector,** partea structurală necesară a [stylesheet](#rule-set). Este responsabilă de legarea declarațiilor la elementele DOM.
 
 - simple selector — **selector simplu,** poate fi o [pseudo-clasă](#pseudo-class) sau unul dintre următoarele tipuri:
   - type selector — **selector de tip,** se referă la tag, de ex. `ul`, `input` și altele
-  - universal selector — **selector universal,** "asterisk, steluță": `*`.
+  - universal selector — **selector universal,** "asterisk, steluță": `*`
   - ID selector — **selector de id,** de ex. `#content`
-  - class selector — ** selector de clasă,** de ex. `.item`
+  - class selector — **selector de clasă,** de ex. `.item`
   - attribute selector — **selector de atribut,** de ex. `[type=submit]`
 - compound selector (sequence of simple selectors) — **selector compus,** lanț de selectori simpli care nu sunt separați de combinatori, de ex. `input[type=submit]:focus`
 - complex selector — **selector complex,** mai mulți selectori simpli și/sau compuși separați prin combinatori:
-  - descendant selector — **selector descendent,** de ex. `ul li`.
-  - child selector — **selector copil,** de ex. `#buttons > *`. De asemenea, deseori numit  **înrudit**.
-  - adjacent sibling selector — **selector direct vecin,** de ex. `.item + .item`. De asemenea, deseori numit **vecin**.
-  - general sibling selector — **selector vecin,** de ex. `.item ~ .item`.
+  - descendant selector — **selector descendent,** de ex. `ul li`
+  - child selector — **selector copil,** de ex. `#buttons > *`. De asemenea, deseori numit  **apropiat**
+  - adjacent sibling selector — **selector direct vecin,** de ex. `.item + .item`. De asemenea, deseori numit **vecin**
+  - general sibling selector — **selector vecin,** de ex. `.item ~ .item`
 
 ### server-side
 
@@ -1169,8 +1169,8 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### shared
 
-1. adjectiv **distribuit,** de ex. _shared memory — memorie distribuită
-2. adjectiv **comun,** de ex. _shared folder — dosar comun_, _shared access — acces comun_
+1. adjectiv **distribuit,** de ex. _shared memory — memorie distribuită.
+2. adjectiv **comun,** de ex. _shared folder — dosar comun_, _shared access — acces comun._
 
 ### shim
 
@@ -1186,8 +1186,8 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### skew
 
-1. substantiv **înclinare**
-2. verb **înclina**
+1. substantiv **înclinare**.
+2. verb **a înclina**.
 
 ### source maps
 
@@ -1195,7 +1195,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### specification, spec
 
-**specificație,** documentație tehnică pentru dezvoltatorii și producătorii de browsere, de obicei într-unul dintre următoarele statusuri: de la propus la aprobat de W3C, de ex. _specification draft — draft specificație._
+**specificație,** documentație tehnică pentru dezvoltatorii și producătorii de browsere, de obicei în una dintre următoarele stări: de la propus la aprobat de W3C, de ex. _specification draft — draft specificație._
 
 ### spread
 
@@ -1215,7 +1215,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### standards mode, standards compliance mode
 
-**mod standard,** mod de interpretare și afișare a paginii de către browser, în care browserul este obligat să respecte standardele la maximum. Utilizat pentru paginile cu [doctypes](#doctype), de ex. doctype HTML5.
+**mod standard,** mod de interpretare și afișare a paginii de către browser, în care browserul este obligat să respecte standardele la maximum. Utilizat pentru paginile cu [doctype](#doctype), de ex. doctype HTML5.
 
 ### statement
 
@@ -1233,11 +1233,11 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 ### style
 
 1. substantiv **stiluri,** de ex. _apply styles to an element — aplică stiluri unui element,_ plural: _stiluri element,_ și nu _stil element_ (greșit).
-2. verb **stiliza,** de ex. _how to style selects — cum stilizezi selectorii._
+2. verb **a stiliza,** de ex. _how to style selects — cum stilizezi selectorii._
 
 ### style guide
 
-**ghid de stil,** de ex. _project code style guide — ghidul de stil pentru codul proiectului_.
+**ghid de stil,** de ex. _project code style guide — ghid de stil pentru codul proiectului_.
 
 ### stylesheet
 
@@ -1245,18 +1245,18 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### swipe
 
-**glisare,** gest de utilizare a interfeței ecranului tactil: glisați cu degetele pe ecranul tactil.
+**glisare,** gest de utilizare a interfeței ecranului tactil: glisează cu degetele pe ecranul tactil.
 
 ### submit
 
-**trimitere,** de ex. _trimitere formular_.
+**trimitere,** de ex. _trimite formular_.
 
 ## T
 
 ### tab
 
 1. **filă,** unul dintre straturile interfeței site-ului sau a programului care se activează prin selectarea antetului său, de ex. _open in new tab — deschide într-o filă nouă._
-2. **tab,** tasta tab, introduce un caracter de tabulare, comută accentul pe următorul element al interfeței sau completează un cuvânt scris parțial, de ex. _press Ctrl Tab — apasă Ctrl Tab._
+2. **tab,** tasta tab, introduce un caracter de tabulare, mută accentul pe următorul element al interfeței sau completează un cuvânt scris parțial, de ex. _press Ctrl Tab — apasă Ctrl Tab._
 3. **tab,** simbol de tabulare, are o lățime configurabilă și este utilizat pentru a indenta codul, de ex. _tabs are better than spaces — tab-urile sunt mai bune decât spațiile._
 
 ### tag
@@ -1269,7 +1269,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### tap
 
-**atingere,** gest de utilizare a interfeței ecranului tactil: atingeți o dată pe ecranul tactil.
+**atingere,** gest de utilizare a interfeței ecranului tactil: atinge o dată pe ecranul tactil.
 
 ### text
 
@@ -1311,7 +1311,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### toggle
 
-**comuta,** a trece de la o stare la alta, _comuta clase — toggle classes._
+**comuta,** a trece de la o stare la alta, _toggle classes — comuta clase._
 
 ### tooltip
 
