@@ -338,8 +338,8 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **custom** (variantă de traducere, **personalizat**)
 
-- custom element — **element personalizat**.
-- custom attribute — **atribut personalizat**.
+- custom element — **element personalizat**
+- custom attribute — **atribut personalizat**
 
 ## D
 
