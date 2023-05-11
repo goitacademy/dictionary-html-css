@@ -430,8 +430,8 @@ vezi [pixel ratio](#pixel-ratio)
 **element**
 
 - void elements — **elemente goale**
-- raw text elements — **elemente de text raw**
-- escapable raw text elements — **элементы с экранируемым свободным текстом**
+- raw text elements — **elemente de text liber**
+- escapable raw text elements — **elemente de text liber escapable**
 - foreign elements — **elemente străine**
 - normal elements — **elemente obișnuite**
 
