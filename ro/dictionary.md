@@ -16,7 +16,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### adaptive design
 
-**design adaptiv**, abordare a web designului care ia în considerare adaptarea la diferite dispozitive și medii, spre deosebire de designul obișnuit "fix", destinat exclusiv calculatoarelor. O modalitate de a crea design adaptiv este prin tehnici de [responsive design] (#responsive-design).
+**design adaptiv**, abordare a web designului care ia în considerare adaptarea la diferite dispozitive și medii, spre deosebire de designul obișnuit "fix", destinat exclusiv calculatoarelor. O modalitate de a crea design adaptiv este prin tehnici de [responsive design](#responsive-design).
 
 ### almost standards mode
 
@@ -33,7 +33,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### asset
 
-**resursă,** parte componentă a unui site: fișiere text, grafică, video, baze de date, etc. În sens restrâns, o "resursă statică": stiluri, scripturi, grafică de design, spre deosebire de [conținutul] dinamic (https://github.com/web-standards-ru/dictionary/blob/master/dictionary.md#content).
+**resursă,** parte componentă a unui site: fișiere text, grafică, video, baze de date, etc. În sens restrâns, o "resursă statică": stiluri, scripturi, grafică de design, spre deosebire de conținutul dinamic.
 
 ### assert
 
@@ -41,7 +41,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### at-keyword
 
-**cheia directivei,** vezi [directivă](#at-rule)
+**cheia directivei,** vezi [directivă](#at-rule).
 
 ### at-rule
 
@@ -82,7 +82,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### bikeshed
 
-**a acorda o atenție excesivă banalităților,** (vezi [legea banalității]([legea banalității](https://en.wikipedia.org/wiki/Law_of_triviality)). Nu există un echivalent stabilit în limba română, este mai bine să se traducă sensul general, de exemplu _avoid bikeshedding — nu vă certați din fleacuri._
+**a acorda o atenție excesivă banalităților,** (vezi [legea banalității](https://en.wikipedia.org/wiki/Law_of_triviality). Nu există un echivalent stabilit în limba română, este mai bine să se traducă sensul general, de ex. _avoid bikeshedding — nu vă certați din fleacuri._
 
 ### blending mode
 
@@ -90,7 +90,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### block
 1. **bloc de declarații,** parte structurală a [declarației](#statement). Cuprinsă între acolade, care conține declarații cu proprietăți (sau, în cazul unei media query, blocuri de stil).
-2. **aspect de bloc,** vezi [view](#display).
+2. **aspect de bloc,** vezi [afișare](#display).
 
 ### blockquote
 
@@ -98,7 +98,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### border
 
-**chenar,** partea exterioară vizibilă a blocului, de ex. _border-left - chenar din stânga._
+**chenar,** partea exterioară vizibilă a blocului, de ex. _border-left — chenar din stânga._
 
 - border-collapse — **combinare chenar**
 - border-color — **culoare chenar**
@@ -134,7 +134,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### breakpoint
 
-1. ** breakpoint, punct de rupere,** este una dintre traducerile utilizate de obicei, sensul exact fiind clar din context.
+1. **breakpoint, punct de rupere,** una dintre traducerile utilizate de obicei, sensul exact fiind clar din context.
 2. **punct de oprire,** o linie din cod la care execuția scriptului este întreruptă pentru a apela debuggerul.
 3. **punct de control,** condiția în care aspectul site-ului se schimbă din unul în altul. Tipic pentru expresiile media.
 
@@ -153,7 +153,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### callback
 
-**callback,** executarea codului atunci când funcția este terminată, de exemplu. _pass value in a callback — transmite valoarea într-un callback._
+**callback,** executarea codului atunci când funcția este terminată, de ex. _pass value in a callback — transmite valoarea într-un callback._
 
 ### candidate recommendation (CR)
 
@@ -196,7 +196,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **checkbox**
 
-1. element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled - checkbox dezactivat._
+1. element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled — checkbox dezactivat._
 2. element de formular `<input type="checkbox">`.
 
 ### child
@@ -268,7 +268,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### component
 
-** componentă,** parte constitutivă a ceva. De ex. _app components_ — _componentele unei aplicații._
+**componentă,** parte constitutivă a ceva. De ex. _app components_ — _componentele unei aplicații._
 
 ### compositing
 
@@ -310,13 +310,13 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### cookie
 
-** cookie,** un fragment scurt de date care este trimis de server și stocat în browser.
+**cookie,** un fragment scurt de date care este trimis de server și stocat în browser.
 
 - access to cookies — **acces la cookies**
 - cookies banner — **mesaj despre cookies**
 - authorization cookies — **cookies de autorizare**
 - first-party cookies — **cookies prima parte**
-- third-party cookies — ** cookies terță parte**
+- third-party cookies — **cookies terță parte**
 
 ### cross-browser
 
@@ -328,7 +328,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### custom properties
 
-**proprietăți personalizate,** proprietăți CSS de tip `--my-property`, pe care dezvoltatorii le pot de sine stătător și le pot utiliza mai departe în cod ca variabile prin intermediul funcției `var()`. De asemenea, cunoscute ca **variabile CSS,** de ex. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — variabilele CSS, cunoscute și sub numele de proprietăți personalizate CSS, vor apărea în Chrome 49.
+**proprietăți personalizate,** proprietăți CSS de tip `--my-property`, pe care dezvoltatorii le pot de sine stătător și le pot utiliza mai departe în cod ca variabile prin intermediul funcției `var()`. De asemenea, cunoscute ca **variabile CSS,** de ex. _CSS variables, also known as CSS custom properties, are landing in Chrome 49 — variabilele CSS, cunoscute și sub numele de proprietăți personalizate CSS, vor apărea în Chrome 49_.
 
 ### CSS Working Group (CSSWG)
 
@@ -336,7 +336,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### custom
 
-**custom** (posibil **personalizat**)
+**custom** (variantă de traducere, **personalizat**)
 
 - custom element — **element personalizat**.
 - custom attribute — **atribut personalizat**.
@@ -400,7 +400,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### divitis
 
-**divitis,**boală inventată, caracterizată prin utilizarea numai a elementelor `<div>` în locul celor potrivite din punct de vedere [semantic](#semantics).
+**divitis,** boală inventată, caracterizată prin utilizarea numai a elementelor `<div>` în locul celor potrivite din punct de vedere [semantic](#semantics).
 
 ### DOM
 
@@ -433,7 +433,7 @@ vezi [pixel ratio](#pixel-ratio)
 - raw text elements — **elemente de text raw**
 - escapable raw text elements — **элементы с экранируемым свободным текстом**
 - foreign elements — **elemente străine**
-- normal elements — ** elemente obișnuite**
+- normal elements — **elemente obișnuite**
 
 ### em
 
@@ -459,7 +459,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### favicon
 
-** favicon,** de obicei o iconiță de 16x16 pixeli în format ICO.
+**favicon,** de obicei o iconiță de 16x16 pixeli în format ICO.
 
 ### feature query
 
@@ -475,7 +475,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### figcaption
 
-**titlu figură,** titlul sau legendă unei figuri.
+**titlu figură,** titlul sau legenda unei figuri.
 
 ### filter
 
@@ -494,13 +494,13 @@ vezi [pixel ratio](#pixel-ratio)
 
 ### flash of…
 
-- flash of unstyled text, FOUT — **pâlpâire text fără stiluri,** afișarea textului în fontul de sistem înainte de a încărca fontul web.
-- flash of invisible text, FOIT — **pâlpâirea text invizibil,** lipsa textului pe pagină înainte de încărcarea fonturilor web.
-- flash of faux text, FOFT — ** pâlpâire text sintetizat,** afișarea начертаний текста изменённым основным шрифтом до загрузки нужных шрифтов
+- flash of unstyled text, FOUT — **afișare text fără stiluri,** afișarea textului în fontul de sistem înainte de a încărca fontul web.
+- flash of invisible text, FOIT — **afișare text invizibil,** lipsa textului pe pagină înainte de încărcarea fonturilor web.
+- flash of faux text, FOFT — **afișare text sintetizat,** afișarea unui font de bază modificat înainte de a încărca fonturile necesare.
 
 ### flexbox
 
-** flexbox,** mecanism de [layout](#layout).
+**flexbox,** mecanism de [layout](#layout).
 
 - flex container — **container de tip flex**
 - flex item — **element de tip flex**
@@ -523,7 +523,7 @@ vezi [pixel ratio](#pixel-ratio)
 
 1. adjectiv **plutitor,** proprietate a unui bloc care determină blocurile următoare să "curgă" în jurul acestuia, de ex. _float layout — layout pentru blocuri plutitoare._
 2. verb **a curge,** urmează îndeaproape blocul plutitor, de ex. _text is floating to the right — textul curge spre dreapta._
-3. verb **a presa,** presare la dreapta sau la stânga, de obicei din cauza proprietăților de plutire, de ex. _float block to the left — presați blocul în stânga._
+3. verb **a presa,** presare la dreapta sau la stânga, de obicei din cauza proprietăților de plutire, de ex. _float block to the left — presează blocul în stânga._
 
 ### font
 
@@ -546,8 +546,8 @@ vezi [pixel ratio](#pixel-ratio)
 
 - font-family — **familie font, garnitură**
 
-  - font-family: serif — **сu serifuri*
-  - font-family: sans-serif — **fără serifuri*
+  - font-family: serif — **сu serifuri**
+  - font-family: sans-serif — **fără serifuri**
   - font-family: monospace — **monospace**
 
 ### footer
@@ -583,8 +583,8 @@ vezi [pixel ratio](#pixel-ratio)
 
 **front-end**
 
-1. domeniu al tehnologiei de dezvoltare a interfețelor web, care cuprinde instrumente și tehnologii auxiliare care funcționează în browser sau pe partea clientului (#client-side). 
-2. partea exterioară a sistemului server, care răspunde de primirea datelor, trimiterea răspunsurilor și generarea codului pentru browser, este inclusă în partea server (#server-side).
+1. domeniu al tehnologiei de dezvoltare a interfețelor web, care cuprinde instrumente și tehnologii auxiliare care funcționează în browser sau pe partea clientului(#client-side). 
+2. partea exterioară a sistemului server, care răspunde de primirea datelor, trimiterea răspunsurilor și generarea codului pentru browser, este inclusă în partea server(#server-side).
 
 ### full screen
 
@@ -614,7 +614,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### graceful degradation
 
-**degradarea treptată**, abordare prin care interfața site-ului este redusă pentru browserele mai vechi, în cazul în care unele dintre tehnologiile utilizate nu sunt acceptate. În același timp, daunele aduse utilizatorului sunt atenuate ori de câte ori este posibil. De exemplu: culoare în loc de gradient, grafică bitmap în loc de grafică vectorială, redare video cu un plugin.
+**degradare treptată**, abordare prin care interfața site-ului este redusă pentru browserele mai vechi, în cazul în care unele dintre tehnologiile utilizate nu sunt acceptate. În același timp, daunele aduse utilizatorului sunt atenuate ori de câte ori este posibil. De exemplu: culoare în loc de gradient, grafică bitmap în loc de grafică vectorială, redare video cu un plugin.
 
 ### gradient
 
@@ -663,7 +663,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### immutable
 
-** imuabil, neschimbat,** termenul se aplică cel mai des datelor (tipurilor de date) în programarea funcțională.
+**imuabil, neschimbat,** termenul se aplică cel mai des datelor (tipurilor de date) în programarea funcțională.
 
 ### implement
 
@@ -673,15 +673,15 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 1. **inline,** având proprietăți inline.
 
- - inline block — **bloc inline**.
- - inline box — **container inline** în formatarea inline: parte a umpluturii containerului de linii, la care se aplică direct regulile CSS, de ex. _anonymous inline box — element anonim al liniei_.
- - inline element — **element inline**.
+ - inline block — **bloc inline**
+ - inline box — **container inline** în formatarea inline: parte a umpluturii containerului de linii, la care se aplică direct regulile CSS, de ex. _anonymous inline box — element anonim al liniei_
+ - inline element — **element inline**
 
 2. **încorporat**, situat în interiorul unei linii de cod.
 
- - inline styles — **stiluri încorporate**.
- - inline SVG — **SVG încorporat**.
- - inline script — **script încorporat**.
+ - inline styles — **stiluri încorporate**
+ - inline SVG — **SVG încorporat**
+ - inline script — **script încorporat**
 
 ### input
 
@@ -693,7 +693,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### internationalization, i18n
 
-**internaționalizare,** proces de proiectare și dezvoltare a interfeței care permite [localizarea](#localization-l10n) pentru diferite regiuni (diferite culturi sau limbi) fără modificări tehnice, de ex., _`Intl.DateTimeFormat` - constructor de clasă, care permite formatarea datei și a orei în funcție de cele locale._
+**internaționalizare,** proces de proiectare și dezvoltare a interfeței care permite [localizarea](#localization-l10n) pentru diferite regiuni (diferite culturi sau limbi) fără modificări tehnice, de ex., _`Intl.DateTimeFormat` — constructor de clasă, care permite formatarea datei și a orei în funcție de cele locale._
 
 ### interoperability
 
@@ -768,7 +768,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### localization, l10n
 
-**localizare,** proces de adaptare al interfeței la convențiile lingvistice și culturale ale unei anumite regiuni (țări, localizare), de ex. _`new Date().toLocaleDateString('en-US')` - convertește data în reprezentarea sa sub formă de șir de caractere, în conformitate cu localitatea SUA._
+**localizare,** proces de adaptare al interfeței la convențiile lingvistice și culturale ale unei anumite regiuni (țări, localizare), de ex. _`new Date().toLocaleDateString('en-US')` — convertește data în reprezentarea sa sub formă de șir de caractere, în conformitate cu localitatea SUA._
 
 ## M
 
@@ -876,7 +876,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### pattern
 
-** pattern,** abordare formală a scrierii codului, de ex. _JavaScript patterns — pattern-uri JavaScript._
+**pattern,** abordare formală a scrierii codului, de ex. _JavaScript patterns — pattern-uri JavaScript._
 
 ### parent
 
@@ -1102,7 +1102,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### scaffolding
 
-** scaffolding,** generarea automată a codului prin descriere, metoda metaprogramării.
+**scaffolding,** generarea automată a codului prin descriere, metoda metaprogramării.
 
 ### scale
 
@@ -1367,7 +1367,7 @@ De ex. _Andrei a studiat bazele de date și a înlocuit în CV "specialist front
 
 ### user interface (UI)
 
-***interfață de utilizator,** într-un context transparent, se recomandă să se utilizeze pur și simplu "interfață".
+**interfață de utilizator,** într-un context transparent, se recomandă să se utilizeze pur și simplu "interfață".
 
 ### utility
 
