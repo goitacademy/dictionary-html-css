@@ -148,7 +148,7 @@
 
 ## Stări
 
-`active`, `current` — elementul activ, de exemplu elementul de meniu curent
+`active`, `current` — element activ, de exemplu elementul de meniu curent
 
 `visible` — element vizibil
 
