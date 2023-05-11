@@ -196,7 +196,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 **checkbox**
 
-1. element de interfață pentru selectarea uneia sau mai multor opțiuni, de exemplu _checkbox is disabled — checkbox dezactivat._
+1. element de interfață pentru selectarea uneia sau mai multor opțiuni, de ex. _checkbox is disabled — checkbox dezactivat._
 2. element de formular `<input type="checkbox">`.
 
 ### child
@@ -222,7 +222,7 @@ Cuprins: [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H]
 
 ### click
 
-**click,** apăsarea pe obiect cu cursorul mouse-ului sau cu un dispozitiv similar, de exemplu _double click is firing event — dublu click declanșează evenimentul._
+**click,** apăsarea pe obiect cu cursorul mouse-ului sau cu un dispozitiv similar, de ex. _double click is firing event — dublu click declanșează evenimentul._
 
 ### client-side
 
