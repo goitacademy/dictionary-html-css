@@ -160,7 +160,7 @@ Exemplu: `copyright` <br>
 
 ### `button`
 
-Buton/butonae. Butonul în sine — întotdeauna un [bloc BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Poate conține un mix de elemente BEM. Cuvântul poate fi utilizat în clasele wrapper (vezi exemplu). <br>
+Buton/butoane. Butonul în sine — întotdeauna un [bloc BEM](http://nicothin.github.io/idiomatic-pre-CSS/#bem-block). Poate conține un mix de elemente BEM. Cuvântul poate fi utilizat în clasele wrapper (vezi exemplu). <br>
 Prescurtare: `btn` <br>
 Exemplu: <br>
 `btn` (buton aparte), <br>
@@ -217,7 +217,7 @@ Exemplu: <br>
 
 ### `dropdown`
 
-Element derulant (direcția derulării nu contează) <br>
+Element derulant (direcția derulării nu contează). <br>
 Prescurtare: `drop` <br>
 Exemplu: <br>
 `filter__drop` (bloc derulant la click din filtru)
@@ -374,7 +374,7 @@ Exemplu: <br>
 
 ### `author`
 
-Автор. <br>
+Autor. <br>
 Prescurtare: niciuna <br>
 Exemplu: <br>
 `post__author` (numele/nickul autorului postării de pe blog)
